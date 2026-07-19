@@ -2,7 +2,7 @@ const RESULTS_URL =
   "https://www.cbsl.gov.lk/cbsl_custom/exratestt/exrates_resultstt.php";
 
 const BOT_USER_AGENT =
-  "LankawaBot/1.0 (+https://github.com/SuvenSeo/lankawa)";
+  "LankawaBot/1.0 (+https://github.com/ArdenoStudio/lankawa)";
 
 export interface CbslFxRate {
   date: string;

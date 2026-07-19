@@ -2,11 +2,17 @@ import { computeFreshnessTier } from "./freshness";
 import { getLatestObservation, isDatabaseConfigured, savePulseSnapshot } from "./db";
 import { fetchLatestCbslFxRate } from "./integrations/cbsl";
 import { fetchFloodAlertSummary } from "./integrations/flood";
+import {
+  buildCsePulseMetricFromSnapshot,
+  buildCseSnapshot,
+  CSE_SOURCE_ID,
+} from "./integrations/cse";
+import { buildNewsPulseMetric, fetchNewsPulse } from "./integrations/news";
 import { fetchOctanePrices, pickCpcPrice } from "./integrations/octane";
-import { fetchPowerStatus } from "./integrations/power";
+import { buildPowerPulseMetric } from "./integrations/power";
 import { getPropertyData } from "./integrations/propertylk";
 import { getVehicleData } from "./integrations/vehicle";
-import { fetchColomboWeather } from "./integrations/weather";
+import { buildWeatherPulseMetric } from "./integrations/weather";
 import { formatPropertyPrice } from "./property";
 import { formatVehiclePrice } from "./vehicle";
 import { getSource, getSourceProvenancePath } from "./sources";
@@ -263,119 +269,82 @@ async function buildFxMetric(checkedAt: string): Promise<{
   }
 }
 
-async function buildWeatherMetric(checkedAt: string): Promise<{
-  metric: PulseMetric;
-  health: SourceHealth;
+async function buildNewsData(checkedAt: string): Promise<{
+  contribution: { metric: PulseMetric; health: SourceHealth } | null;
 }> {
-  const source = getSource("open_meteo")!;
+  const source = getSource("news_rss")!;
 
   try {
-    const weather = await fetchColomboWeather();
-    const tier = computeFreshnessTier(weather.observedAt, source.cadenceMinutes);
-
-    return {
-      metric: {
-        id: "weather_colombo",
-        label: "Colombo weather",
-        value: weather.temp.toFixed(1),
-        unit: "°C",
-        observedAt: weather.observedAt,
-        tier,
-        sourceId: source.id,
-        provenancePath: getSourceProvenancePath(source.id),
-        note: `${weather.label}${weather.precipitation > 0 ? ` · ${weather.precipitation.toFixed(1)} mm` : ""}`,
-      },
-      health: {
-        id: source.id,
-        name: source.name,
-        category: source.category,
-        tier,
-        lastSuccessAt: weather.observedAt,
-        lastCheckedAt: checkedAt,
-        error: null,
-        provenancePath: getSourceProvenancePath(source.id),
-      },
-    };
+    const pulse = await fetchNewsPulse();
+    return { contribution: buildNewsPulseMetric(checkedAt, pulse) };
   } catch (error) {
-    const tier: FreshnessTier = "down";
-
     return {
-      metric: {
-        id: "weather_colombo",
-        label: "Colombo weather",
-        value: "—",
-        unit: "°C",
-        observedAt: null,
-        tier,
-        sourceId: source.id,
-        provenancePath: getSourceProvenancePath(source.id),
-        note: "Open-Meteo unavailable",
-      },
-      health: {
-        id: source.id,
-        name: source.name,
-        category: source.category,
-        tier,
-        lastSuccessAt: null,
-        lastCheckedAt: checkedAt,
-        error: error instanceof Error ? error.message : "Unknown error",
-        provenancePath: getSourceProvenancePath(source.id),
+      contribution: {
+        metric: {
+          id: "news_headlines",
+          label: "Sri Lanka news",
+          value: "—",
+          unit: "headlines",
+          observedAt: null,
+          tier: "down",
+          sourceId: source.id,
+          provenancePath: getSourceProvenancePath(source.id),
+          note: "News RSS unavailable",
+        },
+        health: {
+          id: source.id,
+          name: source.name,
+          category: source.category,
+          tier: "down",
+          lastSuccessAt: null,
+          lastCheckedAt: checkedAt,
+          error: error instanceof Error ? error.message : "Unknown error",
+          provenancePath: getSourceProvenancePath(source.id),
+        },
       },
     };
   }
 }
 
-async function buildPowerMetric(checkedAt: string): Promise<{
+async function buildCseData(checkedAt: string): Promise<{
   metric: PulseMetric;
   health: SourceHealth;
 }> {
-  const source = getSource("ceb_power")!;
+  const source = getSource(CSE_SOURCE_ID)!;
 
   try {
-    const power = await fetchPowerStatus();
-    const tier = computeFreshnessTier(power.observedAt, source.cadenceMinutes);
-
+    const snapshot = await buildCseSnapshot();
     return {
-      metric: {
-        id: "power_status",
-        label: "Power supply",
-        value: power.status === "normal" ? "Normal" : power.status === "scheduled" ? "Scheduled cuts" : "Unknown",
-        observedAt: power.observedAt,
-        tier,
-        sourceId: source.id,
-        provenancePath: power.provenancePath,
-        note: power.summary,
-      },
+      metric: buildCsePulseMetricFromSnapshot(checkedAt, snapshot),
       health: {
         id: source.id,
         name: source.name,
         category: source.category,
-        tier,
-        lastSuccessAt: power.observedAt,
+        tier: snapshot.tier,
+        lastSuccessAt: snapshot.asOf,
         lastCheckedAt: checkedAt,
-        error: null,
+        error: snapshot.isFallback ? "Seed fallback — CSE API unavailable" : null,
         provenancePath: getSourceProvenancePath(source.id),
       },
     };
   } catch (error) {
-    const tier: FreshnessTier = "unknown";
-
     return {
       metric: {
-        id: "power_status",
-        label: "Power supply",
-        value: "Unknown",
+        id: "cse_aspi",
+        label: "ASPI",
+        value: "—",
+        unit: "pts",
         observedAt: null,
-        tier,
+        tier: "down",
         sourceId: source.id,
-        provenancePath: "/disaster",
-        note: "Power status unavailable",
+        provenancePath: getSourceProvenancePath(source.id),
+        note: "CSE market data unavailable",
       },
       health: {
         id: source.id,
         name: source.name,
         category: source.category,
-        tier,
+        tier: "down",
         lastSuccessAt: null,
         lastCheckedAt: checkedAt,
         error: error instanceof Error ? error.message : "Unknown error",
@@ -387,13 +356,15 @@ async function buildPowerMetric(checkedAt: string): Promise<{
 
 export async function buildPulseSnapshot(): Promise<PulseSnapshot> {
   const checkedAt = new Date().toISOString();
-  const [fuel, flood, fx, weather, power, propertySnapshot, vehicleSnapshot] =
+  const [fuel, flood, fx, weather, power, news, cse, propertySnapshot, vehicleSnapshot] =
     await Promise.all([
       buildFuelMetrics(checkedAt),
       buildFloodData(checkedAt),
       buildFxMetric(checkedAt),
-      buildWeatherMetric(checkedAt),
-      buildPowerMetric(checkedAt),
+      buildWeatherPulseMetric(checkedAt),
+      buildPowerPulseMetric(checkedAt),
+      buildNewsData(checkedAt),
+      buildCseData(checkedAt),
       getPropertyData(),
       getVehicleData(),
     ]);
@@ -419,6 +390,7 @@ export async function buildPulseSnapshot(): Promise<PulseSnapshot> {
     ...fuel.metrics,
     weather.metric,
     power.metric,
+    cse.metric,
     ...(colomboProperty
       ? [
           {
@@ -475,13 +447,22 @@ export async function buildPulseSnapshot(): Promise<PulseSnapshot> {
       provenancePath: flood.health.provenancePath,
       note: `${normalStations} stations reporting normal levels`,
     },
+    ...(news.contribution ? [news.contribution.metric] : []),
   ];
 
   const snapshot: PulseSnapshot = {
     generatedAt: checkedAt,
     metrics,
     flood: flood.flood,
-    sources: [fx.health, fuel.health, flood.health, weather.health, power.health],
+    sources: [
+      fx.health,
+      fuel.health,
+      flood.health,
+      weather.health,
+      power.health,
+      cse.health,
+      ...(news.contribution ? [news.contribution.health] : []),
+    ],
   };
 
   if (isDatabaseConfigured()) {

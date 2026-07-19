@@ -1,9 +1,11 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { CseMarketCard } from "@/components/CseMarketCard";
 import { FuelHistoryChart, FxSparkline, MacroIndicatorCard } from "@/components/EconomyCards";
 import { PulseCard } from "@/components/PulseCard";
 import { Link } from "@/i18n/navigation";
 import { getEconomyMacroSnapshot, getFxSeries } from "@/lib/economy";
 import { getFuelHistorySeries } from "@/lib/fuel";
+import { buildCseSnapshot } from "@/lib/integrations/cse";
 import { buildPulseSnapshot } from "@/lib/pulse";
 import { getSourceProvenancePath } from "@/lib/sources";
 
@@ -19,6 +21,7 @@ export default async function EconomyPage({
   const macro = getEconomyMacroSnapshot();
   const fxSeries = await getFxSeries();
   const fuelHistory = await getFuelHistorySeries(90);
+  const cseSnapshot = await buildCseSnapshot();
   const economyMetrics = snapshot.metrics.filter((metric) =>
     ["usd_lkr", "fuel_petrol_92", "fuel_diesel"].includes(metric.id),
   );
@@ -73,6 +76,25 @@ export default async function EconomyPage({
           <FuelHistoryChart title={t("fuelHistoryTitle")} series={fuelHistory} />
         </div>
       </section>
+
+      <CseMarketCard
+        snapshot={cseSnapshot}
+        labels={{
+          title: t("cse.title"),
+          subtitle: t("cse.subtitle"),
+          sourceName: t("cse.sourceName"),
+          aspi: t("cse.aspi"),
+          snp: t("cse.snp"),
+          gainers: t("cse.gainers"),
+          losers: t("cse.losers"),
+          marketStatus: t("cse.marketStatus"),
+          trades: t("cse.trades"),
+          shareVolume: t("cse.shareVolume"),
+          turnover: t("cse.turnover"),
+          fallbackNote: t("cse.fallbackNote"),
+          noMovers: t("cse.noMovers"),
+        }}
+      />
     </div>
   );
 }

@@ -167,6 +167,17 @@
       "description": "විවෘත API ලේඛන, එබ්ඩ් සහ අපනයන මෙවලම්."
     }
   },
+  "news": {
+    "title": "ශ්‍රී ලංකා පුවත් නාඩි",
+    "subtitle": "Daily Mirror සහ Ada Derana ප්‍රසිද්ධ RSS පෝෂ් වලින් නවතම ශීර්ෂ පාඨ.",
+    "viewAll": "සියලු ශීර්ෂ පාඨ",
+    "viewSource": "මූලාශ්‍රය බලන්න",
+    "provenance": "ප්‍රසිද්ධ RSS පෝෂ් වලින් එකතු කළ දත්ත",
+    "noHeadlines": "පුවත් ශීර්ෂ පාඨ තාවකාලිකව ලබා ගත නොහැක.",
+    "headlineCount": "ශීර්ෂ පාඨ {count}ක් නිරීක්ෂණය කරයි",
+    "sourceMirror": "Daily Mirror",
+    "sourceAda": "Ada Derana"
+  },
   "explore": {
     "eyebrow": "මොඩියුල නාමාවලිය",
     "title": "Lankawa ගවේෂණය",
@@ -325,9 +336,24 @@
   },
   "disaster": {
     "title": "විපත් සහ ගංවතුර",
-    "subtitle": "ලංකාව තුළ එකතු කරන ලද ගංගා මධ්‍යස්ථාන නිරීක්ෂණ.",
+    "subtitle": "ගංවතුර නිරීක්ෂණය සහ CEB විදුලි කප්පාදු තත්ත්වය ලංකාව තුළ එකතු කර ඇත.",
     "normal": "සාමාන්‍ය",
-    "stations": "මධ්‍යස්ථාන"
+    "stations": "මධ්‍යස්ථාන",
+    "floodTitle": "ගංවතුර නිරීක්ෂණය",
+    "floodSubtitle": "පොදු ගංවතුර API එකෙන් ගංගා මධ්‍යස්ථාන අනතුරු මට්ටම්.",
+    "powerTitle": "විදුලි කප්පාදු",
+    "powerSubtitle": "CEB Care වෙතින් කාලසටහන්ගත ඉල්ලුම් කළමනාකරණ කප්පාදු සහ නියමු කප්පාදු නියමුව.",
+    "powerStatusLabel": "ජාතික සැපයුම් තත්ත්වය",
+    "powerStatus": {
+      "normal": "සාමාන්‍ය",
+      "scheduled": "කාලසටහන්ගත කප්පාදු",
+      "outage": "සක්‍රිය කප්පාදු",
+      "unknown": "තත්ත්වය නොදනී"
+    },
+    "powerAffectedAreas": "බලපාන ප්‍රදේශ",
+    "powerNoAffectedAreas": "නවතම CEB Care පරීක්ෂාවේ බලපාන ප්‍රදේශ වාර්තා නොවී ඇත.",
+    "powerObservedAt": "පරීක්ෂා කළේ {time}",
+    "powerSourceNote": "මූලාශ්‍රය: CEB Care ඉල්ලුම් කළමනාකරණ කාලසටහන සහ වර්තමාන කප්පාදු සිතියම (cebcare.ceb.lk)."
   },
   "economy": {
     "title": "ආර්ථික නාඩි",
@@ -336,7 +362,23 @@
     "macroTitle": "Macro snapshot",
     "macroSubtitle": "CBSL public figures වලින් static seed",
     "fxSparklineTitle": "USD/LKR (30-day trend)",
-    "fuelHistoryTitle": "ඉන්ධන මිල (90 දin trend)"
+    "fuelHistoryTitle": "ඉන්ධන මිල (90 දin trend)",
+    "cse": {
+      "title": "කොළඹ වත්කම් හුවමාරුව",
+      "subtitle": "ASPI, S&P SL20 සහ CSE පුවරුවේ ප්‍රමුඛ චලනයන්",
+      "sourceName": "කොළඹ වත්කම් හුවමාරුව",
+      "aspi": "ASPI",
+      "snp": "S&P SL20",
+      "gainers": "ඉහළම ඉහළ යෑම්",
+      "losers": "ඉහළම පහළ යෑම්",
+      "marketStatus": "වෙළඳපොළ තත්ත්වය",
+      "trades": "වෙළඳ ගනුදෙනු",
+      "shareVolume": "කොටස් පරිමාව",
+      "turnover": "වෙළඳ පරිමාව",
+      "fallbackNote": "සජීවී CSE දත්ත තාවකාලිකව ලබා ගත නොහැක. අවසන් cache snapshot එක පෙන්වයි.",
+      "provenance": "දත්ත ප්‍රවේණිය",
+      "noMovers": "චලනයන් නොමැත"
+    }
   },
   "search": {
     "label": "ලංකාව search",

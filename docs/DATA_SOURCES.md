@@ -22,7 +22,7 @@
 
 ## Bot Policy
 
-User-Agent: `LankawaBot/1.0 (+https://github.com/SuvenSeo/lankawa)`
+User-Agent: `LankawaBot/1.0 (+https://github.com/ArdenoStudio/lankawa)`
 
 - Server-side fetches only
 - Conservative cadence (daily for CBSL)

@@ -16,7 +16,7 @@ from .db import Db
 logger = logging.getLogger("lankawa.ingest")
 
 CONTACT_URL = os.environ.get(
-    "BOT_CONTACT_URL", "https://github.com/SuvenSeo/lankawa"
+    "BOT_CONTACT_URL", "https://github.com/ArdenoStudio/lankawa"
 )
 USER_AGENT = f"LankawaBot/1.0 (+{CONTACT_URL})"
 

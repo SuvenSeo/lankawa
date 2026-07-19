@@ -4,6 +4,8 @@
 
 Lankawa is Sri Lanka's national civic intelligence platform — unifying public data across economy, districts, disasters, and public services with source provenance and freshness on every number.
 
+Maintained by [Ardeno Studio](https://github.com/ArdenoStudio). Repository: [github.com/ArdenoStudio/lankawa](https://github.com/ArdenoStudio/lankawa).
+
 ## Modules
 
 - **Pulse** — FX, fuel prices (Octane API), flood station monitoring

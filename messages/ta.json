@@ -167,6 +167,17 @@
       "description": "திறந்த API ஆவணங்கள், எம்பெட் மற்றும் ஏற்றுமதி கருவிகள்."
     }
   },
+  "news": {
+    "title": "இலங்கை செய்தி துடிப்பு",
+    "subtitle": "Daily Mirror மற்றும் Ada Derana பொது RSS ஊட்டங்களிலிருந்து சமீபத்திய தலைப்புகள்.",
+    "viewAll": "அனைத்து தலைப்புகள்",
+    "viewSource": "மூலத்தைக் காண்க",
+    "provenance": "பொது RSS ஊட்டங்களிலிருந்து தொகுக்கப்பட்டது",
+    "noHeadlines": "செய்தி தலைப்புகள் தற்காலிகமாக கிடைக்கவில்லை.",
+    "headlineCount": "{count} தலைப்புகள் கண்காணிக்கப்படுகின்றன",
+    "sourceMirror": "Daily Mirror",
+    "sourceAda": "Ada Derana"
+  },
   "explore": {
     "eyebrow": "தொகுதி அடைவு",
     "title": "Lankawa ஆராயுங்கள்",
@@ -325,9 +336,24 @@
   },
   "disaster": {
     "title": "பேரிடர் & வெள்ளம்",
-    "subtitle": "லங்காவாவில் தொகுக்கப்பட்ட நதி நிலை கண்காணிப்பு.",
+    "subtitle": "வெள்ளக் கண்காணிப்பு மற்றும் CEB மின்தடை நிலை லங்காவாவில் தொகுக்கப்பட்டுள்ளது.",
     "normal": "சாதாரண",
-    "stations": "நிலையங்கள்"
+    "stations": "நிலையங்கள்",
+    "floodTitle": "வெள்ளக் கண்காணிப்பு",
+    "floodSubtitle": "பொது வெள்ள API-யிலிருந்து நதி நிலைய எச்சரிக்கை நிலைகள்.",
+    "powerTitle": "மின்தடைகள்",
+    "powerSubtitle": "CEB Care-லிருந்து திட்டமிடப்பட்ட தேவை மேலாண்மை தடைகள் மற்றும் மாதிரி முறிவுத் தடைகள்.",
+    "powerStatusLabel": "தேசிய வழங்கல் நிலை",
+    "powerStatus": {
+      "normal": "சாதாரண",
+      "scheduled": "திட்டமிடப்பட்ட தடைகள்",
+      "outage": "செயலில் உள்ள தடைகள்",
+      "unknown": "நிலை அறியப்படவில்லை"
+    },
+    "powerAffectedAreas": "பாதிக்கப்பட்ட பகுதிகள்",
+    "powerNoAffectedAreas": "சமீபத்திய CEB Care சோதனையில் பாதிக்கப்பட்ட பகுதிகள் எதுவும் அறிவிக்கப்படவில்லை.",
+    "powerObservedAt": "சோதனை {time}",
+    "powerSourceNote": "மூலம்: CEB Care தேவை மேலாண்மை அட்டவணை மற்றும் தற்போதைய தடை வரைபடம் (cebcare.ceb.lk)."
   },
   "economy": {
     "title": "பொருளாதார நிலை",
@@ -336,7 +362,23 @@
     "macroTitle": "Macro snapshot",
     "macroSubtitle": "CBSL public figures-லிருந்து static seed",
     "fxSparklineTitle": "USD/LKR (30-day trend)",
-    "fuelHistoryTitle": "எரிபொருள் விலை (90 நாள் trend)"
+    "fuelHistoryTitle": "எரிபொருள் விலை (90 நாள் trend)",
+    "cse": {
+      "title": "கொழும்பு பங்குச் சந்தை",
+      "subtitle": "ASPI, S&P SL20 மற்றும் CSE பலகையின் முக்கிய நகர்வுகள்",
+      "sourceName": "கொழும்பு பங்குச் சந்தை",
+      "aspi": "ASPI",
+      "snp": "S&P SL20",
+      "gainers": "அதிக ஏற்றம்",
+      "losers": "அதிக இறக்கம்",
+      "marketStatus": "சந்தை நிலை",
+      "trades": "வர்த்தகங்கள்",
+      "shareVolume": "பங்கு அளவு",
+      "turnover": "வர்த்தக மதிப்பு",
+      "fallbackNote": "நேரடி CSE தரவு தற்காலிகமாக கிடைக்கவில்லை. சமீபத்திய cache snapshot காட்டப்படுகிறது.",
+      "provenance": "தரவு மூலம்",
+      "noMovers": "நகர்வுகள் இல்லை"
+    }
   },
   "search": {
     "label": "லங்காவா தேடு",

@@ -167,6 +167,17 @@
       "description": "Open API docs, embeds, and export tools."
     }
   },
+  "news": {
+    "title": "Sri Lanka news pulse",
+    "subtitle": "Latest headlines from public RSS feeds — Daily Mirror and Ada Derana.",
+    "viewAll": "All headlines",
+    "viewSource": "View source",
+    "provenance": "Aggregated from public RSS feeds",
+    "noHeadlines": "News headlines are temporarily unavailable.",
+    "headlineCount": "{count} headlines tracked",
+    "sourceMirror": "Daily Mirror",
+    "sourceAda": "Ada Derana"
+  },
   "explore": {
     "eyebrow": "Module directory",
     "title": "Explore Lankawa",
@@ -325,9 +336,24 @@
   },
   "disaster": {
     "title": "Disaster & Flood",
-    "subtitle": "River station monitoring aggregated on Lankawa.",
+    "subtitle": "Flood monitoring and CEB power outage status aggregated on Lankawa.",
     "normal": "Normal",
-    "stations": "stations"
+    "stations": "stations",
+    "floodTitle": "Flood monitoring",
+    "floodSubtitle": "River station alert levels from the public flood API.",
+    "powerTitle": "Power outages",
+    "powerSubtitle": "Scheduled demand-management cuts and sampled present breakdown outages from CEB Care.",
+    "powerStatusLabel": "National supply status",
+    "powerStatus": {
+      "normal": "Normal",
+      "scheduled": "Scheduled cuts",
+      "outage": "Active outages",
+      "unknown": "Status unknown"
+    },
+    "powerAffectedAreas": "Affected areas",
+    "powerNoAffectedAreas": "No affected areas reported in the latest CEB Care check.",
+    "powerObservedAt": "Checked {time}",
+    "powerSourceNote": "Source: CEB Care demand-management schedule and present-outage map (cebcare.ceb.lk)."
   },
   "economy": {
     "title": "Economic Pulse",
@@ -336,7 +362,23 @@
     "macroTitle": "Macro snapshot",
     "macroSubtitle": "Static seed from CBSL public figures",
     "fxSparklineTitle": "USD/LKR (30-day trend)",
-    "fuelHistoryTitle": "Fuel prices (90-day trend)"
+    "fuelHistoryTitle": "Fuel prices (90-day trend)",
+    "cse": {
+      "title": "Colombo Stock Exchange",
+      "subtitle": "ASPI, S&P SL20, and top movers from the public CSE board",
+      "sourceName": "Colombo Stock Exchange",
+      "aspi": "ASPI",
+      "snp": "S&P SL20",
+      "gainers": "Top gainers",
+      "losers": "Top losers",
+      "marketStatus": "Market status",
+      "trades": "Trades",
+      "shareVolume": "Share volume",
+      "turnover": "Turnover",
+      "fallbackNote": "Live CSE data is temporarily unavailable. Showing the latest cached snapshot.",
+      "provenance": "Data provenance",
+      "noMovers": "No movers available"
+    }
   },
   "search": {
     "label": "Search Lankawa",

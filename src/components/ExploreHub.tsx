@@ -4,6 +4,7 @@ import { DistrictGrid } from "@/components/DistrictCard";
 import { exploreSections, ModuleGrid } from "@/components/ModuleGrid";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Link } from "@/i18n/navigation";
+import { NewsPulse } from "@/components/NewsPulse";
 import { buildArdenoModuleCards, getLifeOverview } from "@/lib/life";
 
 export async function ExploreHub({ locale }: { locale: string }) {
@@ -16,6 +17,8 @@ export async function ExploreHub({ locale }: { locale: string }) {
       <PageHeader eyebrow={t("eyebrow")} title={t("title")} subtitle={t("subtitle")} />
 
       <ModuleGrid sections={exploreSections} />
+
+      <NewsPulse />
 
       <section className="space-y-5">
         <div className="flex flex-wrap items-end justify-between gap-4">

@@ -351,16 +351,42 @@ export const SOURCES: SourceDefinition[] = [
   },
   {
     id: "ceb_power",
-    name: "Ceylon Electricity Board — Outage Notices",
+    name: "CEB Care — Power Outages",
     category: "disaster",
-    url: "internal://disaster",
-    cadenceMinutes: 1440,
+    url: "https://cebcare.ceb.lk",
+    cadenceMinutes: 15,
     adapter: "scrape",
     description:
-      "National power supply status and scheduled outage summaries.",
+      "Scheduled load-shedding and present breakdown outages from CEB Care.",
     methodology:
-      "Seed status reports normal supply with no scheduled outages until a live CEB notice feed is integrated. Outage context and flood monitoring are grouped on the disaster hub.",
+      "Lankawa polls CEB Care demand-management schedules and samples present outage locations across provinces. Status is normalized to normal, scheduled, outage, or unknown — never a fabricated normal when data is unavailable. Results appear on the home pulse and disaster hub.",
     metrics: ["power_status"],
+  },
+  {
+    id: "cse_lk",
+    name: "Colombo Stock Exchange (public HTTP)",
+    category: "economy",
+    url: "https://www.cse.lk/api",
+    cadenceMinutes: 15,
+    adapter: "api",
+    description:
+      "All Share Price Index (ASPI), S&P SL20, and market summary from public CSE JSON endpoints.",
+    methodology:
+      "Read-only fetch of undocumented public endpoints on `cse.lk` (e.g. `aspiData`, `marketSummery`, `tradeSummary`) — adapter logic ported from the Chime/koel `chime/adapters/cse.py` boundary, not from PulseCSE. No Telegram, no portfolio engine, no duplicate PulseCSE backend. Market-hours data only; delayed figures tagged with freshness tiers. Surfaced on `/economy` pulse, not the home today strip.",
+    metrics: ["cse_aspi", "cse_market_status"],
+  },
+  {
+    id: "news_rss",
+    name: "Sri Lanka News RSS",
+    category: "civic",
+    url: "internal://news",
+    cadenceMinutes: 60,
+    adapter: "api",
+    description:
+      "Headline count and top story summaries from curated Sri Lanka news RSS feeds.",
+    methodology:
+      "Server-side RSS/Atom parse of approved public feeds (e.g. Daily Mirror, Ada Derana, NewsFirst). Headlines are normalized in-platform with source attribution — no external click-through links in pulse UI. Pending `src/lib/integrations/news.ts` from parallel agent; source registry reserved for provenance.",
+    metrics: ["news_headlines"],
   },
 ];
 
