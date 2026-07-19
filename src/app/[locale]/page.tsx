@@ -40,23 +40,17 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8">
+      <section className="lk-card p-6 md:p-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h2 className="text-xl font-semibold text-white">{t("exploreCtaTitle")}</h2>
             <p className="mt-2 max-w-xl text-sm text-slate-400">{t("exploreCtaSubtitle")}</p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link
-              href="/explore"
-              className="inline-flex items-center justify-center rounded-full bg-teal-500 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-teal-400"
-            >
+            <Link href="/explore" className="lk-btn-primary">
               {t("ctaExplore")}
             </Link>
-            <Link
-              href="/districts"
-              className="inline-flex items-center justify-center rounded-full border border-white/10 px-5 py-2.5 text-sm font-medium text-slate-200 transition hover:border-teal-400/30 hover:bg-white/5"
-            >
+            <Link href="/districts" className="lk-btn-secondary">
               {t("viewDistricts")}
             </Link>
           </div>

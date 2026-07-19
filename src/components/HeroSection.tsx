@@ -59,14 +59,14 @@ export async function HeroSection({ metrics }: { metrics: PulseMetric[] }) {
           </div>
 
           <div className="flex flex-wrap gap-2">
+            <Link href="/explore" className="lk-btn-secondary">
+              {t("ctaExplore")}
+            </Link>
+            <Link href="/disaster" className="lk-btn-secondary">
+              {t("ctaDisaster")}
+            </Link>
             <Link href="/economy" className="lk-btn-secondary">
               {t("ctaEconomy")}
-            </Link>
-            <Link href="/elections" className="lk-btn-secondary">
-              {t("ctaElections")}
-            </Link>
-            <Link href="/services" className="lk-btn-secondary">
-              {t("ctaServices")}
             </Link>
           </div>
         </div>
