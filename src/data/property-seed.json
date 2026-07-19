@@ -1,0 +1,209 @@
+{
+  "sourceId": "propertylk_seed",
+  "sourceName": "PropertyLK Price Intelligence (seed)",
+  "asOf": "2026-07-01",
+  "unit": "perch",
+  "currency": "LKR",
+  "districts": [
+    {
+      "slug": "colombo",
+      "medianPerPerch": 9500000,
+      "lowBand": 5225000,
+      "highBand": 17575000,
+      "medianPerSqFt": 34894,
+      "trendPct": 2.1
+    },
+    {
+      "slug": "gampaha",
+      "medianPerPerch": 4200000,
+      "lowBand": 2310000,
+      "highBand": 7770000,
+      "medianPerSqFt": 15427,
+      "trendPct": -0.4
+    },
+    {
+      "slug": "kalutara",
+      "medianPerPerch": 2400000,
+      "lowBand": 1320000,
+      "highBand": 4440000,
+      "medianPerSqFt": 8815,
+      "trendPct": -0.3
+    },
+    {
+      "slug": "kandy",
+      "medianPerPerch": 2800000,
+      "lowBand": 1540000,
+      "highBand": 5180000,
+      "medianPerSqFt": 10285,
+      "trendPct": 0.6
+    },
+    {
+      "slug": "matale",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 5.9
+    },
+    {
+      "slug": "nuwara-eliya",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 1.2
+    },
+    {
+      "slug": "galle",
+      "medianPerPerch": 2200000,
+      "lowBand": 1210000,
+      "highBand": 4070000,
+      "medianPerSqFt": 8081,
+      "trendPct": 3.6
+    },
+    {
+      "slug": "matara",
+      "medianPerPerch": 1600000,
+      "lowBand": 880000,
+      "highBand": 2960000,
+      "medianPerSqFt": 5877,
+      "trendPct": 6.1
+    },
+    {
+      "slug": "hambantota",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 1.5
+    },
+    {
+      "slug": "jaffna",
+      "medianPerPerch": 1800000,
+      "lowBand": 990000,
+      "highBand": 3330000,
+      "medianPerSqFt": 6612,
+      "trendPct": 6.9
+    },
+    {
+      "slug": "kilinochchi",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": -0.3
+    },
+    {
+      "slug": "mannar",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 4.9
+    },
+    {
+      "slug": "vavuniya",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 3.2
+    },
+    {
+      "slug": "mullaitivu",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 5.7
+    },
+    {
+      "slug": "batticaloa",
+      "medianPerPerch": 900000,
+      "lowBand": 495000,
+      "highBand": 1665000,
+      "medianPerSqFt": 3306,
+      "trendPct": 5.7
+    },
+    {
+      "slug": "ampara",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 5.4
+    },
+    {
+      "slug": "trincomalee",
+      "medianPerPerch": 1200000,
+      "lowBand": 660000,
+      "highBand": 2220000,
+      "medianPerSqFt": 4408,
+      "trendPct": 1
+    },
+    {
+      "slug": "kurunegala",
+      "medianPerPerch": 1500000,
+      "lowBand": 825000,
+      "highBand": 2775000,
+      "medianPerSqFt": 5510,
+      "trendPct": 0.4
+    },
+    {
+      "slug": "puttalam",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 2.5
+    },
+    {
+      "slug": "anuradhapura",
+      "medianPerPerch": 850000,
+      "lowBand": 467500,
+      "highBand": 1572500,
+      "medianPerSqFt": 3122,
+      "trendPct": 0.4
+    },
+    {
+      "slug": "polonnaruwa",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 2.8
+    },
+    {
+      "slug": "badulla",
+      "medianPerPerch": 1100000,
+      "lowBand": 605000,
+      "highBand": 2035000,
+      "medianPerSqFt": 4040,
+      "trendPct": 1
+    },
+    {
+      "slug": "monaragala",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 6.8
+    },
+    {
+      "slug": "ratnapura",
+      "medianPerPerch": 1300000,
+      "lowBand": 715000,
+      "highBand": 2405000,
+      "medianPerSqFt": 4775,
+      "trendPct": 1.5
+    },
+    {
+      "slug": "kegalle",
+      "medianPerPerch": 350000,
+      "lowBand": 192500,
+      "highBand": 647500,
+      "medianPerSqFt": 1286,
+      "trendPct": 5.9
+    }
+  ]
+}

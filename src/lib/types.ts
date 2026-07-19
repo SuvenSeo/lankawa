@@ -284,3 +284,83 @@ export interface TenderNotice {
   closingDate: string;
   status: TenderStatus;
 }
+
+export interface PropertyDistrictPrice {
+  slug: string;
+  medianPerPerch: number;
+  lowBand: number;
+  highBand: number;
+  medianPerSqFt: number;
+  trendPct: number;
+}
+
+export interface PropertySnapshot {
+  sourceId: string;
+  sourceName: string;
+  asOf: string;
+  unit: "perch" | "sqft";
+  currency: string;
+  districts: PropertyDistrictPrice[];
+}
+
+export type LocalGovernmentType = "MC" | "UC" | "PS";
+
+export interface LocalGovernmentBody {
+  id: string;
+  name: string;
+  nameSi?: string;
+  nameTa?: string;
+  type: LocalGovernmentType;
+  districtSlug: string;
+  province: string;
+}
+
+export interface LocalGovernmentCatalog {
+  sourceId: string;
+  sourceName: string;
+  asOf: string;
+  totalCount: number;
+  bodies: LocalGovernmentBody[];
+}
+
+export interface HistoricalPresidentialCycle {
+  id: string;
+  type: "presidential";
+  year: number;
+  date: string;
+  label: string;
+  sourceId: string;
+  sourceName: string;
+  nationalWinner: string;
+  turnout: number;
+  validVotes: number;
+  registeredElectors: number;
+  candidates: Array<{
+    id: string;
+    name: string;
+    party: string;
+    votes: number;
+    percentage: number;
+    finalPercentage?: number;
+  }>;
+  districts: Array<{
+    slug: string;
+    winner: string;
+    turnout: number;
+    validVotes: number;
+    results: Record<string, number>;
+    electoralDistrict?: string;
+    note?: string;
+  }>;
+}
+
+export interface ParliamentaryHistoryCycle {
+  year: number;
+  date: string;
+  winner: string | null;
+  winnerSeats: number | null;
+  totalSeats: number;
+  turnout: number | null;
+  sourceId: string;
+  note?: string;
+}

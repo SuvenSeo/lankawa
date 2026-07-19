@@ -300,6 +300,20 @@ export default async function DistrictDetailPage({
             <p className="font-medium text-white">{t("relatedCompare")}</p>
             <p className="mt-1 text-sm text-slate-400">{t("relatedCompareDesc")}</p>
           </Link>
+          <Link
+            href="/property"
+            className="rounded-xl border border-white/10 bg-white/5 p-4 transition hover:border-teal-400/30 hover:bg-white/10"
+          >
+            <p className="font-medium text-white">{t("relatedProperty")}</p>
+            <p className="mt-1 text-sm text-slate-400">{t("relatedPropertyDesc")}</p>
+          </Link>
+          <Link
+            href={`/local-government?district=${slug}`}
+            className="rounded-xl border border-white/10 bg-white/5 p-4 transition hover:border-teal-400/30 hover:bg-white/10"
+          >
+            <p className="font-medium text-white">{t("relatedLocalGov")}</p>
+            <p className="mt-1 text-sm text-slate-400">{t("relatedLocalGovDesc")}</p>
+          </Link>
         </div>
       </section>
     </div>

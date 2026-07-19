@@ -144,6 +144,68 @@ export const SOURCES: SourceDefinition[] = [
       "Static seed notices modeled on e-GP publication formats. Not live from e-GP portal — for demonstration and API testing only.",
     metrics: ["tenders"],
   },
+  {
+    id: "propertylk_seed",
+    name: "PropertyLK Price Intelligence",
+    category: "civic",
+    url: "internal://property",
+    cadenceMinutes: 43200,
+    adapter: "partner",
+    description:
+      "District-level median land and property price bands across Sri Lanka.",
+    methodology:
+      "Representative seed data aligned with PropertyLK price intelligence patterns. Server-side adapter attempts live fetch from the partner API; falls back to static seed when unavailable.",
+    metrics: ["property_median_per_perch"],
+  },
+  {
+    id: "local_government_seed",
+    name: "Department of Local Government — Directory",
+    category: "civic",
+    url: "internal://local-government",
+    cadenceMinutes: 525600,
+    adapter: "scrape",
+    description:
+      "Municipal councils, urban councils, and Pradeshiya Sabhas indexed by district.",
+    methodology:
+      "Curated seed directory covering 327 local bodies across all 25 districts. Not exhaustive — representative breadth until official open-data feeds are integrated.",
+    metrics: ["local_government_bodies"],
+  },
+  {
+    id: "election_commission_2010",
+    name: "Election Commission of Sri Lanka",
+    category: "civic",
+    url: "internal://elections/history",
+    cadenceMinutes: 525600,
+    adapter: "scrape",
+    description: "Presidential election 2010 district-level results (seed).",
+    methodology:
+      "Historical presidential results seeded from published EC totals. District figures are approximations aligned with national totals.",
+    metrics: ["presidential_2010"],
+  },
+  {
+    id: "election_commission_2015",
+    name: "Election Commission of Sri Lanka",
+    category: "civic",
+    url: "internal://elections/history",
+    cadenceMinutes: 525600,
+    adapter: "scrape",
+    description: "Presidential election 2015 district-level results (seed).",
+    methodology:
+      "Historical presidential results seeded from published EC totals. District figures are approximations aligned with national totals.",
+    metrics: ["presidential_2015"],
+  },
+  {
+    id: "election_commission_2019",
+    name: "Election Commission of Sri Lanka",
+    category: "civic",
+    url: "internal://elections/history",
+    cadenceMinutes: 525600,
+    adapter: "scrape",
+    description: "Presidential election 2019 district-level results (seed).",
+    methodology:
+      "Historical presidential results seeded from published EC totals. Used as swing baseline for 2024 comparisons.",
+    metrics: ["presidential_2019"],
+  },
 ];
 
 export function getSource(id: string): SourceDefinition | undefined {

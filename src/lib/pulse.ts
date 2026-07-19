@@ -3,6 +3,7 @@ import { getLatestObservation } from "./db";
 import { fetchLatestCbslFxRate } from "./integrations/cbsl";
 import { fetchFloodAlertSummary } from "./integrations/flood";
 import { fetchOctanePrices, pickCpcPrice } from "./integrations/octane";
+import { formatPropertyPrice, getPropertySnapshot } from "./property";
 import { getSource, getSourceProvenancePath } from "./sources";
 import type { PulseMetric, PulseSnapshot, SourceHealth } from "./types";
 
@@ -227,9 +228,39 @@ export async function buildPulseSnapshot(): Promise<PulseSnapshot> {
     flood.flood.find((item) => item.alertLevel === "NORMAL")?.count ?? 0;
   const totalStations = flood.flood.reduce((sum, item) => sum + item.count, 0);
 
+  const propertySnapshot = getPropertySnapshot();
+  const colomboPrice = propertySnapshot.districts.find(
+    (district) => district.slug === "colombo",
+  );
+  const propertySource = getSource("propertylk_seed")!;
+
   const metrics: PulseMetric[] = [
     fx.metric,
     ...fuel.metrics,
+    ...(colomboPrice
+      ? [
+          {
+            id: "property_colombo_median",
+            label: "Colombo land (median)",
+            value: formatPropertyPrice(colomboPrice.medianPerPerch),
+            unit: "LKR/perch",
+            observedAt: propertySnapshot.asOf,
+            tier: computeFreshnessTier(
+              propertySnapshot.asOf,
+              propertySource.cadenceMinutes,
+            ),
+            sourceId: propertySource.id,
+            provenancePath: getSourceProvenancePath(propertySource.id),
+            note: `National median LKR ${formatPropertyPrice(
+              propertySnapshot.districts
+                .map((district) => district.medianPerPerch)
+                .sort((a, b) => a - b)[
+                Math.floor(propertySnapshot.districts.length / 2)
+              ] ?? 0,
+            )}/perch`,
+          } satisfies PulseMetric,
+        ]
+      : []),
     {
       id: "flood_stations",
       label: "River Stations",

@@ -1,0 +1,2951 @@
+{
+  "sourceId": "local_government_seed",
+  "sourceName": "Department of Local Government — Directory (seed)",
+  "asOf": "2026-07-01",
+  "totalCount": 327,
+  "bodies": [
+    {
+      "id": "colombo-mc-1",
+      "name": "Colombo Municipal Council",
+      "nameSi": "Colombo Municipal Council",
+      "nameTa": "Colombo Municipal Council",
+      "type": "MC",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-2",
+      "name": "Sri Jayawardanapura Kotte Pradeshiya Sabha",
+      "nameSi": "Sri Jayawardanapura Kotte Pradeshiya Sabha",
+      "nameTa": "Sri Jayawardanapura Kotte Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-3",
+      "name": "Dehiwala-Mount Lavinia Pradeshiya Sabha",
+      "nameSi": "Dehiwala-Mount Lavinia Pradeshiya Sabha",
+      "nameTa": "Dehiwala-Mount Lavinia Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-4",
+      "name": "Homagama Pradeshiya Sabha",
+      "nameSi": "Homagama Pradeshiya Sabha",
+      "nameTa": "Homagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-5",
+      "name": "Kaduwela Pradeshiya Sabha",
+      "nameSi": "Kaduwela Pradeshiya Sabha",
+      "nameTa": "Kaduwela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-6",
+      "name": "Kesbewa Pradeshiya Sabha",
+      "nameSi": "Kesbewa Pradeshiya Sabha",
+      "nameTa": "Kesbewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-7",
+      "name": "Maharagama Pradeshiya Sabha",
+      "nameSi": "Maharagama Pradeshiya Sabha",
+      "nameTa": "Maharagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-8",
+      "name": "Moratuwa Pradeshiya Sabha",
+      "nameSi": "Moratuwa Pradeshiya Sabha",
+      "nameTa": "Moratuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-9",
+      "name": "Padukka Pradeshiya Sabha",
+      "nameSi": "Padukka Pradeshiya Sabha",
+      "nameTa": "Padukka Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-10",
+      "name": "Seethawaka Pradeshiya Sabha",
+      "nameSi": "Seethawaka Pradeshiya Sabha",
+      "nameTa": "Seethawaka Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "colombo-ps-11",
+      "name": "Thimbirigasyaya Pradeshiya Sabha",
+      "nameSi": "Thimbirigasyaya Pradeshiya Sabha",
+      "nameTa": "Thimbirigasyaya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "colombo",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-mc-12",
+      "name": "Gampaha Municipal Council",
+      "nameSi": "Gampaha Municipal Council",
+      "nameTa": "Gampaha Municipal Council",
+      "type": "MC",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-mc-13",
+      "name": "Negombo Municipal Council",
+      "nameSi": "Negombo Municipal Council",
+      "nameTa": "Negombo Municipal Council",
+      "type": "MC",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-14",
+      "name": "Attanagalla Pradeshiya Sabha",
+      "nameSi": "Attanagalla Pradeshiya Sabha",
+      "nameTa": "Attanagalla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-15",
+      "name": "Biyagama Pradeshiya Sabha",
+      "nameSi": "Biyagama Pradeshiya Sabha",
+      "nameTa": "Biyagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-16",
+      "name": "Dompe Pradeshiya Sabha",
+      "nameSi": "Dompe Pradeshiya Sabha",
+      "nameTa": "Dompe Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-17",
+      "name": "Divulapitiya Pradeshiya Sabha",
+      "nameSi": "Divulapitiya Pradeshiya Sabha",
+      "nameTa": "Divulapitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-18",
+      "name": "Gampaha Pradeshiya Sabha",
+      "nameSi": "Gampaha Pradeshiya Sabha",
+      "nameTa": "Gampaha Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-19",
+      "name": "Ja-Ela Pradeshiya Sabha",
+      "nameSi": "Ja-Ela Pradeshiya Sabha",
+      "nameTa": "Ja-Ela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-20",
+      "name": "Katana Pradeshiya Sabha",
+      "nameSi": "Katana Pradeshiya Sabha",
+      "nameTa": "Katana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-21",
+      "name": "Kelaniya Pradeshiya Sabha",
+      "nameSi": "Kelaniya Pradeshiya Sabha",
+      "nameTa": "Kelaniya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-22",
+      "name": "Minuwangoda Pradeshiya Sabha",
+      "nameSi": "Minuwangoda Pradeshiya Sabha",
+      "nameTa": "Minuwangoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-23",
+      "name": "Mirigama Pradeshiya Sabha",
+      "nameSi": "Mirigama Pradeshiya Sabha",
+      "nameTa": "Mirigama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-24",
+      "name": "Mahara Pradeshiya Sabha",
+      "nameSi": "Mahara Pradeshiya Sabha",
+      "nameTa": "Mahara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "gampaha-ps-25",
+      "name": "Wattala Pradeshiya Sabha",
+      "nameSi": "Wattala Pradeshiya Sabha",
+      "nameTa": "Wattala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "gampaha",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-uc-26",
+      "name": "Kalutara Urban Council",
+      "nameSi": "Kalutara Urban Council",
+      "nameTa": "Kalutara Urban Council",
+      "type": "UC",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-27",
+      "name": "Bandaragama Pradeshiya Sabha",
+      "nameSi": "Bandaragama Pradeshiya Sabha",
+      "nameTa": "Bandaragama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-28",
+      "name": "Beruwala Pradeshiya Sabha",
+      "nameSi": "Beruwala Pradeshiya Sabha",
+      "nameTa": "Beruwala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-29",
+      "name": "Bulathsinhala Pradeshiya Sabha",
+      "nameSi": "Bulathsinhala Pradeshiya Sabha",
+      "nameTa": "Bulathsinhala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-30",
+      "name": "Dodangoda Pradeshiya Sabha",
+      "nameSi": "Dodangoda Pradeshiya Sabha",
+      "nameTa": "Dodangoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-31",
+      "name": "Horana Pradeshiya Sabha",
+      "nameSi": "Horana Pradeshiya Sabha",
+      "nameTa": "Horana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-32",
+      "name": "Ingiriya Pradeshiya Sabha",
+      "nameSi": "Ingiriya Pradeshiya Sabha",
+      "nameTa": "Ingiriya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-33",
+      "name": "Kalutara Pradeshiya Sabha",
+      "nameSi": "Kalutara Pradeshiya Sabha",
+      "nameTa": "Kalutara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-34",
+      "name": "Madurawela Pradeshiya Sabha",
+      "nameSi": "Madurawela Pradeshiya Sabha",
+      "nameTa": "Madurawela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-35",
+      "name": "Matugama Pradeshiya Sabha",
+      "nameSi": "Matugama Pradeshiya Sabha",
+      "nameTa": "Matugama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-36",
+      "name": "Millaniya Pradeshiya Sabha",
+      "nameSi": "Millaniya Pradeshiya Sabha",
+      "nameTa": "Millaniya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-37",
+      "name": "Panadura Pradeshiya Sabha",
+      "nameSi": "Panadura Pradeshiya Sabha",
+      "nameTa": "Panadura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kalutara-ps-38",
+      "name": "Walallawita Pradeshiya Sabha",
+      "nameSi": "Walallawita Pradeshiya Sabha",
+      "nameTa": "Walallawita Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kalutara",
+      "province": "Western"
+    },
+    {
+      "id": "kandy-mc-39",
+      "name": "Kandy Municipal Council",
+      "nameSi": "Kandy Municipal Council",
+      "nameTa": "Kandy Municipal Council",
+      "type": "MC",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-40",
+      "name": "Akurana Pradeshiya Sabha",
+      "nameSi": "Akurana Pradeshiya Sabha",
+      "nameTa": "Akurana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-41",
+      "name": "Delthota Pradeshiya Sabha",
+      "nameSi": "Delthota Pradeshiya Sabha",
+      "nameTa": "Delthota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-42",
+      "name": "Doluwa Pradeshiya Sabha",
+      "nameSi": "Doluwa Pradeshiya Sabha",
+      "nameTa": "Doluwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-43",
+      "name": "Ganga Ihala Korale Pradeshiya Sabha",
+      "nameSi": "Ganga Ihala Korale Pradeshiya Sabha",
+      "nameTa": "Ganga Ihala Korale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-44",
+      "name": "Harispattuwa Pradeshiya Sabha",
+      "nameSi": "Harispattuwa Pradeshiya Sabha",
+      "nameTa": "Harispattuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-45",
+      "name": "Kundasale Pradeshiya Sabha",
+      "nameSi": "Kundasale Pradeshiya Sabha",
+      "nameTa": "Kundasale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-46",
+      "name": "Minipe Pradeshiya Sabha",
+      "nameSi": "Minipe Pradeshiya Sabha",
+      "nameTa": "Minipe Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-47",
+      "name": "Panvila Pradeshiya Sabha",
+      "nameSi": "Panvila Pradeshiya Sabha",
+      "nameTa": "Panvila Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-48",
+      "name": "Pasbage Korale Pradeshiya Sabha",
+      "nameSi": "Pasbage Korale Pradeshiya Sabha",
+      "nameTa": "Pasbage Korale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-49",
+      "name": "Pathadumbara Pradeshiya Sabha",
+      "nameSi": "Pathadumbara Pradeshiya Sabha",
+      "nameTa": "Pathadumbara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-50",
+      "name": "Pathahewaheta Pradeshiya Sabha",
+      "nameSi": "Pathahewaheta Pradeshiya Sabha",
+      "nameTa": "Pathahewaheta Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-51",
+      "name": "Thumpane Pradeshiya Sabha",
+      "nameSi": "Thumpane Pradeshiya Sabha",
+      "nameTa": "Thumpane Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-52",
+      "name": "Udadumbara Pradeshiya Sabha",
+      "nameSi": "Udadumbara Pradeshiya Sabha",
+      "nameTa": "Udadumbara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-53",
+      "name": "Udunuwara Pradeshiya Sabha",
+      "nameSi": "Udunuwara Pradeshiya Sabha",
+      "nameTa": "Udunuwara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-54",
+      "name": "Udapalatha Pradeshiya Sabha",
+      "nameSi": "Udapalatha Pradeshiya Sabha",
+      "nameTa": "Udapalatha Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "kandy-ps-55",
+      "name": "Yatinuwara Pradeshiya Sabha",
+      "nameSi": "Yatinuwara Pradeshiya Sabha",
+      "nameTa": "Yatinuwara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kandy",
+      "province": "Central"
+    },
+    {
+      "id": "matale-uc-56",
+      "name": "Matale Urban Council",
+      "nameSi": "Matale Urban Council",
+      "nameTa": "Matale Urban Council",
+      "type": "UC",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-57",
+      "name": "Ambanganga Korale Pradeshiya Sabha",
+      "nameSi": "Ambanganga Korale Pradeshiya Sabha",
+      "nameTa": "Ambanganga Korale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-58",
+      "name": "Dambulla Pradeshiya Sabha",
+      "nameSi": "Dambulla Pradeshiya Sabha",
+      "nameTa": "Dambulla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-59",
+      "name": "Galewela Pradeshiya Sabha",
+      "nameSi": "Galewela Pradeshiya Sabha",
+      "nameTa": "Galewela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-60",
+      "name": "Laggala-Pallegama Pradeshiya Sabha",
+      "nameSi": "Laggala-Pallegama Pradeshiya Sabha",
+      "nameTa": "Laggala-Pallegama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-61",
+      "name": "Matale Pradeshiya Sabha",
+      "nameSi": "Matale Pradeshiya Sabha",
+      "nameTa": "Matale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-62",
+      "name": "Naula Pradeshiya Sabha",
+      "nameSi": "Naula Pradeshiya Sabha",
+      "nameTa": "Naula Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-63",
+      "name": "Pallepola Pradeshiya Sabha",
+      "nameSi": "Pallepola Pradeshiya Sabha",
+      "nameTa": "Pallepola Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-64",
+      "name": "Rattota Pradeshiya Sabha",
+      "nameSi": "Rattota Pradeshiya Sabha",
+      "nameTa": "Rattota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-65",
+      "name": "Ukuwela Pradeshiya Sabha",
+      "nameSi": "Ukuwela Pradeshiya Sabha",
+      "nameTa": "Ukuwela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-66",
+      "name": "Wilgamuwa Pradeshiya Sabha",
+      "nameSi": "Wilgamuwa Pradeshiya Sabha",
+      "nameTa": "Wilgamuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "matale-ps-67",
+      "name": "Yatawatta Pradeshiya Sabha",
+      "nameSi": "Yatawatta Pradeshiya Sabha",
+      "nameTa": "Yatawatta Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matale",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-uc-68",
+      "name": "Nuwara Eliya Urban Council",
+      "nameSi": "Nuwara Eliya Urban Council",
+      "nameTa": "Nuwara Eliya Urban Council",
+      "type": "UC",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-69",
+      "name": "Ambagamuwa Pradeshiya Sabha",
+      "nameSi": "Ambagamuwa Pradeshiya Sabha",
+      "nameTa": "Ambagamuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-70",
+      "name": "Hanguranketha Pradeshiya Sabha",
+      "nameSi": "Hanguranketha Pradeshiya Sabha",
+      "nameTa": "Hanguranketha Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-71",
+      "name": "Kothmale Pradeshiya Sabha",
+      "nameSi": "Kothmale Pradeshiya Sabha",
+      "nameTa": "Kothmale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-72",
+      "name": "Maskeliya Pradeshiya Sabha",
+      "nameSi": "Maskeliya Pradeshiya Sabha",
+      "nameTa": "Maskeliya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-73",
+      "name": "Nuwara Eliya Pradeshiya Sabha",
+      "nameSi": "Nuwara Eliya Pradeshiya Sabha",
+      "nameTa": "Nuwara Eliya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-74",
+      "name": "Walapane Pradeshiya Sabha",
+      "nameSi": "Walapane Pradeshiya Sabha",
+      "nameTa": "Walapane Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-75",
+      "name": "Norwood Pradeshiya Sabha",
+      "nameSi": "Norwood Pradeshiya Sabha",
+      "nameTa": "Norwood Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-76",
+      "name": "Kotagala Pradeshiya Sabha",
+      "nameSi": "Kotagala Pradeshiya Sabha",
+      "nameTa": "Kotagala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-77",
+      "name": "Lindula Pradeshiya Sabha",
+      "nameSi": "Lindula Pradeshiya Sabha",
+      "nameTa": "Lindula Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "nuwara-eliya-ps-78",
+      "name": "Ragala Pradeshiya Sabha",
+      "nameSi": "Ragala Pradeshiya Sabha",
+      "nameTa": "Ragala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "nuwara-eliya",
+      "province": "Central"
+    },
+    {
+      "id": "galle-mc-79",
+      "name": "Galle Municipal Council",
+      "nameSi": "Galle Municipal Council",
+      "nameTa": "Galle Municipal Council",
+      "type": "MC",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-80",
+      "name": "Akmeemana Pradeshiya Sabha",
+      "nameSi": "Akmeemana Pradeshiya Sabha",
+      "nameTa": "Akmeemana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-81",
+      "name": "Ambalangoda Pradeshiya Sabha",
+      "nameSi": "Ambalangoda Pradeshiya Sabha",
+      "nameTa": "Ambalangoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-82",
+      "name": "Baddegama Pradeshiya Sabha",
+      "nameSi": "Baddegama Pradeshiya Sabha",
+      "nameTa": "Baddegama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-83",
+      "name": "Balapitiya Pradeshiya Sabha",
+      "nameSi": "Balapitiya Pradeshiya Sabha",
+      "nameTa": "Balapitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-84",
+      "name": "Benthota Pradeshiya Sabha",
+      "nameSi": "Benthota Pradeshiya Sabha",
+      "nameTa": "Benthota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-85",
+      "name": "Bope-Poddala Pradeshiya Sabha",
+      "nameSi": "Bope-Poddala Pradeshiya Sabha",
+      "nameTa": "Bope-Poddala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-86",
+      "name": "Elpitiya Pradeshiya Sabha",
+      "nameSi": "Elpitiya Pradeshiya Sabha",
+      "nameTa": "Elpitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-87",
+      "name": "Galle Pradeshiya Sabha",
+      "nameSi": "Galle Pradeshiya Sabha",
+      "nameTa": "Galle Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-88",
+      "name": "Hikkaduwa Pradeshiya Sabha",
+      "nameSi": "Hikkaduwa Pradeshiya Sabha",
+      "nameTa": "Hikkaduwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-89",
+      "name": "Imaduwa Pradeshiya Sabha",
+      "nameSi": "Imaduwa Pradeshiya Sabha",
+      "nameTa": "Imaduwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-90",
+      "name": "Karandeniya Pradeshiya Sabha",
+      "nameSi": "Karandeniya Pradeshiya Sabha",
+      "nameTa": "Karandeniya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-91",
+      "name": "Nagoda Pradeshiya Sabha",
+      "nameSi": "Nagoda Pradeshiya Sabha",
+      "nameTa": "Nagoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-92",
+      "name": "Niyagama Pradeshiya Sabha",
+      "nameSi": "Niyagama Pradeshiya Sabha",
+      "nameTa": "Niyagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-93",
+      "name": "Thawalama Pradeshiya Sabha",
+      "nameSi": "Thawalama Pradeshiya Sabha",
+      "nameTa": "Thawalama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-94",
+      "name": "Welivitiya-Divithura Pradeshiya Sabha",
+      "nameSi": "Welivitiya-Divithura Pradeshiya Sabha",
+      "nameTa": "Welivitiya-Divithura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "galle-ps-95",
+      "name": "Yakkalamulla Pradeshiya Sabha",
+      "nameSi": "Yakkalamulla Pradeshiya Sabha",
+      "nameTa": "Yakkalamulla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "galle",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-mc-96",
+      "name": "Matara Municipal Council",
+      "nameSi": "Matara Municipal Council",
+      "nameTa": "Matara Municipal Council",
+      "type": "MC",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-97",
+      "name": "Akuressa Pradeshiya Sabha",
+      "nameSi": "Akuressa Pradeshiya Sabha",
+      "nameTa": "Akuressa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-98",
+      "name": "Athuraliya Pradeshiya Sabha",
+      "nameSi": "Athuraliya Pradeshiya Sabha",
+      "nameTa": "Athuraliya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-99",
+      "name": "Devinuwara Pradeshiya Sabha",
+      "nameSi": "Devinuwara Pradeshiya Sabha",
+      "nameTa": "Devinuwara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-100",
+      "name": "Dickwella Pradeshiya Sabha",
+      "nameSi": "Dickwella Pradeshiya Sabha",
+      "nameTa": "Dickwella Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-101",
+      "name": "Hakmana Pradeshiya Sabha",
+      "nameSi": "Hakmana Pradeshiya Sabha",
+      "nameTa": "Hakmana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-102",
+      "name": "Kamburupitiya Pradeshiya Sabha",
+      "nameSi": "Kamburupitiya Pradeshiya Sabha",
+      "nameTa": "Kamburupitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-103",
+      "name": "Kotapola Pradeshiya Sabha",
+      "nameSi": "Kotapola Pradeshiya Sabha",
+      "nameTa": "Kotapola Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-104",
+      "name": "Malimbada Pradeshiya Sabha",
+      "nameSi": "Malimbada Pradeshiya Sabha",
+      "nameTa": "Malimbada Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-105",
+      "name": "Matara Pradeshiya Sabha",
+      "nameSi": "Matara Pradeshiya Sabha",
+      "nameTa": "Matara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-106",
+      "name": "Mulatiyana Pradeshiya Sabha",
+      "nameSi": "Mulatiyana Pradeshiya Sabha",
+      "nameTa": "Mulatiyana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-107",
+      "name": "Pasgoda Pradeshiya Sabha",
+      "nameSi": "Pasgoda Pradeshiya Sabha",
+      "nameTa": "Pasgoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-108",
+      "name": "Pitabeddara Pradeshiya Sabha",
+      "nameSi": "Pitabeddara Pradeshiya Sabha",
+      "nameTa": "Pitabeddara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-109",
+      "name": "Thihagoda Pradeshiya Sabha",
+      "nameSi": "Thihagoda Pradeshiya Sabha",
+      "nameTa": "Thihagoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "matara-ps-110",
+      "name": "Weligama Pradeshiya Sabha",
+      "nameSi": "Weligama Pradeshiya Sabha",
+      "nameTa": "Weligama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "matara",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-uc-111",
+      "name": "Hambantota Urban Council",
+      "nameSi": "Hambantota Urban Council",
+      "nameTa": "Hambantota Urban Council",
+      "type": "UC",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-112",
+      "name": "Ambalantota Pradeshiya Sabha",
+      "nameSi": "Ambalantota Pradeshiya Sabha",
+      "nameTa": "Ambalantota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-113",
+      "name": "Angunakolapelessa Pradeshiya Sabha",
+      "nameSi": "Angunakolapelessa Pradeshiya Sabha",
+      "nameTa": "Angunakolapelessa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-114",
+      "name": "Beliatta Pradeshiya Sabha",
+      "nameSi": "Beliatta Pradeshiya Sabha",
+      "nameTa": "Beliatta Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-115",
+      "name": "Hambantota Pradeshiya Sabha",
+      "nameSi": "Hambantota Pradeshiya Sabha",
+      "nameTa": "Hambantota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-116",
+      "name": "Katuwana Pradeshiya Sabha",
+      "nameSi": "Katuwana Pradeshiya Sabha",
+      "nameTa": "Katuwana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-117",
+      "name": "Lunugamvehera Pradeshiya Sabha",
+      "nameSi": "Lunugamvehera Pradeshiya Sabha",
+      "nameTa": "Lunugamvehera Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-118",
+      "name": "Okewela Pradeshiya Sabha",
+      "nameSi": "Okewela Pradeshiya Sabha",
+      "nameTa": "Okewela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-119",
+      "name": "Sooriyawewa Pradeshiya Sabha",
+      "nameSi": "Sooriyawewa Pradeshiya Sabha",
+      "nameTa": "Sooriyawewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-120",
+      "name": "Tangalle Pradeshiya Sabha",
+      "nameSi": "Tangalle Pradeshiya Sabha",
+      "nameTa": "Tangalle Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-121",
+      "name": "Thissamaharama Pradeshiya Sabha",
+      "nameSi": "Thissamaharama Pradeshiya Sabha",
+      "nameTa": "Thissamaharama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "hambantota-ps-122",
+      "name": "Weeraketiya Pradeshiya Sabha",
+      "nameSi": "Weeraketiya Pradeshiya Sabha",
+      "nameTa": "Weeraketiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "hambantota",
+      "province": "Southern"
+    },
+    {
+      "id": "jaffna-mc-123",
+      "name": "Jaffna Municipal Council",
+      "nameSi": "Jaffna Municipal Council",
+      "nameTa": "Jaffna Municipal Council",
+      "type": "MC",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-124",
+      "name": "Chavakachcheri Pradeshiya Sabha",
+      "nameSi": "Chavakachcheri Pradeshiya Sabha",
+      "nameTa": "Chavakachcheri Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-125",
+      "name": "Delft Pradeshiya Sabha",
+      "nameSi": "Delft Pradeshiya Sabha",
+      "nameTa": "Delft Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-126",
+      "name": "Island North Pradeshiya Sabha",
+      "nameSi": "Island North Pradeshiya Sabha",
+      "nameTa": "Island North Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-127",
+      "name": "Island South Pradeshiya Sabha",
+      "nameSi": "Island South Pradeshiya Sabha",
+      "nameTa": "Island South Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-128",
+      "name": "Jaffna Pradeshiya Sabha",
+      "nameSi": "Jaffna Pradeshiya Sabha",
+      "nameTa": "Jaffna Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-129",
+      "name": "Karainagar Pradeshiya Sabha",
+      "nameSi": "Karainagar Pradeshiya Sabha",
+      "nameTa": "Karainagar Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-130",
+      "name": "Nallur Pradeshiya Sabha",
+      "nameSi": "Nallur Pradeshiya Sabha",
+      "nameTa": "Nallur Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-131",
+      "name": "Point Pedro Pradeshiya Sabha",
+      "nameSi": "Point Pedro Pradeshiya Sabha",
+      "nameTa": "Point Pedro Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-132",
+      "name": "Sandilipay Pradeshiya Sabha",
+      "nameSi": "Sandilipay Pradeshiya Sabha",
+      "nameTa": "Sandilipay Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-133",
+      "name": "Tellippalai Pradeshiya Sabha",
+      "nameSi": "Tellippalai Pradeshiya Sabha",
+      "nameTa": "Tellippalai Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-134",
+      "name": "Uduvil Pradeshiya Sabha",
+      "nameSi": "Uduvil Pradeshiya Sabha",
+      "nameTa": "Uduvil Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-135",
+      "name": "Valikamam East Pradeshiya Sabha",
+      "nameSi": "Valikamam East Pradeshiya Sabha",
+      "nameTa": "Valikamam East Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-136",
+      "name": "Valikamam North Pradeshiya Sabha",
+      "nameSi": "Valikamam North Pradeshiya Sabha",
+      "nameTa": "Valikamam North Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-137",
+      "name": "Valikamam South Pradeshiya Sabha",
+      "nameSi": "Valikamam South Pradeshiya Sabha",
+      "nameTa": "Valikamam South Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-138",
+      "name": "Valikamam West Pradeshiya Sabha",
+      "nameSi": "Valikamam West Pradeshiya Sabha",
+      "nameTa": "Valikamam West Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "jaffna-ps-139",
+      "name": "Velanai Pradeshiya Sabha",
+      "nameSi": "Velanai Pradeshiya Sabha",
+      "nameTa": "Velanai Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "jaffna",
+      "province": "Northern"
+    },
+    {
+      "id": "kilinochchi-uc-140",
+      "name": "Kilinochchi Urban Council",
+      "nameSi": "Kilinochchi Urban Council",
+      "nameTa": "Kilinochchi Urban Council",
+      "type": "UC",
+      "districtSlug": "kilinochchi",
+      "province": "Northern"
+    },
+    {
+      "id": "kilinochchi-ps-141",
+      "name": "Karachchi Pradeshiya Sabha",
+      "nameSi": "Karachchi Pradeshiya Sabha",
+      "nameTa": "Karachchi Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kilinochchi",
+      "province": "Northern"
+    },
+    {
+      "id": "kilinochchi-ps-142",
+      "name": "Pachchilaipalli Pradeshiya Sabha",
+      "nameSi": "Pachchilaipalli Pradeshiya Sabha",
+      "nameTa": "Pachchilaipalli Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kilinochchi",
+      "province": "Northern"
+    },
+    {
+      "id": "kilinochchi-ps-143",
+      "name": "Poonakary Pradeshiya Sabha",
+      "nameSi": "Poonakary Pradeshiya Sabha",
+      "nameTa": "Poonakary Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kilinochchi",
+      "province": "Northern"
+    },
+    {
+      "id": "mannar-uc-144",
+      "name": "Mannar Urban Council",
+      "nameSi": "Mannar Urban Council",
+      "nameTa": "Mannar Urban Council",
+      "type": "UC",
+      "districtSlug": "mannar",
+      "province": "Northern"
+    },
+    {
+      "id": "mannar-ps-145",
+      "name": "Manthai West Pradeshiya Sabha",
+      "nameSi": "Manthai West Pradeshiya Sabha",
+      "nameTa": "Manthai West Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mannar",
+      "province": "Northern"
+    },
+    {
+      "id": "mannar-ps-146",
+      "name": "Mannar Pradeshiya Sabha",
+      "nameSi": "Mannar Pradeshiya Sabha",
+      "nameTa": "Mannar Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mannar",
+      "province": "Northern"
+    },
+    {
+      "id": "mannar-ps-147",
+      "name": "Musali Pradeshiya Sabha",
+      "nameSi": "Musali Pradeshiya Sabha",
+      "nameTa": "Musali Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mannar",
+      "province": "Northern"
+    },
+    {
+      "id": "mannar-ps-148",
+      "name": "Nanaddan Pradeshiya Sabha",
+      "nameSi": "Nanaddan Pradeshiya Sabha",
+      "nameTa": "Nanaddan Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mannar",
+      "province": "Northern"
+    },
+    {
+      "id": "vavuniya-uc-149",
+      "name": "Vavuniya Urban Council",
+      "nameSi": "Vavuniya Urban Council",
+      "nameTa": "Vavuniya Urban Council",
+      "type": "UC",
+      "districtSlug": "vavuniya",
+      "province": "Northern"
+    },
+    {
+      "id": "vavuniya-ps-150",
+      "name": "Vavuniya North Pradeshiya Sabha",
+      "nameSi": "Vavuniya North Pradeshiya Sabha",
+      "nameTa": "Vavuniya North Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "vavuniya",
+      "province": "Northern"
+    },
+    {
+      "id": "vavuniya-ps-151",
+      "name": "Vavuniya South Pradeshiya Sabha",
+      "nameSi": "Vavuniya South Pradeshiya Sabha",
+      "nameTa": "Vavuniya South Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "vavuniya",
+      "province": "Northern"
+    },
+    {
+      "id": "vavuniya-ps-152",
+      "name": "Vengalacheddikulam Pradeshiya Sabha",
+      "nameSi": "Vengalacheddikulam Pradeshiya Sabha",
+      "nameTa": "Vengalacheddikulam Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "vavuniya",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-uc-153",
+      "name": "Mullaitivu Urban Council",
+      "nameSi": "Mullaitivu Urban Council",
+      "nameTa": "Mullaitivu Urban Council",
+      "type": "UC",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-ps-154",
+      "name": "Manthai East Pradeshiya Sabha",
+      "nameSi": "Manthai East Pradeshiya Sabha",
+      "nameTa": "Manthai East Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-ps-155",
+      "name": "Maritimepattu Pradeshiya Sabha",
+      "nameSi": "Maritimepattu Pradeshiya Sabha",
+      "nameTa": "Maritimepattu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-ps-156",
+      "name": "Oddusuddan Pradeshiya Sabha",
+      "nameSi": "Oddusuddan Pradeshiya Sabha",
+      "nameTa": "Oddusuddan Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-ps-157",
+      "name": "Puthukudiyiruppu Pradeshiya Sabha",
+      "nameSi": "Puthukudiyiruppu Pradeshiya Sabha",
+      "nameTa": "Puthukudiyiruppu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-ps-158",
+      "name": "Thunukkai Pradeshiya Sabha",
+      "nameSi": "Thunukkai Pradeshiya Sabha",
+      "nameTa": "Thunukkai Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "mullaitivu-ps-159",
+      "name": "Welioya Pradeshiya Sabha",
+      "nameSi": "Welioya Pradeshiya Sabha",
+      "nameTa": "Welioya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "mullaitivu",
+      "province": "Northern"
+    },
+    {
+      "id": "batticaloa-mc-160",
+      "name": "Batticaloa Municipal Council",
+      "nameSi": "Batticaloa Municipal Council",
+      "nameTa": "Batticaloa Municipal Council",
+      "type": "MC",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-161",
+      "name": "Eravur Pattu Pradeshiya Sabha",
+      "nameSi": "Eravur Pattu Pradeshiya Sabha",
+      "nameTa": "Eravur Pattu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-162",
+      "name": "Eravur Town Pradeshiya Sabha",
+      "nameSi": "Eravur Town Pradeshiya Sabha",
+      "nameTa": "Eravur Town Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-163",
+      "name": "Kattankudy Pradeshiya Sabha",
+      "nameSi": "Kattankudy Pradeshiya Sabha",
+      "nameTa": "Kattankudy Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-164",
+      "name": "Koralai Pattu Pradeshiya Sabha",
+      "nameSi": "Koralai Pattu Pradeshiya Sabha",
+      "nameTa": "Koralai Pattu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-165",
+      "name": "Koralai Pattu North Pradeshiya Sabha",
+      "nameSi": "Koralai Pattu North Pradeshiya Sabha",
+      "nameTa": "Koralai Pattu North Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-166",
+      "name": "Koralai Pattu South Pradeshiya Sabha",
+      "nameSi": "Koralai Pattu South Pradeshiya Sabha",
+      "nameTa": "Koralai Pattu South Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-167",
+      "name": "Manmunai North Pradeshiya Sabha",
+      "nameSi": "Manmunai North Pradeshiya Sabha",
+      "nameTa": "Manmunai North Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-168",
+      "name": "Manmunai Pattu Pradeshiya Sabha",
+      "nameSi": "Manmunai Pattu Pradeshiya Sabha",
+      "nameTa": "Manmunai Pattu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-169",
+      "name": "Manmunai South Pradeshiya Sabha",
+      "nameSi": "Manmunai South Pradeshiya Sabha",
+      "nameTa": "Manmunai South Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-170",
+      "name": "Manmunai South-West Pradeshiya Sabha",
+      "nameSi": "Manmunai South-West Pradeshiya Sabha",
+      "nameTa": "Manmunai South-West Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-171",
+      "name": "Manmunai West Pradeshiya Sabha",
+      "nameSi": "Manmunai West Pradeshiya Sabha",
+      "nameTa": "Manmunai West Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "batticaloa-ps-172",
+      "name": "Porativu Pattu Pradeshiya Sabha",
+      "nameSi": "Porativu Pattu Pradeshiya Sabha",
+      "nameTa": "Porativu Pattu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "batticaloa",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-uc-173",
+      "name": "Ampara Urban Council",
+      "nameSi": "Ampara Urban Council",
+      "nameTa": "Ampara Urban Council",
+      "type": "UC",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-174",
+      "name": "Addalachchenai Pradeshiya Sabha",
+      "nameSi": "Addalachchenai Pradeshiya Sabha",
+      "nameTa": "Addalachchenai Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-175",
+      "name": "Akaraipattu Pradeshiya Sabha",
+      "nameSi": "Akaraipattu Pradeshiya Sabha",
+      "nameTa": "Akaraipattu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-176",
+      "name": "Alayadiwembu Pradeshiya Sabha",
+      "nameSi": "Alayadiwembu Pradeshiya Sabha",
+      "nameTa": "Alayadiwembu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-177",
+      "name": "Ampara Pradeshiya Sabha",
+      "nameSi": "Ampara Pradeshiya Sabha",
+      "nameTa": "Ampara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-178",
+      "name": "Damana Pradeshiya Sabha",
+      "nameSi": "Damana Pradeshiya Sabha",
+      "nameTa": "Damana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-179",
+      "name": "Dehiattakandiya Pradeshiya Sabha",
+      "nameSi": "Dehiattakandiya Pradeshiya Sabha",
+      "nameTa": "Dehiattakandiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-180",
+      "name": "Eragama Pradeshiya Sabha",
+      "nameSi": "Eragama Pradeshiya Sabha",
+      "nameTa": "Eragama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-181",
+      "name": "Kalmunai Pradeshiya Sabha",
+      "nameSi": "Kalmunai Pradeshiya Sabha",
+      "nameTa": "Kalmunai Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-182",
+      "name": "Karaitivu Pradeshiya Sabha",
+      "nameSi": "Karaitivu Pradeshiya Sabha",
+      "nameTa": "Karaitivu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-183",
+      "name": "Lahugala Pradeshiya Sabha",
+      "nameSi": "Lahugala Pradeshiya Sabha",
+      "nameTa": "Lahugala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-184",
+      "name": "Maha Oya Pradeshiya Sabha",
+      "nameSi": "Maha Oya Pradeshiya Sabha",
+      "nameTa": "Maha Oya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-185",
+      "name": "Navithanveli Pradeshiya Sabha",
+      "nameSi": "Navithanveli Pradeshiya Sabha",
+      "nameTa": "Navithanveli Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-186",
+      "name": "Ninthavur Pradeshiya Sabha",
+      "nameSi": "Ninthavur Pradeshiya Sabha",
+      "nameTa": "Ninthavur Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-187",
+      "name": "Padiyathalawa Pradeshiya Sabha",
+      "nameSi": "Padiyathalawa Pradeshiya Sabha",
+      "nameTa": "Padiyathalawa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-188",
+      "name": "Pottuvil Pradeshiya Sabha",
+      "nameSi": "Pottuvil Pradeshiya Sabha",
+      "nameTa": "Pottuvil Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-189",
+      "name": "Sainthamaruthu Pradeshiya Sabha",
+      "nameSi": "Sainthamaruthu Pradeshiya Sabha",
+      "nameTa": "Sainthamaruthu Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-190",
+      "name": "Sammanthurai Pradeshiya Sabha",
+      "nameSi": "Sammanthurai Pradeshiya Sabha",
+      "nameTa": "Sammanthurai Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-191",
+      "name": "Thirukkovil Pradeshiya Sabha",
+      "nameSi": "Thirukkovil Pradeshiya Sabha",
+      "nameTa": "Thirukkovil Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "ampara-ps-192",
+      "name": "Uhana Pradeshiya Sabha",
+      "nameSi": "Uhana Pradeshiya Sabha",
+      "nameTa": "Uhana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ampara",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-mc-193",
+      "name": "Trincomalee Municipal Council",
+      "nameSi": "Trincomalee Municipal Council",
+      "nameTa": "Trincomalee Municipal Council",
+      "type": "MC",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-194",
+      "name": "Gomarankadawala Pradeshiya Sabha",
+      "nameSi": "Gomarankadawala Pradeshiya Sabha",
+      "nameTa": "Gomarankadawala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-195",
+      "name": "Kantale Pradeshiya Sabha",
+      "nameSi": "Kantale Pradeshiya Sabha",
+      "nameTa": "Kantale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-196",
+      "name": "Kinniya Pradeshiya Sabha",
+      "nameSi": "Kinniya Pradeshiya Sabha",
+      "nameTa": "Kinniya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-197",
+      "name": "Kuchchaveli Pradeshiya Sabha",
+      "nameSi": "Kuchchaveli Pradeshiya Sabha",
+      "nameTa": "Kuchchaveli Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-198",
+      "name": "Morawewa Pradeshiya Sabha",
+      "nameSi": "Morawewa Pradeshiya Sabha",
+      "nameTa": "Morawewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-199",
+      "name": "Muttur Pradeshiya Sabha",
+      "nameSi": "Muttur Pradeshiya Sabha",
+      "nameTa": "Muttur Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-200",
+      "name": "Padavi Sri Pura Pradeshiya Sabha",
+      "nameSi": "Padavi Sri Pura Pradeshiya Sabha",
+      "nameTa": "Padavi Sri Pura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-201",
+      "name": "Seruvila Pradeshiya Sabha",
+      "nameSi": "Seruvila Pradeshiya Sabha",
+      "nameTa": "Seruvila Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-202",
+      "name": "Thambalagamuwa Pradeshiya Sabha",
+      "nameSi": "Thambalagamuwa Pradeshiya Sabha",
+      "nameTa": "Thambalagamuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-203",
+      "name": "Trincomalee Town and Gravets Pradeshiya Sabha",
+      "nameSi": "Trincomalee Town and Gravets Pradeshiya Sabha",
+      "nameTa": "Trincomalee Town and Gravets Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "trincomalee-ps-204",
+      "name": "Verugal Pradeshiya Sabha",
+      "nameSi": "Verugal Pradeshiya Sabha",
+      "nameTa": "Verugal Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "trincomalee",
+      "province": "Eastern"
+    },
+    {
+      "id": "kurunegala-mc-205",
+      "name": "Kurunegala Municipal Council",
+      "nameSi": "Kurunegala Municipal Council",
+      "nameTa": "Kurunegala Municipal Council",
+      "type": "MC",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-206",
+      "name": "Alawwa Pradeshiya Sabha",
+      "nameSi": "Alawwa Pradeshiya Sabha",
+      "nameTa": "Alawwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-207",
+      "name": "Ambanpola Pradeshiya Sabha",
+      "nameSi": "Ambanpola Pradeshiya Sabha",
+      "nameTa": "Ambanpola Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-208",
+      "name": "Bingiriya Pradeshiya Sabha",
+      "nameSi": "Bingiriya Pradeshiya Sabha",
+      "nameTa": "Bingiriya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-209",
+      "name": "Galgamuwa Pradeshiya Sabha",
+      "nameSi": "Galgamuwa Pradeshiya Sabha",
+      "nameTa": "Galgamuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-210",
+      "name": "Ganewatta Pradeshiya Sabha",
+      "nameSi": "Ganewatta Pradeshiya Sabha",
+      "nameTa": "Ganewatta Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-211",
+      "name": "Giribawa Pradeshiya Sabha",
+      "nameSi": "Giribawa Pradeshiya Sabha",
+      "nameTa": "Giribawa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-212",
+      "name": "Ibbagamuwa Pradeshiya Sabha",
+      "nameSi": "Ibbagamuwa Pradeshiya Sabha",
+      "nameTa": "Ibbagamuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-213",
+      "name": "Kobeigane Pradeshiya Sabha",
+      "nameSi": "Kobeigane Pradeshiya Sabha",
+      "nameTa": "Kobeigane Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-214",
+      "name": "Kuliyapitiya East Pradeshiya Sabha",
+      "nameSi": "Kuliyapitiya East Pradeshiya Sabha",
+      "nameTa": "Kuliyapitiya East Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-215",
+      "name": "Kuliyapitiya West Pradeshiya Sabha",
+      "nameSi": "Kuliyapitiya West Pradeshiya Sabha",
+      "nameTa": "Kuliyapitiya West Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-216",
+      "name": "Kurunegala Pradeshiya Sabha",
+      "nameSi": "Kurunegala Pradeshiya Sabha",
+      "nameTa": "Kurunegala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-217",
+      "name": "Mawathagama Pradeshiya Sabha",
+      "nameSi": "Mawathagama Pradeshiya Sabha",
+      "nameTa": "Mawathagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-218",
+      "name": "Narammala Pradeshiya Sabha",
+      "nameSi": "Narammala Pradeshiya Sabha",
+      "nameTa": "Narammala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-219",
+      "name": "Nikaweratiya Pradeshiya Sabha",
+      "nameSi": "Nikaweratiya Pradeshiya Sabha",
+      "nameTa": "Nikaweratiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-220",
+      "name": "Polgahawela Pradeshiya Sabha",
+      "nameSi": "Polgahawela Pradeshiya Sabha",
+      "nameTa": "Polgahawela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-221",
+      "name": "Polpithigama Pradeshiya Sabha",
+      "nameSi": "Polpithigama Pradeshiya Sabha",
+      "nameTa": "Polpithigama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-222",
+      "name": "Rasnayakapura Pradeshiya Sabha",
+      "nameSi": "Rasnayakapura Pradeshiya Sabha",
+      "nameTa": "Rasnayakapura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-223",
+      "name": "Rideegama Pradeshiya Sabha",
+      "nameSi": "Rideegama Pradeshiya Sabha",
+      "nameTa": "Rideegama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-224",
+      "name": "Udubaddawa Pradeshiya Sabha",
+      "nameSi": "Udubaddawa Pradeshiya Sabha",
+      "nameTa": "Udubaddawa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-225",
+      "name": "Wariyapola Pradeshiya Sabha",
+      "nameSi": "Wariyapola Pradeshiya Sabha",
+      "nameTa": "Wariyapola Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "kurunegala-ps-226",
+      "name": "Weerambugedara Pradeshiya Sabha",
+      "nameSi": "Weerambugedara Pradeshiya Sabha",
+      "nameTa": "Weerambugedara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kurunegala",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-uc-227",
+      "name": "Puttalam Urban Council",
+      "nameSi": "Puttalam Urban Council",
+      "nameTa": "Puttalam Urban Council",
+      "type": "UC",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-228",
+      "name": "Arachchikattuwa Pradeshiya Sabha",
+      "nameSi": "Arachchikattuwa Pradeshiya Sabha",
+      "nameTa": "Arachchikattuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-229",
+      "name": "Chilaw Pradeshiya Sabha",
+      "nameSi": "Chilaw Pradeshiya Sabha",
+      "nameTa": "Chilaw Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-230",
+      "name": "Dankotuwa Pradeshiya Sabha",
+      "nameSi": "Dankotuwa Pradeshiya Sabha",
+      "nameTa": "Dankotuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-231",
+      "name": "Kalpitiya Pradeshiya Sabha",
+      "nameSi": "Kalpitiya Pradeshiya Sabha",
+      "nameTa": "Kalpitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-232",
+      "name": "Madampe Pradeshiya Sabha",
+      "nameSi": "Madampe Pradeshiya Sabha",
+      "nameTa": "Madampe Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-233",
+      "name": "Mahakumbukkadawala Pradeshiya Sabha",
+      "nameSi": "Mahakumbukkadawala Pradeshiya Sabha",
+      "nameTa": "Mahakumbukkadawala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-234",
+      "name": "Mahawewa Pradeshiya Sabha",
+      "nameSi": "Mahawewa Pradeshiya Sabha",
+      "nameTa": "Mahawewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-235",
+      "name": "Nattandiya Pradeshiya Sabha",
+      "nameSi": "Nattandiya Pradeshiya Sabha",
+      "nameTa": "Nattandiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-236",
+      "name": "Nawagattegama Pradeshiya Sabha",
+      "nameSi": "Nawagattegama Pradeshiya Sabha",
+      "nameTa": "Nawagattegama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-237",
+      "name": "Pallama Pradeshiya Sabha",
+      "nameSi": "Pallama Pradeshiya Sabha",
+      "nameTa": "Pallama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-238",
+      "name": "Puttalam Pradeshiya Sabha",
+      "nameSi": "Puttalam Pradeshiya Sabha",
+      "nameTa": "Puttalam Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-239",
+      "name": "Vanathavilluwa Pradeshiya Sabha",
+      "nameSi": "Vanathavilluwa Pradeshiya Sabha",
+      "nameTa": "Vanathavilluwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "puttalam-ps-240",
+      "name": "Wennappuwa Pradeshiya Sabha",
+      "nameSi": "Wennappuwa Pradeshiya Sabha",
+      "nameTa": "Wennappuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "puttalam",
+      "province": "North Western"
+    },
+    {
+      "id": "anuradhapura-mc-241",
+      "name": "Anuradhapura Municipal Council",
+      "nameSi": "Anuradhapura Municipal Council",
+      "nameTa": "Anuradhapura Municipal Council",
+      "type": "MC",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-242",
+      "name": "Galenbindunuwewa Pradeshiya Sabha",
+      "nameSi": "Galenbindunuwewa Pradeshiya Sabha",
+      "nameTa": "Galenbindunuwewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-243",
+      "name": "Galnewa Pradeshiya Sabha",
+      "nameSi": "Galnewa Pradeshiya Sabha",
+      "nameTa": "Galnewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-244",
+      "name": "Horowpothana Pradeshiya Sabha",
+      "nameSi": "Horowpothana Pradeshiya Sabha",
+      "nameTa": "Horowpothana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-245",
+      "name": "Ipalogama Pradeshiya Sabha",
+      "nameSi": "Ipalogama Pradeshiya Sabha",
+      "nameTa": "Ipalogama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-246",
+      "name": "Kahatagasdigiliya Pradeshiya Sabha",
+      "nameSi": "Kahatagasdigiliya Pradeshiya Sabha",
+      "nameTa": "Kahatagasdigiliya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-247",
+      "name": "Kebithigollewa Pradeshiya Sabha",
+      "nameSi": "Kebithigollewa Pradeshiya Sabha",
+      "nameTa": "Kebithigollewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-248",
+      "name": "Kekirawa Pradeshiya Sabha",
+      "nameSi": "Kekirawa Pradeshiya Sabha",
+      "nameTa": "Kekirawa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-249",
+      "name": "Medawachchiya Pradeshiya Sabha",
+      "nameSi": "Medawachchiya Pradeshiya Sabha",
+      "nameTa": "Medawachchiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-250",
+      "name": "Mihintale Pradeshiya Sabha",
+      "nameSi": "Mihintale Pradeshiya Sabha",
+      "nameTa": "Mihintale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-251",
+      "name": "Nochchiyagama Pradeshiya Sabha",
+      "nameSi": "Nochchiyagama Pradeshiya Sabha",
+      "nameTa": "Nochchiyagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-252",
+      "name": "Nuwaragam Palatha Central Pradeshiya Sabha",
+      "nameSi": "Nuwaragam Palatha Central Pradeshiya Sabha",
+      "nameTa": "Nuwaragam Palatha Central Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-253",
+      "name": "Nuwaragam Palatha East Pradeshiya Sabha",
+      "nameSi": "Nuwaragam Palatha East Pradeshiya Sabha",
+      "nameTa": "Nuwaragam Palatha East Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-254",
+      "name": "Nuwaragam Palatha West Pradeshiya Sabha",
+      "nameSi": "Nuwaragam Palatha West Pradeshiya Sabha",
+      "nameTa": "Nuwaragam Palatha West Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-255",
+      "name": "Padaviya Pradeshiya Sabha",
+      "nameSi": "Padaviya Pradeshiya Sabha",
+      "nameTa": "Padaviya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-256",
+      "name": "Palagala Pradeshiya Sabha",
+      "nameSi": "Palagala Pradeshiya Sabha",
+      "nameTa": "Palagala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-257",
+      "name": "Palugaswewa Pradeshiya Sabha",
+      "nameSi": "Palugaswewa Pradeshiya Sabha",
+      "nameTa": "Palugaswewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-258",
+      "name": "Rajanganaya Pradeshiya Sabha",
+      "nameSi": "Rajanganaya Pradeshiya Sabha",
+      "nameTa": "Rajanganaya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-259",
+      "name": "Rambewa Pradeshiya Sabha",
+      "nameSi": "Rambewa Pradeshiya Sabha",
+      "nameTa": "Rambewa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-260",
+      "name": "Thalawa Pradeshiya Sabha",
+      "nameSi": "Thalawa Pradeshiya Sabha",
+      "nameTa": "Thalawa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "anuradhapura-ps-261",
+      "name": "Thirappane Pradeshiya Sabha",
+      "nameSi": "Thirappane Pradeshiya Sabha",
+      "nameTa": "Thirappane Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "anuradhapura",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-uc-262",
+      "name": "Polonnaruwa Urban Council",
+      "nameSi": "Polonnaruwa Urban Council",
+      "nameTa": "Polonnaruwa Urban Council",
+      "type": "UC",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-263",
+      "name": "Dimbulagala Pradeshiya Sabha",
+      "nameSi": "Dimbulagala Pradeshiya Sabha",
+      "nameTa": "Dimbulagala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-264",
+      "name": "Elahera Pradeshiya Sabha",
+      "nameSi": "Elahera Pradeshiya Sabha",
+      "nameTa": "Elahera Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-265",
+      "name": "Hingurakgoda Pradeshiya Sabha",
+      "nameSi": "Hingurakgoda Pradeshiya Sabha",
+      "nameTa": "Hingurakgoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-266",
+      "name": "Lankapura Pradeshiya Sabha",
+      "nameSi": "Lankapura Pradeshiya Sabha",
+      "nameTa": "Lankapura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-267",
+      "name": "Medirigiriya Pradeshiya Sabha",
+      "nameSi": "Medirigiriya Pradeshiya Sabha",
+      "nameTa": "Medirigiriya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-268",
+      "name": "Polonnaruwa Pradeshiya Sabha",
+      "nameSi": "Polonnaruwa Pradeshiya Sabha",
+      "nameTa": "Polonnaruwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-269",
+      "name": "Tamankaduwa Pradeshiya Sabha",
+      "nameSi": "Tamankaduwa Pradeshiya Sabha",
+      "nameTa": "Tamankaduwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "polonnaruwa-ps-270",
+      "name": "Welikanda Pradeshiya Sabha",
+      "nameSi": "Welikanda Pradeshiya Sabha",
+      "nameTa": "Welikanda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "polonnaruwa",
+      "province": "North Central"
+    },
+    {
+      "id": "badulla-mc-271",
+      "name": "Badulla Municipal Council",
+      "nameSi": "Badulla Municipal Council",
+      "nameTa": "Badulla Municipal Council",
+      "type": "MC",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-272",
+      "name": "Badulla Pradeshiya Sabha",
+      "nameSi": "Badulla Pradeshiya Sabha",
+      "nameTa": "Badulla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-273",
+      "name": "Bandarawela Pradeshiya Sabha",
+      "nameSi": "Bandarawela Pradeshiya Sabha",
+      "nameTa": "Bandarawela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-274",
+      "name": "Ella Pradeshiya Sabha",
+      "nameSi": "Ella Pradeshiya Sabha",
+      "nameTa": "Ella Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-275",
+      "name": "Haldummulla Pradeshiya Sabha",
+      "nameSi": "Haldummulla Pradeshiya Sabha",
+      "nameTa": "Haldummulla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-276",
+      "name": "Hali-Ela Pradeshiya Sabha",
+      "nameSi": "Hali-Ela Pradeshiya Sabha",
+      "nameTa": "Hali-Ela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-277",
+      "name": "Haputale Pradeshiya Sabha",
+      "nameSi": "Haputale Pradeshiya Sabha",
+      "nameTa": "Haputale Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-278",
+      "name": "Kandaketiya Pradeshiya Sabha",
+      "nameSi": "Kandaketiya Pradeshiya Sabha",
+      "nameTa": "Kandaketiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-279",
+      "name": "Lunugala Pradeshiya Sabha",
+      "nameSi": "Lunugala Pradeshiya Sabha",
+      "nameTa": "Lunugala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-280",
+      "name": "Mahiyanganaya Pradeshiya Sabha",
+      "nameSi": "Mahiyanganaya Pradeshiya Sabha",
+      "nameTa": "Mahiyanganaya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-281",
+      "name": "Meegahakivula Pradeshiya Sabha",
+      "nameSi": "Meegahakivula Pradeshiya Sabha",
+      "nameTa": "Meegahakivula Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-282",
+      "name": "Passara Pradeshiya Sabha",
+      "nameSi": "Passara Pradeshiya Sabha",
+      "nameTa": "Passara Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-283",
+      "name": "Rideemaliyadda Pradeshiya Sabha",
+      "nameSi": "Rideemaliyadda Pradeshiya Sabha",
+      "nameTa": "Rideemaliyadda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-284",
+      "name": "Soranathota Pradeshiya Sabha",
+      "nameSi": "Soranathota Pradeshiya Sabha",
+      "nameTa": "Soranathota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-285",
+      "name": "Uva-Paranagama Pradeshiya Sabha",
+      "nameSi": "Uva-Paranagama Pradeshiya Sabha",
+      "nameTa": "Uva-Paranagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "badulla-ps-286",
+      "name": "Welimada Pradeshiya Sabha",
+      "nameSi": "Welimada Pradeshiya Sabha",
+      "nameTa": "Welimada Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "badulla",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-uc-287",
+      "name": "Monaragala Urban Council",
+      "nameSi": "Monaragala Urban Council",
+      "nameTa": "Monaragala Urban Council",
+      "type": "UC",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-288",
+      "name": "Badalkumbura Pradeshiya Sabha",
+      "nameSi": "Badalkumbura Pradeshiya Sabha",
+      "nameTa": "Badalkumbura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-289",
+      "name": "Bibile Pradeshiya Sabha",
+      "nameSi": "Bibile Pradeshiya Sabha",
+      "nameTa": "Bibile Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-290",
+      "name": "Buttala Pradeshiya Sabha",
+      "nameSi": "Buttala Pradeshiya Sabha",
+      "nameTa": "Buttala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-291",
+      "name": "Katharagama Pradeshiya Sabha",
+      "nameSi": "Katharagama Pradeshiya Sabha",
+      "nameTa": "Katharagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-292",
+      "name": "Madulla Pradeshiya Sabha",
+      "nameSi": "Madulla Pradeshiya Sabha",
+      "nameTa": "Madulla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-293",
+      "name": "Medagama Pradeshiya Sabha",
+      "nameSi": "Medagama Pradeshiya Sabha",
+      "nameTa": "Medagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-294",
+      "name": "Monaragala Pradeshiya Sabha",
+      "nameSi": "Monaragala Pradeshiya Sabha",
+      "nameTa": "Monaragala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-295",
+      "name": "Sevanagala Pradeshiya Sabha",
+      "nameSi": "Sevanagala Pradeshiya Sabha",
+      "nameTa": "Sevanagala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-296",
+      "name": "Siyambalanduwa Pradeshiya Sabha",
+      "nameSi": "Siyambalanduwa Pradeshiya Sabha",
+      "nameTa": "Siyambalanduwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-297",
+      "name": "Thanamalvila Pradeshiya Sabha",
+      "nameSi": "Thanamalvila Pradeshiya Sabha",
+      "nameTa": "Thanamalvila Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "monaragala-ps-298",
+      "name": "Wellawaya Pradeshiya Sabha",
+      "nameSi": "Wellawaya Pradeshiya Sabha",
+      "nameTa": "Wellawaya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "monaragala",
+      "province": "Uva"
+    },
+    {
+      "id": "ratnapura-mc-299",
+      "name": "Ratnapura Municipal Council",
+      "nameSi": "Ratnapura Municipal Council",
+      "nameTa": "Ratnapura Municipal Council",
+      "type": "MC",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-300",
+      "name": "Ayagama Pradeshiya Sabha",
+      "nameSi": "Ayagama Pradeshiya Sabha",
+      "nameTa": "Ayagama Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-301",
+      "name": "Balangoda Pradeshiya Sabha",
+      "nameSi": "Balangoda Pradeshiya Sabha",
+      "nameTa": "Balangoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-302",
+      "name": "Eheliyagoda Pradeshiya Sabha",
+      "nameSi": "Eheliyagoda Pradeshiya Sabha",
+      "nameTa": "Eheliyagoda Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-303",
+      "name": "Elapatha Pradeshiya Sabha",
+      "nameSi": "Elapatha Pradeshiya Sabha",
+      "nameTa": "Elapatha Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-304",
+      "name": "Embilipitiya Pradeshiya Sabha",
+      "nameSi": "Embilipitiya Pradeshiya Sabha",
+      "nameTa": "Embilipitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-305",
+      "name": "Godakawela Pradeshiya Sabha",
+      "nameSi": "Godakawela Pradeshiya Sabha",
+      "nameTa": "Godakawela Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-306",
+      "name": "Imbulpe Pradeshiya Sabha",
+      "nameSi": "Imbulpe Pradeshiya Sabha",
+      "nameTa": "Imbulpe Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-307",
+      "name": "Kahawatta Pradeshiya Sabha",
+      "nameSi": "Kahawatta Pradeshiya Sabha",
+      "nameTa": "Kahawatta Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-308",
+      "name": "Kalawana Pradeshiya Sabha",
+      "nameSi": "Kalawana Pradeshiya Sabha",
+      "nameTa": "Kalawana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-309",
+      "name": "Kiriella Pradeshiya Sabha",
+      "nameSi": "Kiriella Pradeshiya Sabha",
+      "nameTa": "Kiriella Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-310",
+      "name": "Kuruwita Pradeshiya Sabha",
+      "nameSi": "Kuruwita Pradeshiya Sabha",
+      "nameTa": "Kuruwita Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-311",
+      "name": "Nivithigala Pradeshiya Sabha",
+      "nameSi": "Nivithigala Pradeshiya Sabha",
+      "nameTa": "Nivithigala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-312",
+      "name": "Opanayaka Pradeshiya Sabha",
+      "nameSi": "Opanayaka Pradeshiya Sabha",
+      "nameTa": "Opanayaka Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-313",
+      "name": "Pelmadulla Pradeshiya Sabha",
+      "nameSi": "Pelmadulla Pradeshiya Sabha",
+      "nameTa": "Pelmadulla Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-314",
+      "name": "Ratnapura Pradeshiya Sabha",
+      "nameSi": "Ratnapura Pradeshiya Sabha",
+      "nameTa": "Ratnapura Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "ratnapura-ps-315",
+      "name": "Weligepola Pradeshiya Sabha",
+      "nameSi": "Weligepola Pradeshiya Sabha",
+      "nameTa": "Weligepola Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "ratnapura",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-uc-316",
+      "name": "Kegalle Urban Council",
+      "nameSi": "Kegalle Urban Council",
+      "nameTa": "Kegalle Urban Council",
+      "type": "UC",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-317",
+      "name": "Aranayaka Pradeshiya Sabha",
+      "nameSi": "Aranayaka Pradeshiya Sabha",
+      "nameTa": "Aranayaka Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-318",
+      "name": "Bulathkohupitiya Pradeshiya Sabha",
+      "nameSi": "Bulathkohupitiya Pradeshiya Sabha",
+      "nameTa": "Bulathkohupitiya Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-319",
+      "name": "Dehiovita Pradeshiya Sabha",
+      "nameSi": "Dehiovita Pradeshiya Sabha",
+      "nameTa": "Dehiovita Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-320",
+      "name": "Deraniyagala Pradeshiya Sabha",
+      "nameSi": "Deraniyagala Pradeshiya Sabha",
+      "nameTa": "Deraniyagala Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-321",
+      "name": "Galigamuwa Pradeshiya Sabha",
+      "nameSi": "Galigamuwa Pradeshiya Sabha",
+      "nameTa": "Galigamuwa Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-322",
+      "name": "Kegalle Pradeshiya Sabha",
+      "nameSi": "Kegalle Pradeshiya Sabha",
+      "nameTa": "Kegalle Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-323",
+      "name": "Mawanella Pradeshiya Sabha",
+      "nameSi": "Mawanella Pradeshiya Sabha",
+      "nameTa": "Mawanella Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-324",
+      "name": "Rambukkana Pradeshiya Sabha",
+      "nameSi": "Rambukkana Pradeshiya Sabha",
+      "nameTa": "Rambukkana Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-325",
+      "name": "Ruwanwella Pradeshiya Sabha",
+      "nameSi": "Ruwanwella Pradeshiya Sabha",
+      "nameTa": "Ruwanwella Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-326",
+      "name": "Warakapola Pradeshiya Sabha",
+      "nameSi": "Warakapola Pradeshiya Sabha",
+      "nameTa": "Warakapola Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    },
+    {
+      "id": "kegalle-ps-327",
+      "name": "Yatiyantota Pradeshiya Sabha",
+      "nameSi": "Yatiyantota Pradeshiya Sabha",
+      "nameTa": "Yatiyantota Pradeshiya Sabha",
+      "type": "PS",
+      "districtSlug": "kegalle",
+      "province": "Sabaragamuwa"
+    }
+  ]
+}

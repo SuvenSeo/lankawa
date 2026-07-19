@@ -27,7 +27,8 @@
     "sources": "මූලාශ්‍ර",
     "developers": "සංවර්ධක",
     "openMenu": "මෙනුව විවෘත කරන්න",
-    "closeMenu": "මෙනුව වසන්න"
+    "closeMenu": "මෙනුව වසන්න",
+    "property": "ගොඩනැගිලි"
   },
   "home": {
     "eyebrow": "ජාතික සිවිල් බුද්ධිය",
@@ -77,7 +78,11 @@
     "relatedHealthDesc": "මෙම දිස්ත්‍රික්කයේ සaptama දengue සංඛyāna",
     "relatedHealthCases": "මෙම සaptama දengue rog {count} (seed)",
     "relatedCompare": "දිස්ත්‍රික් සංසන්ධනය",
-    "relatedCompareDesc": "වෙනත් දිස්ත්‍රික් සමඟ side-by-side සංසන්ධනය"
+    "relatedCompareDesc": "වෙනත් දිස්ත්‍රික් සමඟ side-by-side සංසන්ධනය",
+    "relatedProperty": "Property pulse",
+    "relatedPropertyDesc": "Median land price bands for this district",
+    "relatedLocalGov": "Local government",
+    "relatedLocalGovDesc": "Municipal councils and Pradeshiya Sabhas"
   },
   "provinces": {
     "title": "පළාත්",
@@ -98,7 +103,11 @@
     "mapMode_density": "ජන ඝනත්වය",
     "mapMode_presidential": "2024 ජනාධිපති ජයග්‍රාහක",
     "mapMode_parliamentary": "2024 පාර්ලිමේන්තු seats",
-    "mapError": "සිතියම load කළ නොහැක"
+    "mapError": "සිතියම load කළ නොහැක",
+    "relatedProperty": "Property pulse",
+    "relatedPropertyDesc": "District land price bands in this province",
+    "relatedLocalGov": "Local government",
+    "relatedLocalGovDesc": "Search MC, UC, and PS bodies by district"
   },
   "elections": {
     "eyebrow": "මැතිවරණ බුද්ධිය",
@@ -129,7 +138,10 @@
     "seatBreakdown": "ආසන breakdown",
     "backParliamentary": "පාර්ලිමේන්තු ප්‍රතිඵල වෙත ආපසු",
     "parliamentaryDistrictSubtitle": "පාර්ලිමේන්තු මැතිවරණ දිස්ත්‍රික් ප්‍රතිඵල",
-    "adminDistricts": "ආවරණය වන administrative දිස්ත්‍රික්"
+    "adminDistricts": "ආවරණය වන administrative දිස්ත්‍රික්",
+    "historyTitle": "Historical elections",
+    "historySubtitle": "Explore presidential cycles from 2010 to 2024 with swing charts.",
+    "historyLink": "Open election history"
   },
   "swing": {
     "title": "මැතිවරණ swing (2019 → 2024)",
@@ -183,7 +195,9 @@
     "groupDistricts": "දිස්ත්‍රික්",
     "groupProvinces": "පළාත්",
     "groupElections": "මැතිවරණ",
-    "groupServices": "සේවා"
+    "groupServices": "සේවා",
+    "groupProperty": "Property",
+    "groupLocalGov": "Local government"
   },
   "services": {
     "title": "පොදු සේවා",
@@ -313,7 +327,13 @@
     "budgetSummary": "ජාතික අයවැය",
     "budgetDescription": "FY 2024/25 සහ 2025/26 revanue, expenditure සහ sector allocations (seed).",
     "dengueSummary": "සaptama දengue සංඛyāna",
-    "dengueDescription": "Epidemiology Unit seed dataset හරහා දිස්ත්‍රික්-level දengue rog counts."
+    "dengueDescription": "Epidemiology Unit seed dataset හරහා දිස්ත්‍රික්-level දengue rog counts.",
+    "propertySummary": "Property price bands",
+    "propertyDescription": "District-level median land price bands with low/high ranges.",
+    "electionHistorySummary": "Election history",
+    "electionHistoryDescription": "Multi-cycle presidential summaries and parliamentary seat history.",
+    "localGovernmentSummary": "Local government directory",
+    "localGovernmentDescription": "Filter MC, UC, and PS bodies by district, type, or search query."
   },
   "budget": {
     "title": "ජාතික අයවැය Tracker",
@@ -367,7 +387,13 @@
     "risk_high": "High",
     "risk_moderate": "Moderate",
     "risk_low": "Low",
-    "disclaimer": "Epidemiology Unit weekly reports patterns මත seed data. Live surveillance නොවේ."
+    "disclaimer": "Epidemiology Unit weekly reports patterns මත seed data. Live surveillance නොවේ.",
+    "viewTable": "Table",
+    "viewMap": "Map",
+    "mapError": "Unable to load map",
+    "mapLegendHigh": "High case count",
+    "mapLegendModerate": "Moderate",
+    "mapLegendLow": "Lower cases"
   },
   "compare": {
     "title": "දිස්ත්‍රික් Compare",
@@ -417,5 +443,66 @@
     "estimatedValue": "Estimated value",
     "closingDate": "Closing date",
     "disclaimer": "e-GP formats model කළ static seed notices. Live procurement data නොවේ."
+  },
+  "property": {
+    "title": "ගොඩනැගිලි සහ නිවාස අංශය",
+    "subtitle": "District-level median land price bands — representative housing market intelligence across Sri Lanka.",
+    "asOf": "As of {date}",
+    "nationalMedian": "National median",
+    "colomboMedian": "Colombo median",
+    "districtsCovered": "Districts covered",
+    "perchUnit": "perch",
+    "mapTitle": "Price choropleth",
+    "mapSubtitle": "Districts colored by median land price per perch.",
+    "mapError": "Unable to load map",
+    "mapLegendHigh": "High price",
+    "mapLegendMid": "Mid price",
+    "mapLegendLow": "Lower price",
+    "tableTitle": "District price table",
+    "district": "District",
+    "medianPerPerch": "Median / perch",
+    "priceBand": "Price band",
+    "trend": "YoY trend",
+    "intensity": "Relative price",
+    "disclaimer": "Representative seed data aligned with PropertyLK patterns. Not a property valuation service — verify with licensed professionals."
+  },
+  "electionHistory": {
+    "eyebrow": "Electoral history",
+    "title": "මැතිවරණ ඉතිහාසය",
+    "subtitle": "Presidential cycles from 2010 to 2024 with district and provincial swing comparisons.",
+    "back": "Back to elections",
+    "nationalWinner": "National winner",
+    "electionDate": "Election date",
+    "turnout": "Turnout",
+    "swingTitle": "Swing {from} → {to}",
+    "swingSubtitle": "Change in winning candidate first-preference share between consecutive cycles.",
+    "districtLevel": "By district",
+    "provinceLevel": "By province",
+    "points": "pp",
+    "flipped": "Flipped",
+    "avgSwing": "Avg. swing",
+    "districtsFlipped": "Districts flipped",
+    "parliamentaryTitle": "Parliamentary cycles",
+    "parliamentarySubtitle": "National seat summaries where parliamentary elections were held.",
+    "year": "Year",
+    "winner": "Winning alliance",
+    "seats": "Seats",
+    "disclaimer": "Historical district figures are seeded approximations aligned with published national totals — not digitized official district ledgers."
+  },
+  "localGovernment": {
+    "title": "ප්‍රාදේශීය සංවිධාන නාමාවලිය",
+    "subtitle": "Municipal councils, urban councils, and Pradeshiya Sabhas searchable by district and type.",
+    "source": "Source",
+    "totalBodies": "Total bodies",
+    "typeMC": "Municipal councils",
+    "typeUC": "Urban councils",
+    "typePS": "Pradeshiya Sabhas",
+    "catalogCount": "{count} local bodies in seed directory",
+    "searchPlaceholder": "Search local bodies…",
+    "allDistricts": "All districts",
+    "allTypes": "All types",
+    "resultsCount": "{count} bodies",
+    "noResults": "No local bodies match your filters.",
+    "disclaimer": "Representative seed directory — not an exhaustive official gazette list."
   }
 }

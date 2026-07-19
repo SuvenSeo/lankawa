@@ -27,7 +27,8 @@
     "sources": "மூலங்கள்",
     "developers": "டெவலப்பர்கள்",
     "openMenu": "மெனுவைத் திற",
-    "closeMenu": "மெனுவை மூட"
+    "closeMenu": "மெனுவை மூட",
+    "property": "சொத்து"
   },
   "home": {
     "eyebrow": "தேசிய சிவில் நுண்ணறிவு",
@@ -77,7 +78,11 @@
     "relatedHealthDesc": "இந்த மாவட்டத்திற்கான வாராந்திர டெங்கு புள்ளிவிவரங்கள்",
     "relatedHealthCases": "இந்த வாரம் {count} டெங்கு வழக்குகள் (seed)",
     "relatedCompare": "மாவட்டங்களை ஒப்பிடு",
-    "relatedCompareDesc": "பிற மாவட்டங்களுடன் side-by-side ஒப்பீடு"
+    "relatedCompareDesc": "பிற மாவட்டங்களுடன் side-by-side ஒப்பீடு",
+    "relatedProperty": "Property pulse",
+    "relatedPropertyDesc": "Median land price bands for this district",
+    "relatedLocalGov": "Local government",
+    "relatedLocalGovDesc": "Municipal councils and Pradeshiya Sabhas"
   },
   "provinces": {
     "title": "மாகாணங்கள்",
@@ -98,7 +103,11 @@
     "mapMode_density": "மக்கள் நெரிச்சல்",
     "mapMode_presidential": "2024 ஜனாதிபதி victor",
     "mapMode_parliamentary": "2024 நாparliament seats",
-    "mapError": "வரைபடம் load செய்ய முடியவில்லை"
+    "mapError": "வரைபடம் load செய்ய முடியவில்லை",
+    "relatedProperty": "Property pulse",
+    "relatedPropertyDesc": "District land price bands in this province",
+    "relatedLocalGov": "Local government",
+    "relatedLocalGovDesc": "Search MC, UC, and PS bodies by district"
   },
   "elections": {
     "eyebrow": "தேர்தல் நுண்ணறிவு",
@@ -129,7 +138,10 @@
     "seatBreakdown": "இட breakdown",
     "backParliamentary": "நாடாளுமன்ற முடிவுகளுக்குத் திரும்பு",
     "parliamentaryDistrictSubtitle": "நாடாளுமன்ற தேர்தல் மாவட்ட முடிவுகள்",
-    "adminDistricts": "உள்ளடக்கிய administrative மாவட்டங்கள்"
+    "adminDistricts": "உள்ளடக்கிய administrative மாவட்டங்கள்",
+    "historyTitle": "Historical elections",
+    "historySubtitle": "Explore presidential cycles from 2010 to 2024 with swing charts.",
+    "historyLink": "Open election history"
   },
   "swing": {
     "title": "தேர்தல் swing (2019 → 2024)",
@@ -183,7 +195,9 @@
     "groupDistricts": "மாவட்டங்கள்",
     "groupProvinces": "மாகாணங்கள்",
     "groupElections": "தேர்தல்",
-    "groupServices": "சேவைகள்"
+    "groupServices": "சேவைகள்",
+    "groupProperty": "Property",
+    "groupLocalGov": "Local government"
   },
   "services": {
     "title": "பொது சேவைகள்",
@@ -313,7 +327,13 @@
     "budgetSummary": "தேசிய பட்ஜெட்",
     "budgetDescription": "FY 2024/25 மற்றும் 2025/26 revenue, expenditure மற்றும் sector allocations (seed).",
     "dengueSummary": "வாராந்திர டெங்கு புள்ளிவிவரங்கள்",
-    "dengueDescription": "Epidemiology Unit seed dataset வழி மாவட்ட-level டெங்கு case counts."
+    "dengueDescription": "Epidemiology Unit seed dataset வழி மாவட்ட-level டெங்கு case counts.",
+    "propertySummary": "Property price bands",
+    "propertyDescription": "District-level median land price bands with low/high ranges.",
+    "electionHistorySummary": "Election history",
+    "electionHistoryDescription": "Multi-cycle presidential summaries and parliamentary seat history.",
+    "localGovernmentSummary": "Local government directory",
+    "localGovernmentDescription": "Filter MC, UC, and PS bodies by district, type, or search query."
   },
   "budget": {
     "title": "தேசிய பட்ஜெட் Tracker",
@@ -367,7 +387,13 @@
     "risk_high": "High",
     "risk_moderate": "Moderate",
     "risk_low": "Low",
-    "disclaimer": "Epidemiology Unit weekly reports patterns மீது seed data. Live surveillance அல்ல."
+    "disclaimer": "Epidemiology Unit weekly reports patterns மீது seed data. Live surveillance அல்ல.",
+    "viewTable": "Table",
+    "viewMap": "Map",
+    "mapError": "Unable to load map",
+    "mapLegendHigh": "High case count",
+    "mapLegendModerate": "Moderate",
+    "mapLegendLow": "Lower cases"
   },
   "compare": {
     "title": "மாவட்ட Compare",
@@ -417,5 +443,66 @@
     "estimatedValue": "Estimated value",
     "closingDate": "Closing date",
     "disclaimer": "e-GP formats model செய்யப்பட்ட static seed notices. Live procurement data அல்ல."
+  },
+  "property": {
+    "title": "சொத்து & வீட்டுவசதி",
+    "subtitle": "District-level median land price bands — representative housing market intelligence across Sri Lanka.",
+    "asOf": "As of {date}",
+    "nationalMedian": "National median",
+    "colomboMedian": "Colombo median",
+    "districtsCovered": "Districts covered",
+    "perchUnit": "perch",
+    "mapTitle": "Price choropleth",
+    "mapSubtitle": "Districts colored by median land price per perch.",
+    "mapError": "Unable to load map",
+    "mapLegendHigh": "High price",
+    "mapLegendMid": "Mid price",
+    "mapLegendLow": "Lower price",
+    "tableTitle": "District price table",
+    "district": "District",
+    "medianPerPerch": "Median / perch",
+    "priceBand": "Price band",
+    "trend": "YoY trend",
+    "intensity": "Relative price",
+    "disclaimer": "Representative seed data aligned with PropertyLK patterns. Not a property valuation service — verify with licensed professionals."
+  },
+  "electionHistory": {
+    "eyebrow": "Electoral history",
+    "title": "தேர்தல் வரலாறு",
+    "subtitle": "Presidential cycles from 2010 to 2024 with district and provincial swing comparisons.",
+    "back": "Back to elections",
+    "nationalWinner": "National winner",
+    "electionDate": "Election date",
+    "turnout": "Turnout",
+    "swingTitle": "Swing {from} → {to}",
+    "swingSubtitle": "Change in winning candidate first-preference share between consecutive cycles.",
+    "districtLevel": "By district",
+    "provinceLevel": "By province",
+    "points": "pp",
+    "flipped": "Flipped",
+    "avgSwing": "Avg. swing",
+    "districtsFlipped": "Districts flipped",
+    "parliamentaryTitle": "Parliamentary cycles",
+    "parliamentarySubtitle": "National seat summaries where parliamentary elections were held.",
+    "year": "Year",
+    "winner": "Winning alliance",
+    "seats": "Seats",
+    "disclaimer": "Historical district figures are seeded approximations aligned with published national totals — not digitized official district ledgers."
+  },
+  "localGovernment": {
+    "title": "உள்ளாட்சி அமைப்பு அடைவு",
+    "subtitle": "Municipal councils, urban councils, and Pradeshiya Sabhas searchable by district and type.",
+    "source": "Source",
+    "totalBodies": "Total bodies",
+    "typeMC": "Municipal councils",
+    "typeUC": "Urban councils",
+    "typePS": "Pradeshiya Sabhas",
+    "catalogCount": "{count} local bodies in seed directory",
+    "searchPlaceholder": "Search local bodies…",
+    "allDistricts": "All districts",
+    "allTypes": "All types",
+    "resultsCount": "{count} bodies",
+    "noResults": "No local bodies match your filters.",
+    "disclaimer": "Representative seed directory — not an exhaustive official gazette list."
   }
 }

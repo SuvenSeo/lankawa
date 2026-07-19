@@ -1,0 +1,51 @@
+{
+  "cycles": [
+    {
+      "year": 2010,
+      "date": "2010-04-08",
+      "winner": "UPFA",
+      "winnerSeats": 144,
+      "totalSeats": 225,
+      "turnout": 75,
+      "sourceId": "election_commission_pe_2010"
+    },
+    {
+      "year": 2015,
+      "date": "2015-08-17",
+      "winner": "UNP",
+      "winnerSeats": 106,
+      "totalSeats": 225,
+      "turnout": 77.7,
+      "sourceId": "election_commission_pe_2015"
+    },
+    {
+      "year": 2019,
+      "date": "2019-11-16",
+      "note": "Presidential only — parliamentary dissolved",
+      "winner": null,
+      "winnerSeats": null,
+      "totalSeats": 225,
+      "turnout": null,
+      "sourceId": "election_commission_pe_2019"
+    },
+    {
+      "year": 2020,
+      "date": "2020-08-05",
+      "winner": "SLPP",
+      "winnerSeats": 145,
+      "totalSeats": 225,
+      "turnout": 71.4,
+      "sourceId": "election_commission_pe_2020"
+    },
+    {
+      "year": 2024,
+      "date": "2024-11-14",
+      "winner": "NPP",
+      "winnerSeats": 159,
+      "totalSeats": 225,
+      "turnout": 68.9,
+      "sourceId": "election_commission_pe_2024"
+    }
+  ],
+  "sourceName": "Election Commission of Sri Lanka"
+}

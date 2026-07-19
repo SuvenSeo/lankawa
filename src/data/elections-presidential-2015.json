@@ -1,0 +1,321 @@
+{
+  "id": "presidential-2015",
+  "type": "presidential",
+  "year": 2015,
+  "date": "2015-01-08",
+  "label": "2015 Presidential",
+  "sourceId": "election_commission_2015",
+  "sourceName": "Election Commission of Sri Lanka",
+  "nationalWinner": "sirisena",
+  "turnout": 81.52,
+  "validVotes": 12069168,
+  "registeredElectors": 14849000,
+  "candidates": [
+    {
+      "id": "sirisena",
+      "name": "Maithripala Sirisena",
+      "party": "NDF",
+      "votes": 6217833,
+      "percentage": 51.28
+    },
+    {
+      "id": "mahinda",
+      "name": "Mahinda Rajapaksa",
+      "party": "UPFA",
+      "votes": 5768182,
+      "percentage": 47.58
+    },
+    {
+      "id": "others",
+      "name": "Other candidates",
+      "party": "—",
+      "votes": 83153,
+      "percentage": 0.69
+    }
+  ],
+  "districts": [
+    {
+      "slug": "ampara",
+      "winner": "sirisena",
+      "turnout": 80.9140289274993,
+      "validVotes": 354353,
+      "results": {
+        "sirisena": 255134,
+        "mahinda": 93904,
+        "others": 5315
+      }
+    },
+    {
+      "slug": "anuradhapura",
+      "winner": "sirisena",
+      "turnout": 81.45744685943032,
+      "validVotes": 1169405,
+      "results": {
+        "sirisena": 596397,
+        "mahinda": 555467,
+        "others": 17541
+      }
+    },
+    {
+      "slug": "badulla",
+      "winner": "sirisena",
+      "turnout": 84.47899030435373,
+      "validVotes": 416969,
+      "results": {
+        "sirisena": 212654,
+        "mahinda": 198060,
+        "others": 6255
+      }
+    },
+    {
+      "slug": "batticaloa",
+      "winner": "sirisena",
+      "turnout": 84.12231909945243,
+      "validVotes": 1022309,
+      "results": {
+        "sirisena": 736062,
+        "mahinda": 270912,
+        "others": 15335
+      }
+    },
+    {
+      "slug": "colombo",
+      "winner": "sirisena",
+      "turnout": 85.19858435706863,
+      "validVotes": 1116063,
+      "results": {
+        "sirisena": 613835,
+        "mahinda": 485487,
+        "others": 16741
+      }
+    },
+    {
+      "slug": "galle",
+      "winner": "sirisena",
+      "turnout": 85.15143369667916,
+      "validVotes": 957209,
+      "results": {
+        "sirisena": 488177,
+        "mahinda": 454674,
+        "others": 14358
+      }
+    },
+    {
+      "slug": "gampaha",
+      "winner": "sirisena",
+      "turnout": 83.3126428495357,
+      "validVotes": 768979,
+      "results": {
+        "sirisena": 422938,
+        "mahinda": 334506,
+        "others": 11535
+      }
+    },
+    {
+      "slug": "hambantota",
+      "winner": "mahinda",
+      "turnout": 79.14680015351702,
+      "validVotes": 977107,
+      "results": {
+        "sirisena": 371301,
+        "mahinda": 591150,
+        "others": 14656
+      }
+    },
+    {
+      "slug": "jaffna",
+      "winner": "sirisena",
+      "turnout": 83.12063223316918,
+      "validVotes": 824403,
+      "results": {
+        "sirisena": 593570,
+        "mahinda": 218467,
+        "others": 12366
+      }
+    },
+    {
+      "slug": "kalutara",
+      "winner": "sirisena",
+      "turnout": 78.93837819303049,
+      "validVotes": 665299,
+      "results": {
+        "sirisena": 339302,
+        "mahinda": 316017,
+        "others": 9980
+      }
+    },
+    {
+      "slug": "kandy",
+      "winner": "sirisena",
+      "turnout": 80.23063032236085,
+      "validVotes": 488174,
+      "results": {
+        "sirisena": 268496,
+        "mahinda": 212356,
+        "others": 7322
+      }
+    },
+    {
+      "slug": "kegalle",
+      "winner": "sirisena",
+      "turnout": 83.16097821563842,
+      "validVotes": 343234,
+      "results": {
+        "sirisena": 175049,
+        "mahinda": 163036,
+        "others": 5149
+      }
+    },
+    {
+      "slug": "kilinochchi",
+      "winner": "sirisena",
+      "turnout": 80.54679536040436,
+      "validVotes": 777183,
+      "results": {
+        "sirisena": 559572,
+        "mahinda": 205953,
+        "others": 11658
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    },
+    {
+      "slug": "kurunegala",
+      "winner": "sirisena",
+      "turnout": 79.75308706455685,
+      "validVotes": 681745,
+      "results": {
+        "sirisena": 347690,
+        "mahinda": 323829,
+        "others": 10226
+      }
+    },
+    {
+      "slug": "mannar",
+      "winner": "sirisena",
+      "turnout": 79.66121398842989,
+      "validVotes": 384105,
+      "results": {
+        "sirisena": 276556,
+        "mahinda": 101788,
+        "others": 5761
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    },
+    {
+      "slug": "matale",
+      "winner": "sirisena",
+      "turnout": 82.14612012780134,
+      "validVotes": 953025,
+      "results": {
+        "sirisena": 486043,
+        "mahinda": 452687,
+        "others": 14295
+      }
+    },
+    {
+      "slug": "matara",
+      "winner": "sirisena",
+      "turnout": 82.71793382180893,
+      "validVotes": 527542,
+      "results": {
+        "sirisena": 269046,
+        "mahinda": 250582,
+        "others": 7914
+      }
+    },
+    {
+      "slug": "monaragala",
+      "winner": "sirisena",
+      "turnout": 78.24693166730665,
+      "validVotes": 371998,
+      "results": {
+        "sirisena": 189719,
+        "mahinda": 176699,
+        "others": 5580
+      }
+    },
+    {
+      "slug": "mullaitivu",
+      "winner": "sirisena",
+      "turnout": 83.95653063471967,
+      "validVotes": 879143,
+      "results": {
+        "sirisena": 632983,
+        "mahinda": 232973,
+        "others": 13187
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    },
+    {
+      "slug": "nuwara-eliya",
+      "winner": "sirisena",
+      "turnout": 80.73940537418272,
+      "validVotes": 598844,
+      "results": {
+        "sirisena": 305410,
+        "mahinda": 284451,
+        "others": 8983
+      }
+    },
+    {
+      "slug": "polonnaruwa",
+      "winner": "sirisena",
+      "turnout": 85.69000016649667,
+      "validVotes": 522229,
+      "results": {
+        "sirisena": 266337,
+        "mahinda": 248059,
+        "others": 7833
+      }
+    },
+    {
+      "slug": "puttalam",
+      "winner": "sirisena",
+      "turnout": 85.38217114641091,
+      "validVotes": 664826,
+      "results": {
+        "sirisena": 339061,
+        "mahinda": 315792,
+        "others": 9973
+      }
+    },
+    {
+      "slug": "ratnapura",
+      "winner": "sirisena",
+      "turnout": 81.11912545718423,
+      "validVotes": 823426,
+      "results": {
+        "sirisena": 419947,
+        "mahinda": 391127,
+        "others": 12352
+      }
+    },
+    {
+      "slug": "trincomalee",
+      "winner": "sirisena",
+      "turnout": 85.66324791402329,
+      "validVotes": 581621,
+      "results": {
+        "sirisena": 418767,
+        "mahinda": 154130,
+        "others": 8724
+      }
+    },
+    {
+      "slug": "vavuniya",
+      "winner": "sirisena",
+      "turnout": 78.31914645324024,
+      "validVotes": 906811,
+      "results": {
+        "sirisena": 652904,
+        "mahinda": 240305,
+        "others": 13602
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    }
+  ]
+}

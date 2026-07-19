@@ -27,7 +27,8 @@
     "sources": "Sources",
     "developers": "Developers",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "property": "Property"
   },
   "home": {
     "eyebrow": "National civic intelligence",
@@ -77,7 +78,11 @@
     "relatedHealthDesc": "Weekly dengue statistics for this district",
     "relatedHealthCases": "{count} dengue cases this week (seed)",
     "relatedCompare": "Compare districts",
-    "relatedCompareDesc": "Side-by-side comparison with other districts"
+    "relatedCompareDesc": "Side-by-side comparison with other districts",
+    "relatedProperty": "Property pulse",
+    "relatedPropertyDesc": "Median land price bands for this district",
+    "relatedLocalGov": "Local government",
+    "relatedLocalGovDesc": "Municipal councils and Pradeshiya Sabhas"
   },
   "provinces": {
     "title": "Provinces",
@@ -98,7 +103,11 @@
     "mapMode_density": "Population density",
     "mapMode_presidential": "2024 presidential winner",
     "mapMode_parliamentary": "2024 parliamentary seats",
-    "mapError": "Unable to load map"
+    "mapError": "Unable to load map",
+    "relatedProperty": "Property pulse",
+    "relatedPropertyDesc": "District land price bands in this province",
+    "relatedLocalGov": "Local government",
+    "relatedLocalGovDesc": "Search MC, UC, and PS bodies by district"
   },
   "elections": {
     "eyebrow": "Electoral intelligence",
@@ -129,7 +138,10 @@
     "seatBreakdown": "Seat breakdown",
     "backParliamentary": "Back to parliamentary results",
     "parliamentaryDistrictSubtitle": "Parliamentary election district results",
-    "adminDistricts": "Administrative districts covered"
+    "adminDistricts": "Administrative districts covered",
+    "historyTitle": "Historical elections",
+    "historySubtitle": "Explore presidential cycles from 2010 to 2024 with swing charts.",
+    "historyLink": "Open election history"
   },
   "swing": {
     "title": "Electoral swing (2019 → 2024)",
@@ -183,7 +195,9 @@
     "groupDistricts": "Districts",
     "groupProvinces": "Provinces",
     "groupElections": "Elections",
-    "groupServices": "Services"
+    "groupServices": "Services",
+    "groupProperty": "Property",
+    "groupLocalGov": "Local government"
   },
   "services": {
     "title": "Public Services",
@@ -313,7 +327,13 @@
     "budgetSummary": "National budget",
     "budgetDescription": "FY 2024/25 and 2025/26 revenue, expenditure, and sector allocations (seed).",
     "dengueSummary": "Dengue weekly statistics",
-    "dengueDescription": "District-level dengue case counts from the Epidemiology Unit seed dataset."
+    "dengueDescription": "District-level dengue case counts from the Epidemiology Unit seed dataset.",
+    "propertySummary": "Property price bands",
+    "propertyDescription": "District-level median land price bands with low/high ranges.",
+    "electionHistorySummary": "Election history",
+    "electionHistoryDescription": "Multi-cycle presidential summaries and parliamentary seat history.",
+    "localGovernmentSummary": "Local government directory",
+    "localGovernmentDescription": "Filter MC, UC, and PS bodies by district, type, or search query."
   },
   "budget": {
     "title": "National Budget Tracker",
@@ -367,7 +387,13 @@
     "risk_high": "High",
     "risk_moderate": "Moderate",
     "risk_low": "Low",
-    "disclaimer": "Seed data patterned on Epidemiology Unit weekly reports. Not live surveillance — verify with official health sources for clinical decisions."
+    "disclaimer": "Seed data patterned on Epidemiology Unit weekly reports. Not live surveillance — verify with official health sources for clinical decisions.",
+    "viewTable": "Table",
+    "viewMap": "Map",
+    "mapError": "Unable to load map",
+    "mapLegendHigh": "High case count",
+    "mapLegendModerate": "Moderate",
+    "mapLegendLow": "Lower cases"
   },
   "compare": {
     "title": "District Compare",
@@ -417,5 +443,66 @@
     "estimatedValue": "Estimated value",
     "closingDate": "Closing date",
     "disclaimer": "Static seed notices modeled on e-GP formats. Not live procurement data."
+  },
+  "property": {
+    "title": "Property & Housing Pulse",
+    "subtitle": "District-level median land price bands — representative housing market intelligence across Sri Lanka.",
+    "asOf": "As of {date}",
+    "nationalMedian": "National median",
+    "colomboMedian": "Colombo median",
+    "districtsCovered": "Districts covered",
+    "perchUnit": "perch",
+    "mapTitle": "Price choropleth",
+    "mapSubtitle": "Districts colored by median land price per perch.",
+    "mapError": "Unable to load map",
+    "mapLegendHigh": "High price",
+    "mapLegendMid": "Mid price",
+    "mapLegendLow": "Lower price",
+    "tableTitle": "District price table",
+    "district": "District",
+    "medianPerPerch": "Median / perch",
+    "priceBand": "Price band",
+    "trend": "YoY trend",
+    "intensity": "Relative price",
+    "disclaimer": "Representative seed data aligned with PropertyLK patterns. Not a property valuation service — verify with licensed professionals."
+  },
+  "electionHistory": {
+    "eyebrow": "Electoral history",
+    "title": "Election History Explorer",
+    "subtitle": "Presidential cycles from 2010 to 2024 with district and provincial swing comparisons.",
+    "back": "Back to elections",
+    "nationalWinner": "National winner",
+    "electionDate": "Election date",
+    "turnout": "Turnout",
+    "swingTitle": "Swing {from} → {to}",
+    "swingSubtitle": "Change in winning candidate first-preference share between consecutive cycles.",
+    "districtLevel": "By district",
+    "provinceLevel": "By province",
+    "points": "pp",
+    "flipped": "Flipped",
+    "avgSwing": "Avg. swing",
+    "districtsFlipped": "Districts flipped",
+    "parliamentaryTitle": "Parliamentary cycles",
+    "parliamentarySubtitle": "National seat summaries where parliamentary elections were held.",
+    "year": "Year",
+    "winner": "Winning alliance",
+    "seats": "Seats",
+    "disclaimer": "Historical district figures are seeded approximations aligned with published national totals — not digitized official district ledgers."
+  },
+  "localGovernment": {
+    "title": "Local Government Directory",
+    "subtitle": "Municipal councils, urban councils, and Pradeshiya Sabhas searchable by district and type.",
+    "source": "Source",
+    "totalBodies": "Total bodies",
+    "typeMC": "Municipal councils",
+    "typeUC": "Urban councils",
+    "typePS": "Pradeshiya Sabhas",
+    "catalogCount": "{count} local bodies in seed directory",
+    "searchPlaceholder": "Search local bodies…",
+    "allDistricts": "All districts",
+    "allTypes": "All types",
+    "resultsCount": "{count} bodies",
+    "noResults": "No local bodies match your filters.",
+    "disclaimer": "Representative seed directory — not an exhaustive official gazette list."
   }
 }

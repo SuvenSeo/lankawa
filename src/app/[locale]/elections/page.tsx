@@ -122,6 +122,17 @@ export default async function ElectionsPage({
         </section>
 
         <VanniCrosswalkNotice />
+
+        <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
+          <h2 className="text-lg font-semibold text-white">{t("historyTitle")}</h2>
+          <p className="mt-2 text-sm text-slate-400">{t("historySubtitle")}</p>
+          <Link
+            href="/elections/history"
+            className="mt-4 inline-flex rounded-full bg-teal-500 px-4 py-2 text-sm font-medium text-slate-950 hover:bg-teal-400"
+          >
+            {t("historyLink")}
+          </Link>
+        </section>
       </div>
     );
   }
@@ -239,6 +250,17 @@ export default async function ElectionsPage({
       </section>
 
       <VanniCrosswalkNotice />
+
+      <section className="rounded-2xl border border-white/10 bg-white/5 p-5">
+        <h2 className="text-lg font-semibold text-white">{t("historyTitle")}</h2>
+        <p className="mt-2 text-sm text-slate-400">{t("historySubtitle")}</p>
+        <Link
+          href="/elections/history"
+          className="mt-4 inline-flex rounded-full bg-teal-500 px-4 py-2 text-sm font-medium text-slate-950 hover:bg-teal-400"
+        >
+          {t("historyLink")}
+        </Link>
+      </section>
     </div>
   );
 }

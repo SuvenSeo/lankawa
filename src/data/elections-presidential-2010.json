@@ -1,0 +1,321 @@
+{
+  "id": "presidential-2010",
+  "type": "presidential",
+  "year": 2010,
+  "date": "2010-01-26",
+  "label": "2010 Presidential",
+  "sourceId": "election_commission_2010",
+  "sourceName": "Election Commission of Sri Lanka",
+  "nationalWinner": "mahinda",
+  "turnout": 74.49,
+  "validVotes": 10149542,
+  "registeredElectors": 13605498,
+  "candidates": [
+    {
+      "id": "mahinda",
+      "name": "Mahinda Rajapaksa",
+      "party": "UPFA",
+      "votes": 6021513,
+      "percentage": 57.88
+    },
+    {
+      "id": "fonseka",
+      "name": "Sarath Fonseka",
+      "party": "DNA",
+      "votes": 4120568,
+      "percentage": 40.15
+    },
+    {
+      "id": "others",
+      "name": "Other candidates",
+      "party": "—",
+      "votes": 20461,
+      "percentage": 0.2
+    }
+  ],
+  "districts": [
+    {
+      "slug": "ampara",
+      "winner": "fonseka",
+      "turnout": 73.57273523317838,
+      "validVotes": 504454,
+      "results": {
+        "mahinda": 176559,
+        "fonseka": 317806,
+        "others": 10089
+      }
+    },
+    {
+      "slug": "anuradhapura",
+      "winner": "mahinda",
+      "turnout": 78.97083058541585,
+      "validVotes": 655123,
+      "results": {
+        "mahinda": 379971,
+        "fonseka": 262049,
+        "others": 13103
+      }
+    },
+    {
+      "slug": "badulla",
+      "winner": "mahinda",
+      "turnout": 75.11852492764476,
+      "validVotes": 486901,
+      "results": {
+        "mahinda": 282403,
+        "fonseka": 194760,
+        "others": 9738
+      }
+    },
+    {
+      "slug": "batticaloa",
+      "winner": "fonseka",
+      "turnout": 81.8367267716865,
+      "validVotes": 1084479,
+      "results": {
+        "mahinda": 379568,
+        "fonseka": 683222,
+        "others": 21689
+      }
+    },
+    {
+      "slug": "colombo",
+      "winner": "fonseka",
+      "turnout": 73.77623516231264,
+      "validVotes": 837253,
+      "results": {
+        "mahinda": 351646,
+        "fonseka": 468862,
+        "others": 16745
+      }
+    },
+    {
+      "slug": "galle",
+      "winner": "mahinda",
+      "turnout": 74.757155726656,
+      "validVotes": 760289,
+      "results": {
+        "mahinda": 471379,
+        "fonseka": 273704,
+        "others": 15206
+      }
+    },
+    {
+      "slug": "gampaha",
+      "winner": "fonseka",
+      "turnout": 83.05580002646298,
+      "validVotes": 850034,
+      "results": {
+        "mahinda": 408016,
+        "fonseka": 425017,
+        "others": 17001
+      }
+    },
+    {
+      "slug": "hambantota",
+      "winner": "mahinda",
+      "turnout": 76.04681917860057,
+      "validVotes": 376658,
+      "results": {
+        "mahinda": 233528,
+        "fonseka": 135597,
+        "others": 7533
+      }
+    },
+    {
+      "slug": "jaffna",
+      "winner": "fonseka",
+      "turnout": 74.7421667901727,
+      "validVotes": 1031247,
+      "results": {
+        "mahinda": 360936,
+        "fonseka": 649686,
+        "others": 20625
+      }
+    },
+    {
+      "slug": "kalutara",
+      "winner": "mahinda",
+      "turnout": 83.34953650515465,
+      "validVotes": 922057,
+      "results": {
+        "mahinda": 534793,
+        "fonseka": 368823,
+        "others": 18441
+      }
+    },
+    {
+      "slug": "kandy",
+      "winner": "fonseka",
+      "turnout": 76.94708094655547,
+      "validVotes": 800788,
+      "results": {
+        "mahinda": 384378,
+        "fonseka": 400394,
+        "others": 16016
+      }
+    },
+    {
+      "slug": "kegalle",
+      "winner": "mahinda",
+      "turnout": 74.27657073225396,
+      "validVotes": 352639,
+      "results": {
+        "mahinda": 204531,
+        "fonseka": 141056,
+        "others": 7052
+      }
+    },
+    {
+      "slug": "kilinochchi",
+      "winner": "fonseka",
+      "turnout": 75.19414015488687,
+      "validVotes": 883469,
+      "results": {
+        "mahinda": 309214,
+        "fonseka": 556585,
+        "others": 17670
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    },
+    {
+      "slug": "kurunegala",
+      "winner": "mahinda",
+      "turnout": 83.51361475523733,
+      "validVotes": 811703,
+      "results": {
+        "mahinda": 470788,
+        "fonseka": 324681,
+        "others": 16234
+      }
+    },
+    {
+      "slug": "mannar",
+      "winner": "fonseka",
+      "turnout": 80.0603319813939,
+      "validVotes": 448813,
+      "results": {
+        "mahinda": 157085,
+        "fonseka": 282752,
+        "others": 8976
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    },
+    {
+      "slug": "matale",
+      "winner": "mahinda",
+      "turnout": 78.31799264303505,
+      "validVotes": 966153,
+      "results": {
+        "mahinda": 560369,
+        "fonseka": 386461,
+        "others": 19323
+      }
+    },
+    {
+      "slug": "matara",
+      "winner": "mahinda",
+      "turnout": 76.9399324871091,
+      "validVotes": 1070640,
+      "results": {
+        "mahinda": 663797,
+        "fonseka": 385430,
+        "others": 21413
+      }
+    },
+    {
+      "slug": "monaragala",
+      "winner": "mahinda",
+      "turnout": 76.78899094197833,
+      "validVotes": 502515,
+      "results": {
+        "mahinda": 311559,
+        "fonseka": 180905,
+        "others": 10051
+      }
+    },
+    {
+      "slug": "mullaitivu",
+      "winner": "fonseka",
+      "turnout": 75.74275214133739,
+      "validVotes": 527652,
+      "results": {
+        "mahinda": 184678,
+        "fonseka": 332421,
+        "others": 10553
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    },
+    {
+      "slug": "nuwara-eliya",
+      "winner": "mahinda",
+      "turnout": 83.73147555933383,
+      "validVotes": 681463,
+      "results": {
+        "mahinda": 395249,
+        "fonseka": 272585,
+        "others": 13629
+      }
+    },
+    {
+      "slug": "polonnaruwa",
+      "winner": "mahinda",
+      "turnout": 82.27114787683131,
+      "validVotes": 1012766,
+      "results": {
+        "mahinda": 587404,
+        "fonseka": 405106,
+        "others": 20256
+      }
+    },
+    {
+      "slug": "puttalam",
+      "winner": "mahinda",
+      "turnout": 79.801890475263,
+      "validVotes": 904731,
+      "results": {
+        "mahinda": 524744,
+        "fonseka": 361892,
+        "others": 18095
+      }
+    },
+    {
+      "slug": "ratnapura",
+      "winner": "mahinda",
+      "turnout": 74.52209605562796,
+      "validVotes": 695003,
+      "results": {
+        "mahinda": 403102,
+        "fonseka": 278001,
+        "others": 13900
+      }
+    },
+    {
+      "slug": "trincomalee",
+      "winner": "fonseka",
+      "turnout": 80.1985431704025,
+      "validVotes": 732996,
+      "results": {
+        "mahinda": 256549,
+        "fonseka": 461787,
+        "others": 14660
+      }
+    },
+    {
+      "slug": "vavuniya",
+      "winner": "fonseka",
+      "turnout": 79.33961037177289,
+      "validVotes": 863909,
+      "results": {
+        "mahinda": 302368,
+        "fonseka": 544263,
+        "others": 17278
+      },
+      "electoralDistrict": "vanni",
+      "note": "Aggregated at Vanni electoral district in official returns"
+    }
+  ]
+}

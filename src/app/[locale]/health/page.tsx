@@ -1,5 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { DengueDistrictTable } from "@/components/DengueDistrictTable";
+import { HealthViewToggle } from "@/components/DengueChoroplethMap";
 import { Link } from "@/i18n/navigation";
 import { getDengueSnapshot } from "@/lib/health";
 import { getSourceProvenancePath } from "@/lib/sources";
@@ -58,11 +58,7 @@ export default async function HealthPage({
         </div>
       </dl>
 
-      <section className="space-y-4">
-        <h2 className="text-xl font-semibold text-white">{t("districtTableTitle")}</h2>
-        <p className="text-sm text-slate-400">{t("districtTableSubtitle")}</p>
-        <DengueDistrictTable districts={snapshot.districts} locale={locale} />
-      </section>
+      <HealthViewToggle districts={snapshot.districts} locale={locale} />
 
       <p className="text-sm text-slate-500">{t("disclaimer")}</p>
     </div>

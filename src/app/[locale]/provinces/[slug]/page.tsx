@@ -187,6 +187,22 @@ export default async function ProvinceDetailPage({
 
       <section className="space-y-4">
         <h2 className="text-xl font-semibold text-white">{t("districtList")}</h2>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <Link
+            href="/local-government"
+            className="rounded-xl border border-white/10 bg-white/5 p-4 transition hover:border-teal-400/30 hover:bg-white/10"
+          >
+            <p className="font-medium text-white">{t("relatedLocalGov")}</p>
+            <p className="mt-1 text-sm text-slate-400">{t("relatedLocalGovDesc")}</p>
+          </Link>
+          <Link
+            href="/property"
+            className="rounded-xl border border-white/10 bg-white/5 p-4 transition hover:border-teal-400/30 hover:bg-white/10"
+          >
+            <p className="font-medium text-white">{t("relatedProperty")}</p>
+            <p className="mt-1 text-sm text-slate-400">{t("relatedPropertyDesc")}</p>
+          </Link>
+        </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {districts.map((district) => {
             const electionResult = getElectionDistrictResult(district.slug);

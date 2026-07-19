@@ -8,7 +8,15 @@ import {
   getParliamentaryElection2024,
   getPresidentialElection2024,
 } from "@/lib/elections";
+import {
+  filterLocalGovernment,
+  getLocalGovernmentName,
+} from "@/lib/local-government";
 import { PROVINCES, getProvinceName } from "@/lib/provinces";
+import {
+  formatPropertyPrice,
+  getPropertyDistrictPrice,
+} from "@/lib/property";
 import {
   getAllPublicServices,
   getPublicServiceName,
@@ -18,7 +26,9 @@ type SearchResult =
   | { type: "district"; slug: string; label: string; meta: string; href: string }
   | { type: "province"; slug: string; label: string; meta: string; href: string }
   | { type: "election"; slug: string; label: string; meta: string; href: string }
-  | { type: "service"; slug: string; label: string; meta: string; href: string };
+  | { type: "service"; slug: string; label: string; meta: string; href: string }
+  | { type: "property"; slug: string; label: string; meta: string; href: string }
+  | { type: "localGov"; slug: string; label: string; meta: string; href: string };
 
 function normalize(value: string): string {
   return value.trim().toLowerCase();
@@ -37,6 +47,17 @@ function buildSearchIndex(locale: string): SearchResult[] {
       meta: district.province,
       href: `/districts/${district.slug}`,
     });
+
+    const price = getPropertyDistrictPrice(district.slug);
+    if (price) {
+      results.push({
+        type: "property",
+        slug: `property-${district.slug}`,
+        label: getDistrictName(district, locale),
+        meta: `Property · LKR ${formatPropertyPrice(price.medianPerPerch)}/perch`,
+        href: "/property",
+      });
+    }
   }
 
   for (const province of PROVINCES) {
@@ -87,6 +108,13 @@ function buildSearchIndex(locale: string): SearchResult[] {
     meta: "National results",
     href: "/elections?type=parliamentary",
   });
+  results.push({
+    type: "election",
+    slug: "elections-history",
+    label: "Election History 2010–2024",
+    meta: "Multi-cycle explorer",
+    href: "/elections/history",
+  });
 
   for (const facility of getAllPublicServices()) {
     results.push({
@@ -97,6 +125,31 @@ function buildSearchIndex(locale: string): SearchResult[] {
       href: `/services?district=${facility.districtSlug}&q=${encodeURIComponent(facility.name)}`,
     });
   }
+
+  for (const body of filterLocalGovernment({}).slice(0, 120)) {
+    results.push({
+      type: "localGov",
+      slug: body.id,
+      label: getLocalGovernmentName(body, locale),
+      meta: `${body.type} · ${body.districtSlug}`,
+      href: `/local-government?district=${body.districtSlug}&q=${encodeURIComponent(body.name)}`,
+    });
+  }
+
+  results.push({
+    type: "property",
+    slug: "property-hub",
+    label: "Property & Housing Pulse",
+    meta: "District land price bands",
+    href: "/property",
+  });
+  results.push({
+    type: "localGov",
+    slug: "local-government-hub",
+    label: "Local Government Directory",
+    meta: "MC, UC, Pradeshiya Sabha",
+    href: "/local-government",
+  });
 
   return results;
 }
@@ -133,6 +186,8 @@ export function GlobalSearch() {
       province: [],
       election: [],
       service: [],
+      property: [],
+      localGov: [],
     };
     for (const result of results) {
       groups[result.type].push(result);
@@ -145,6 +200,8 @@ export function GlobalSearch() {
       ...grouped.district,
       ...grouped.province,
       ...grouped.election,
+      ...grouped.property,
+      ...grouped.localGov,
       ...grouped.service,
     ],
     [grouped],
@@ -204,6 +261,8 @@ export function GlobalSearch() {
     province: t("groupProvinces"),
     election: t("groupElections"),
     service: t("groupServices"),
+    property: t("groupProperty"),
+    localGov: t("groupLocalGov"),
   };
 
   let optionIndex = -1;
@@ -244,52 +303,59 @@ export function GlobalSearch() {
           role="listbox"
           className="absolute z-50 mt-2 max-h-80 w-full overflow-auto rounded-2xl border border-white/10 bg-slate-900 py-2 shadow-xl"
         >
-          {(["district", "province", "election", "service"] as const).map(
-            (type) => {
-              const items = grouped[type];
-              if (items.length === 0) {
-                return null;
-              }
-              return (
-                <li key={type} role="presentation">
-                  <p className="px-4 py-1.5 text-xs font-medium uppercase tracking-wide text-slate-500">
-                    {groupLabels[type]}
-                  </p>
-                  <ul>
-                    {items.map((item) => {
-                      optionIndex += 1;
-                      const currentIndex = optionIndex;
-                      return (
-                        <li key={item.slug} role="presentation">
-                          <Link
-                            id={`${listboxId}-option-${currentIndex}`}
-                            role="option"
-                            aria-selected={currentIndex === activeIndex}
-                            href={item.href}
-                            onClick={() => {
-                              setQuery("");
-                              setOpen(false);
-                            }}
-                            onMouseEnter={() => setActiveIndex(currentIndex)}
-                            className={`block px-4 py-2.5 text-sm transition ${
-                              currentIndex === activeIndex
-                                ? "bg-teal-500/15 text-teal-100"
-                                : "text-slate-200 hover:bg-white/5"
-                            }`}
-                          >
-                            <span className="font-medium">{item.label}</span>
-                            <span className="mt-0.5 block text-xs text-slate-500">
-                              {item.meta}
-                            </span>
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </li>
-              );
-            },
-          )}
+          {(
+            [
+              "district",
+              "province",
+              "election",
+              "property",
+              "localGov",
+              "service",
+            ] as const
+          ).map((type) => {
+            const items = grouped[type];
+            if (items.length === 0) {
+              return null;
+            }
+            return (
+              <li key={type} role="presentation">
+                <p className="px-4 py-1.5 text-xs font-medium uppercase tracking-wide text-slate-500">
+                  {groupLabels[type]}
+                </p>
+                <ul>
+                  {items.map((item) => {
+                    optionIndex += 1;
+                    const currentIndex = optionIndex;
+                    return (
+                      <li key={item.slug} role="presentation">
+                        <Link
+                          id={`${listboxId}-option-${currentIndex}`}
+                          role="option"
+                          aria-selected={currentIndex === activeIndex}
+                          href={item.href}
+                          onClick={() => {
+                            setQuery("");
+                            setOpen(false);
+                          }}
+                          onMouseEnter={() => setActiveIndex(currentIndex)}
+                          className={`block px-4 py-2.5 text-sm transition ${
+                            currentIndex === activeIndex
+                              ? "bg-teal-500/15 text-teal-100"
+                              : "text-slate-200 hover:bg-white/5"
+                          }`}
+                        >
+                          <span className="font-medium">{item.label}</span>
+                          <span className="mt-0.5 block text-xs text-slate-500">
+                            {item.meta}
+                          </span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </li>
+            );
+          })}
         </ul>
       ) : null}
 

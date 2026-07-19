@@ -2,7 +2,7 @@ export const openApiSpec = {
   openapi: "3.1.0",
   info: {
     title: "Lankawa Public API",
-    version: "0.3.0",
+    version: "0.4.0",
     description:
       "Public civic intelligence API for Sri Lanka. Every metric includes source provenance and freshness tiers.",
   },
@@ -138,6 +138,33 @@ export const openApiSpec = {
         responses: { "200": { description: "District-level dengue case counts (seed)" } },
       },
     },
+    "/property": {
+      get: {
+        summary: "District property price bands",
+        responses: { "200": { description: "Median land price bands by district" } },
+      },
+    },
+    "/elections/history": {
+      get: {
+        summary: "Multi-cycle election history",
+        responses: { "200": { description: "Presidential 2010–2024 and parliamentary summaries" } },
+      },
+    },
+    "/local-government": {
+      get: {
+        summary: "Local government directory",
+        parameters: [
+          { name: "district", in: "query", schema: { type: "string" } },
+          {
+            name: "type",
+            in: "query",
+            schema: { type: "string", enum: ["MC", "UC", "PS"] },
+          },
+          { name: "q", in: "query", schema: { type: "string" } },
+        ],
+        responses: { "200": { description: "Filtered local bodies list" } },
+      },
+    },
   },
 } as const;
 
@@ -246,6 +273,27 @@ export const apiEndpoints = [
     summaryKey: "dengueSummary" as const,
     descriptionKey: "dengueDescription" as const,
     example: `{ "nationalTotal": 3842, "districts": [{ "slug": "colombo", "cases": 612 }] }`,
+  },
+  {
+    method: "GET",
+    path: "/api/v1/property",
+    summaryKey: "propertySummary" as const,
+    descriptionKey: "propertyDescription" as const,
+    example: `{ "districts": [{ "slug": "colombo", "medianPerPerch": 9500000, ... }] }`,
+  },
+  {
+    method: "GET",
+    path: "/api/v1/elections/history",
+    summaryKey: "electionHistorySummary" as const,
+    descriptionKey: "electionHistoryDescription" as const,
+    example: `{ "presidential": { "cycles": [{ "year": 2024, ... }] }, "parliamentary": { ... } }`,
+  },
+  {
+    method: "GET",
+    path: "/api/v1/local-government?district=colombo&type=MC",
+    summaryKey: "localGovernmentSummary" as const,
+    descriptionKey: "localGovernmentDescription" as const,
+    example: `{ "totalCount": 327, "count": 1, "bodies": [{ "id": "...", "type": "MC" }] }`,
   },
   {
     method: "GET",

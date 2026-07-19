@@ -15,6 +15,7 @@ const links = [
   { href: "/disaster", key: "disaster" },
   { href: "/economy", key: "economy" },
   { href: "/budget", key: "budget" },
+  { href: "/property", key: "property" },
   { href: "/health", key: "health" },
   { href: "/compare", key: "compare" },
   { href: "/civic", key: "civic" },

@@ -1,6 +1,18 @@
 # Lankawa Roadmap
 
-Phase 5 shipped July 2026. This document captures research from Phase 4–5 development and recommendations for Phase 6+.
+Phase 6 shipped July 2026. This document captures research from Phase 4–6 development and recommendations for Phase 7+.
+
+## Phase 6 Delivered
+
+| Feature | Status |
+|---------|--------|
+| Property / Housing pulse | ✅ `/property` with district median price bands, choropleth map, home pulse card |
+| Historical election explorer | ✅ `/elections/history` with 2010, 2015, 2019, 2024 presidential tabs + swing charts |
+| Pradeshiya Sabha layer | ✅ `/local-government` searchable directory (327 seed bodies) |
+| Dengue choropleth | ✅ Table/map toggle on `/health` with district case bands |
+| API v0.4 | ✅ `/property`, `/elections/history`, `/local-government` + OpenAPI update |
+| Global search expansion | ✅ Property and local government entries indexed |
+| Nav & cross-links | ✅ Property nav, district/province/elections links |
 
 ## Phase 5 Delivered
 
@@ -43,9 +55,12 @@ Phase 5 shipped July 2026. This document captures research from Phase 4–5 deve
 5. **GeoJSON:** Simplified boundaries are suitable for choropleth at national scale; not for cadastral or high-precision GIS.
 6. **Budget tracker:** FY 2024/25 and 2025/26 figures are rounded seed data aligned with budget speech totals and Verité Research sector summaries — not digitized appropriation ledgers. Ministry-level splits are illustrative.
 7. **Dengue stats:** Weekly district counts are representative seed data patterned on Epidemiology Unit report formats — not live scraped surveillance. Do not use for clinical or outbreak response decisions.
-8. **MP scorecards:** Illustrative sample members inspired by Manthri.lk patterns — not scraped from Manthri or official Hansard. Real names and records require Phase 6 ingest.
+8. **MP scorecards:** Illustrative sample members inspired by Manthri.lk patterns — not scraped from Manthri or official Hansard. Real names and records require ingest pipeline.
 9. **Tender feed:** Static seed notices modeled on e-GP publication formats — not live procurement data from the e-GP portal.
 10. **Fuel history:** Sourced from Octane partner API with Next.js revalidate caching; falls back to static series when upstream is unavailable.
+11. **Property prices:** District median land price bands are representative seed data aligned with PropertyLK patterns. Server-side adapter attempts live fetch from the partner API; falls back to seed when unavailable. Not a property valuation service.
+12. **Historical elections (2010, 2015):** District-level presidential results are seeded approximations aligned with published national totals — not digitized official district ledgers.
+13. **Local government directory:** 327 seed bodies (MC, UC, PS) covering major councils and Pradeshiya Sabhas per district — not an exhaustive official gazette list of 340+ bodies.
 
 ---
 
@@ -57,15 +72,16 @@ Research across existing portals (Election Commission, CBSL, Disaster Management
 |-----|---------------------------|
 | **Unified district key** | Most portals use inconsistent geography; Lankawa's 25-district atlas is already the right abstraction |
 | **Budget & expenditure tracker** | Phase 5 MVP shipped — extend with provincial budgets and year-over-year charts |
-| **Government tenders (Procurement)** | Phase 5 seed feed shipped — integrate live e-GP in Phase 6 |
-| **MP attendance & voting** | Phase 5 seed scorecards shipped — full Hansard ingest in Phase 6 |
-| **Dengue & disease maps** | Phase 5 district table shipped — live Epidemiology Unit choropleth in Phase 6 |
+| **Government tenders (Procurement)** | Phase 5 seed feed shipped — integrate live e-GP in Phase 7 |
+| **MP attendance & voting** | Phase 5 seed scorecards shipped — full Hansard ingest in Phase 7 |
+| **Dengue & disease maps** | Phase 6 choropleth shipped — live Epidemiology Unit ingest in Phase 7 |
 | **Fuel price history** | ✅ Phase 5 — extend to district-level transport cost proxies |
 | **Bus & rail connectivity** | No open GTFS for Sri Lanka; static route maps per district would help |
 | **Court case backlog / HRCSL** | Human rights and judicial metrics are PDF-only |
-| **Local government (Pradeshiya Sabha)** | 340+ local bodies with no searchable directory |
+| **Local government (Pradeshiya Sabha)** | ✅ Phase 6 directory shipped — extend to councillor records |
 | **Climate & air quality** | No AQI layer by city/district |
 | **Cost of living index** | NCPI exists monthly but not district-granular or visualized |
+| **Property / housing pulse** | ✅ Phase 6 PropertyLK-style module shipped |
 
 **Lankawa's moat:** trilingual, in-platform (no link-outs), provenance on every number, district-first navigation, dark civic UX.
 
@@ -78,32 +94,32 @@ In-platform modules (not external links) aligned with the SuvenSeo / Ardeno ecos
 | Module | Integration approach |
 |--------|---------------------|
 | **Octane (fuel)** | ✅ Phase 5 — fuel history sparklines on `/economy`; extend to district transport cards |
-| **PropertyLK** | District-level median land price bands as a "housing pulse" card; choropleth overlay mode on province maps |
+| **PropertyLK** | ✅ Phase 6 — district median land price bands + choropleth on `/property` |
 | **lk-flood-api** | Already integrated; extend to push notifications tier on `/disaster` |
-| **Shared auth (future)** | Single sign-on across Ardeno apps for saved districts / alerts — Phase 6+ |
-| **Unified search** | Cross-index PropertyLK listings + Lankawa civic data in GlobalSearch (internal API only) |
+| **Shared auth (future)** | Single sign-on across Ardeno apps for saved districts / alerts — Phase 7+ |
+| **Unified search** | ✅ Phase 6 — property + local government indexed in GlobalSearch |
 
 All integrations must follow Lankawa rules: freshness tiers, `/sources/[id]` provenance, no external UI links.
 
 ---
 
-## Phase 6 Recommendations
+## Phase 7 Recommendations
 
-### P0 — High impact, builds on Phase 5
+### P0 — Infrastructure & live data
 
-1. **PropertyLK housing pulse** — In-platform median land price bands by district; choropleth overlay on province maps (internal PropertyLK API adapter)
-2. **Multi-cycle elections 2010–2024** — Historical presidential & parliamentary explorer with swing charts across 2010, 2015, 2019, 2024 cycles
-3. **Pradeshiya Sabha layer** — 340+ local bodies searchable directory with map overlay
-4. **Live dengue ingest** — Replace seed with Epidemiology Unit weekly scrape/API; choropleth mode on district map
-5. **Real-time ingest pipeline** — Supabase + cron (infra sprint) for budget, tenders, MP records
+1. **Real-time ingest pipeline** — Supabase + cron for budget, tenders, MP records, dengue, property
+2. **Live dengue ingest** — Replace seed with Epidemiology Unit weekly scrape/API
+3. **Live PropertyLK adapter** — Wire partner API when production endpoint is stable
+4. **Live e-GP tenders** — Replace seed tender feed with procurement portal ingest
 
 ### P1 — Differentiation
 
-6. **Local services expansion** — Police stations, divisional hospitals, MOH offices; move from seed to ingest pipeline
-7. **Notification preferences** — Flood alert subscriptions (requires auth — Supabase)
-8. **Offline PWA expansion** — Cache full district profiles + election data offline
-9. **API webhooks docs** — Rate-limit headers, webhook documentation for partners
-10. **Bus & rail static maps** — Per-district connectivity cards (no GTFS available)
+5. **Local services expansion** — Police stations, divisional hospitals, MOH offices
+6. **Notification preferences** — Flood alert subscriptions (requires auth — Supabase)
+7. **Offline PWA expansion** — Cache full district profiles + election data offline
+8. **API webhooks docs** — Rate-limit headers, webhook documentation for partners
+9. **Bus & rail static maps** — Per-district connectivity cards (no GTFS available)
+10. **Full Hansard MP ingest** — Replace seed scorecards with real attendance records
 
 ### P2 — Platform
 
@@ -120,7 +136,8 @@ All integrations must follow Lankawa rules: freshness tiers, `/sources/[id]` pro
 - Court backlog & HRCSL metrics from PDF extraction pipeline
 - Climate & AQI layer by city/district
 - District-granular cost of living index from NCPI proxies
+- Local government councillor records and meeting minutes
 
 ---
 
-*Last updated: Phase 5 completion, July 2026*
+*Last updated: Phase 6 completion, July 2026*
