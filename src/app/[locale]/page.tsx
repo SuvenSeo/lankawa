@@ -1,6 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PulseCard } from "@/components/PulseCard";
-import { DistrictGrid, SourceHealthList } from "@/components/DistrictCard";
+import { DistrictGrid } from "@/components/DistrictCard";
+import { HeroSection } from "@/components/HeroSection";
+import { ModuleGrid } from "@/components/ModuleGrid";
+import { SourceHealthBar } from "@/components/SourceHealthBar";
 import { Link } from "@/i18n/navigation";
 import { buildPulseSnapshot } from "@/lib/pulse";
 
@@ -15,20 +18,30 @@ export default async function HomePage({
   const snapshot = await buildPulseSnapshot();
 
   return (
-    <div className="space-y-12">
-      <section className="space-y-4">
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-teal-300">
-          {t("eyebrow")}
-        </p>
-        <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-          {t("title")}
-        </h1>
-        <p className="max-w-2xl text-lg text-slate-400">{t("subtitle")}</p>
-        <p className="text-sm text-slate-500">{t("disclaimer")}</p>
+    <div className="space-y-12 md:space-y-16">
+      <HeroSection metrics={snapshot.metrics} />
+
+      <section className="space-y-5">
+        <div>
+          <h2 className="text-2xl font-semibold text-white">{t("modulesTitle")}</h2>
+          <p className="mt-2 text-slate-400">{t("modulesSubtitle")}</p>
+        </div>
+        <ModuleGrid />
       </section>
 
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold text-white">{t("pulseTitle")}</h2>
+      <section className="space-y-5">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 className="text-2xl font-semibold text-white">{t("pulseTitle")}</h2>
+            <p className="mt-2 text-slate-400">{t("pulseSubtitle")}</p>
+          </div>
+          <Link
+            href="/economy"
+            className="text-sm font-medium text-teal-300 hover:text-teal-200"
+          >
+            {t("viewEconomy")}
+          </Link>
+        </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {snapshot.metrics.map((metric) => (
             <PulseCard key={metric.id} metric={metric} />
@@ -36,13 +49,8 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="space-y-4">
-        <h2 className="text-2xl font-semibold text-white">{t("sourcesTitle")}</h2>
-        <SourceHealthList sources={snapshot.sources} />
-      </section>
-
-      <section className="space-y-4">
-        <div className="flex items-end justify-between gap-4">
+      <section className="space-y-5">
+        <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl font-semibold text-white">
               {t("districtsTitle")}
@@ -58,6 +66,8 @@ export default async function HomePage({
         </div>
         <DistrictGrid locale={locale} limit={6} />
       </section>
+
+      <SourceHealthBar sources={snapshot.sources} />
     </div>
   );
 }

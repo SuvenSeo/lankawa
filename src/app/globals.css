@@ -8,6 +8,20 @@ body {
   background:
     radial-gradient(circle at top, rgba(20, 184, 166, 0.12), transparent 32%),
     #020617;
+  font-family: var(--font-noto-sans), var(--font-noto-sinhala), var(--font-noto-tamil),
+    ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.hero-surface {
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, transparent 100%),
+    rgba(2, 6, 23, 0.6);
+  background-image:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, transparent 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2314b8a6' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 a {

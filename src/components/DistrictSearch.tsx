@@ -9,7 +9,11 @@ function normalize(value: string): string {
   return value.trim().toLowerCase();
 }
 
-export function DistrictSearch() {
+export function DistrictSearch({
+  variant = "default",
+}: {
+  variant?: "default" | "hero";
+}) {
   const t = useTranslations("search");
   const locale = useLocale();
   const router = useRouter();
@@ -89,8 +93,16 @@ export function DistrictSearch() {
     }
   }
 
+  const containerClass =
+    variant === "hero" ? "relative w-full" : "relative w-full max-w-xs";
+
+  const inputClass =
+    variant === "hero"
+      ? "w-full rounded-full border border-white/10 bg-slate-950/50 px-4 py-2.5 text-sm text-white placeholder:text-slate-500 focus:border-teal-400/40 focus:outline-none focus:ring-2 focus:ring-teal-400/20"
+      : "w-full rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder:text-slate-500 focus:border-teal-400/40 focus:outline-none focus:ring-2 focus:ring-teal-400/20";
+
   return (
-    <div ref={containerRef} className="relative w-full max-w-xs">
+    <div ref={containerRef} className={containerClass}>
       <label htmlFor="district-search" className="sr-only">
         {t("label")}
       </label>
@@ -116,7 +128,7 @@ export function DistrictSearch() {
         }}
         onFocus={() => setOpen(true)}
         onKeyDown={handleKeyDown}
-        className="w-full rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder:text-slate-500 focus:border-teal-400/40 focus:outline-none focus:ring-2 focus:ring-teal-400/20"
+        className={inputClass}
       />
 
       {open && query && results.length > 0 ? (

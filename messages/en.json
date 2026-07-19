@@ -33,18 +33,68 @@
     "costOfLiving": "Cost of living",
     "environment": "Environment",
     "status": "Status",
-    "assistant": "Assistant"
+    "assistant": "Assistant",
+    "more": "More",
+    "explore": "Explore",
+    "data": "Data",
+    "about": "About"
   },
   "home": {
     "eyebrow": "National civic intelligence",
-    "title": "Understand Sri Lanka today",
-    "subtitle": "Fresh public data across economy, fuel, floods, and districts — with data provenance on every number.",
+    "title": "Everything public, for every Sri Lankan",
+    "subtitle": "Unified civic data across economy, districts, disasters, elections, and public services — with provenance on every number.",
     "pulseTitle": "Live pulse",
+    "pulseSubtitle": "Exchange rates, fuel prices, property bands, and flood monitoring — refreshed on a public cadence.",
+    "pulseLive": "Live now",
+    "pulseStripLabel": "Live civic indicators",
+    "modulesTitle": "Explore the platform",
+    "modulesSubtitle": "Jump into the modules that matter most — districts, elections, economy, and more.",
     "sourcesTitle": "Source health",
+    "sourcesCompact": "Data sources reporting normally",
+    "viewAllSources": "All sources",
     "districtsTitle": "District atlas",
     "districtsSubtitle": "A preview of six districts — browse the full atlas for all 25.",
     "viewDistricts": "Browse districts",
+    "viewEconomy": "Full economy view",
+    "exploreDistricts": "Explore districts",
+    "ctaEconomy": "Economy",
+    "ctaElections": "Elections",
+    "ctaServices": "Services",
     "disclaimer": "Aggregated from public sources. Not an official government publication."
+  },
+  "modules": {
+    "districts": {
+      "title": "Districts",
+      "description": "Profiles for all 25 districts with population, elections, and local data."
+    },
+    "elections": {
+      "title": "Elections",
+      "description": "Presidential and parliamentary results by district."
+    },
+    "economy": {
+      "title": "Economy",
+      "description": "Exchange rates, fuel prices, and macro indicators."
+    },
+    "property": {
+      "title": "Property",
+      "description": "Median land price bands across districts."
+    },
+    "health": {
+      "title": "Health",
+      "description": "Weekly dengue statistics and health pulse."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Bus routes, railways, and airports directory."
+    },
+    "budget": {
+      "title": "Budget",
+      "description": "National budget breakdown and allocations."
+    },
+    "compare": {
+      "title": "Compare",
+      "description": "Side-by-side district comparison tables."
+    }
   },
   "districts": {
     "title": "District Atlas",
@@ -259,7 +309,19 @@
   "footer": {
     "built": "Built for Sri Lanka",
     "about": "About",
-    "sources": "Data sources"
+    "sources": "Data sources",
+    "developers": "Developers",
+    "status": "Status",
+    "districts": "Districts",
+    "elections": "Elections",
+    "services": "Services",
+    "economy": "Economy",
+    "platform": "Platform",
+    "explore": "Explore",
+    "legal": "Legal",
+    "disclaimer": "Disclaimer",
+    "version": "Version {version}",
+    "copyright": "Aggregated from public sources. Not an official government publication."
   },
   "pulse": {
     "provenance": "Data provenance",
