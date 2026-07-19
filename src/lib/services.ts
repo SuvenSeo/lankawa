@@ -38,6 +38,12 @@ export function getSeededDistrictSlugs(): string[] {
   return [...new Set(catalog.facilities.map((facility) => facility.districtSlug))];
 }
 
+export function getPublicServiceById(
+  id: string,
+): PublicServiceFacility | undefined {
+  return catalog.facilities.find((facility) => facility.id === id);
+}
+
 export function searchPublicServices(query: string): PublicServiceFacility[] {
   const normalized = query.trim().toLowerCase();
   if (!normalized) {
@@ -45,6 +51,37 @@ export function searchPublicServices(query: string): PublicServiceFacility[] {
   }
 
   return catalog.facilities.filter((facility) => {
+    const haystack = [
+      facility.name,
+      facility.nameSi ?? "",
+      facility.nameTa ?? "",
+      facility.address,
+      facility.type,
+      facility.districtSlug,
+    ]
+      .join(" ")
+      .toLowerCase();
+    return haystack.includes(normalized);
+  });
+}
+
+export function filterPublicServices(filters: {
+  district?: string;
+  type?: PublicServiceType;
+  query?: string;
+}): PublicServiceFacility[] {
+  const normalized = filters.query?.trim().toLowerCase() ?? "";
+
+  return catalog.facilities.filter((facility) => {
+    if (filters.district && facility.districtSlug !== filters.district) {
+      return false;
+    }
+    if (filters.type && facility.type !== filters.type) {
+      return false;
+    }
+    if (!normalized) {
+      return true;
+    }
     const haystack = [
       facility.name,
       facility.nameSi ?? "",

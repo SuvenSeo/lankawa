@@ -83,7 +83,12 @@
     "parliamentary2024": "පාර්ලිමේන්තු",
     "districtsWon": "දිස්ත්‍රික් ජය",
     "seats": "ආසන",
-    "districtList": "මෙම පළාතේ දිස්ත්‍රික්"
+    "districtList": "මෙම පළාතේ දිස්ත්‍රික්",
+    "mapTitle": "පළාත් choropleth",
+    "mapMode_density": "ජන ඝනත්වය",
+    "mapMode_presidential": "2024 ජනාධිපති ජයග්‍රාහක",
+    "mapMode_parliamentary": "2024 පාර්ලිමේන්තු seats",
+    "mapError": "සිතියම load කළ නොහැක"
   },
   "elections": {
     "eyebrow": "මැතිවරණ බුද්ධිය",
@@ -116,6 +121,36 @@
     "parliamentaryDistrictSubtitle": "පාර්ලිමේන්තු මැතිවරණ දිස්ත්‍රික් ප්‍රතිඵල",
     "adminDistricts": "ආවරණය වන administrative දිස්ත්‍රික්"
   },
+  "swing": {
+    "title": "මැතිවරණ swing (2019 → 2024)",
+    "subtitle": "පෙර cycle සහ 2024 අතර presidential පළමු preference share වෙනස්වීම.",
+    "baselineLabel": "{year} ජයග්‍රාහක",
+    "currentLabel": "{year} ජයග්‍රාහක",
+    "flipped": "ජයග්‍රාහක flipped",
+    "winnerSwing": "Leading share වෙනස්වීම",
+    "nppFromSlpp": "NPP share vs SLPP baseline",
+    "points": "pp",
+    "provinceSummary": "පළාත් swing summary",
+    "districtsFlipped": "Flipped districts",
+    "avgNppSwing": "Avg. NPP swing from SLPP"
+  },
+  "vanni": {
+    "title": "වanni electoral crosswalk",
+    "body": "ශ්‍රී ලanka administrative සහ electoral district boundaries වෙනස්. Kilinochchi, Mannar, Mullaitivu, Vavuniya — Vanni electoral district එකට aggregate වේ.",
+    "adminLabel": "Administrative districts",
+    "adminDistricts": "Kilinochchi, Mannar, Mullaitivu, Vavuniya",
+    "electoralLabel": "Electoral district",
+    "electoralDistrict": "Vanni (parliamentary seats 6)",
+    "districtNote": "Presidential results Vanni electoral district combined tally reflect කරයි.",
+    "source": "මූලාශ්‍රය",
+    "sourceLink": "Election Commission 2024 provenance"
+  },
+  "flood": {
+    "historyTitle": "Flood level history",
+    "historySubtitle": "මෙම දිස්ත්‍රික් mapped river stations සඳහා recent readings.",
+    "loading": "Station history load වෙමින්…",
+    "unavailable": "History temporarily unavailable"
+  },
   "disaster": {
     "title": "විපත් සහ ගංවතුර",
     "subtitle": "ලංකාව තුළ එකතු කරන ලද ගංගා මධ්‍යස්ථාන නිරීක්ෂණ.",
@@ -144,15 +179,13 @@
     "subtitle": "දිස්ත්‍රික් අනුව රෝහල්, පාසල් සහ GN division offices.",
     "source": "මූලාශ්‍රය",
     "searchPlaceholder": "facilities search…",
-    "allDistricts": "සියලු seeded districts",
+    "allDistricts": "සියලු දිස්ත්‍රික්",
     "allTypes": "සියලු types",
     "typeHospital": "රෝහල",
     "typeSchool": "පාසල",
     "typeGnOffice": "GN office",
     "resultsCount": "facilities {count}",
-    "noResults": "filters වලට ගැලපෙන facilities නැත.",
-    "comingSoonTitle": "තව දිස්ත්‍රික් ඉක්මනින්",
-    "comingSoonBody": "කොළඹ, මහනුවර සහ ගාල්ල deeply seeded. open-data feeds available වූ විට අනෙක් දිස්ත්‍රික් add කරනු ඇත."
+    "noResults": "filters වලට ගැලපෙන facilities නැත."
   },
   "about": {
     "eyebrow": "Lankawa ගැන",
@@ -249,6 +282,20 @@
     "openApiLink": "OpenAPI JSON බලන්න",
     "openApiViewerSubtitle": "ලංකාව පොදු API සඳහා machine-readable specification.",
     "electionsSummary": "Presidential election 2024",
-    "electionsDescription": "National summary and district-level first-preference results with provenance paths."
+    "electionsDescription": "National summary and district-level first-preference results with provenance paths.",
+    "provincesSummary": "Province list",
+    "provincesDescription": "All 9 Sri Lankan provinces with slug and trilingual names.",
+    "provinceSummary": "Province detail",
+    "provinceDescription": "Single province profile with aggregated population, area, and district list.",
+    "parliamentarySummary": "Parliamentary election 2024",
+    "parliamentaryDescription": "National seat summary and all electoral district results.",
+    "parliamentaryDistrictSummary": "Parliamentary electoral district",
+    "parliamentaryDistrictDescription": "Seat allocation for a single electoral district.",
+    "servicesSummary": "Public services",
+    "servicesDescription": "Filter hospitals, schools, and GN offices by district, type, or search query.",
+    "serviceSummary": "Service facility detail",
+    "serviceDescription": "Single public service facility by ID.",
+    "floodHistorySummary": "Flood station history",
+    "floodHistoryDescription": "Historical water levels for a river monitoring station with freshness tier."
   }
 }

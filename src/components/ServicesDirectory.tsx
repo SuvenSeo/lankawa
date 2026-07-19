@@ -7,7 +7,6 @@ import { DISTRICTS, getDistrictName } from "@/lib/districts";
 import {
   getAllPublicServices,
   getPublicServiceName,
-  getSeededDistrictSlugs,
   getServiceTypeLabelKey,
 } from "@/lib/services";
 import type { PublicServiceFacility, PublicServiceType } from "@/lib/types";
@@ -27,7 +26,6 @@ export function ServicesDirectory({
   const [districtFilter, setDistrictFilter] = useState(initialDistrict ?? "all");
   const [typeFilter, setTypeFilter] = useState<PublicServiceType | "all">("all");
 
-  const seededDistricts = getSeededDistrictSlugs();
   const facilities = getAllPublicServices();
 
   const filtered = useMemo(() => {
@@ -54,10 +52,6 @@ export function ServicesDirectory({
     });
   }, [districtFilter, facilities, query, typeFilter]);
 
-  const comingSoonDistricts = DISTRICTS.filter(
-    (district) => !seededDistricts.includes(district.slug),
-  );
-
   return (
     <div className="space-y-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -74,17 +68,11 @@ export function ServicesDirectory({
           className="rounded-full border border-white/10 bg-slate-900 px-4 py-2 text-sm text-white"
         >
           <option value="all">{t("allDistricts")}</option>
-          {seededDistricts.map((slug) => {
-            const district = DISTRICTS.find((item) => item.slug === slug);
-            if (!district) {
-              return null;
-            }
-            return (
-              <option key={slug} value={slug}>
-                {getDistrictName(district, locale)}
-              </option>
-            );
-          })}
+          {DISTRICTS.map((district) => (
+            <option key={district.slug} value={district.slug}>
+              {getDistrictName(district, locale)}
+            </option>
+          ))}
         </select>
         <select
           value={typeFilter}
@@ -117,26 +105,6 @@ export function ServicesDirectory({
           {t("noResults")}
         </p>
       ) : null}
-
-      <section className="rounded-2xl border border-dashed border-white/10 bg-white/[0.02] p-5">
-        <h2 className="text-lg font-semibold text-white">{t("comingSoonTitle")}</h2>
-        <p className="mt-2 text-sm text-slate-400">{t("comingSoonBody")}</p>
-        <div className="mt-4 flex flex-wrap gap-2">
-          {comingSoonDistricts.slice(0, 12).map((district) => (
-            <span
-              key={district.slug}
-              className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-500"
-            >
-              {getDistrictName(district, locale)}
-            </span>
-          ))}
-          {comingSoonDistricts.length > 12 ? (
-            <span className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-500">
-              +{comingSoonDistricts.length - 12}
-            </span>
-          ) : null}
-        </div>
-      </section>
     </div>
   );
 }

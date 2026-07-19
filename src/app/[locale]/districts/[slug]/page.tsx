@@ -2,7 +2,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { DistrictMapLazy } from "@/components/DistrictMapLazy";
+import { ElectionSwingChart } from "@/components/ElectionSwingChart";
+import { FloodSparklinePanel } from "@/components/FloodSparklinePanel";
 import { FloodStationList } from "@/components/FloodStationList";
+import { VanniCrosswalkNotice } from "@/components/VanniCrosswalkNotice";
 import { Link } from "@/i18n/navigation";
 import { DISTRICTS, getDistrict, getDistrictName } from "@/lib/districts";
 import {
@@ -28,6 +31,7 @@ import {
   getProvinceSlugFromDistrictProvince,
 } from "@/lib/provinces";
 import { getPublicServicesForDistrict } from "@/lib/services";
+import { isVanniAdminDistrict } from "@/lib/election-swing";
 
 export async function generateStaticParams() {
   return DISTRICTS.map((district) => ({ slug: district.slug }));
@@ -202,6 +206,14 @@ export default async function DistrictDetailPage({
             : t("liveFloodNone")
         }
       />
+
+      <FloodSparklinePanel stationNames={floodStationNames} />
+
+      {electionResult ? <ElectionSwingChart slug={slug} /> : null}
+
+      {isVanniAdminDistrict(slug) ? (
+        <VanniCrosswalkNotice districtSlug={slug} />
+      ) : null}
 
       <section className="space-y-4">
         <h2 className="text-xl font-semibold text-white">{t("relatedTitle")}</h2>

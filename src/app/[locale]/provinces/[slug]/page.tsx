@@ -2,6 +2,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { DistrictCard } from "@/components/DistrictCard";
+import { ProvinceMapSection } from "@/components/ProvinceMapSectionLazy";
+import { ProvinceSwingSummary } from "@/components/ElectionSwingChart";
 import { Link } from "@/i18n/navigation";
 import {
   getDistrictWinnerPercentage,
@@ -120,6 +122,14 @@ export default async function ProvinceDetailPage({
           </dd>
         </div>
       </dl>
+
+      <ProvinceMapSection
+        provinceDistrictSlugs={districts.map((district) => district.slug)}
+      />
+
+      <ProvinceSwingSummary
+        districtSlugs={districts.map((district) => district.slug)}
+      />
 
       <section className="space-y-4">
         <h2 className="text-xl font-semibold text-white">{t("electionSummary")}</h2>

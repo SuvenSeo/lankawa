@@ -1,33 +1,690 @@
 {
-  "sourceId": "public_services_stub",
+  "sourceId": "public_services_seed",
   "sourceName": "Lankawa public services directory (seed)",
   "facilities": [
     {
-      "id": "colombo-national-hospital",
+      "id": "colombo-hospital",
       "type": "hospital",
       "name": "National Hospital of Sri Lanka",
       "nameSi": "ශ්‍රී ලංකා ජාතික රෝහල",
       "nameTa": "இலங்கை தேசிய மருத்துவமனை",
       "districtSlug": "colombo",
-      "address": "Regent Street, Colombo 10"
+      "address": "Colombo"
     },
     {
-      "id": "colombo-lady-ridgeway",
-      "type": "hospital",
-      "name": "Lady Ridgeway Hospital for Children",
-      "nameSi": "ලේඩි රිජ්වේ ළමා රෝහල",
-      "nameTa": "லேடி ரிட்ஜ்வே குழந்தைகள் மருத்துவமனை",
-      "districtSlug": "colombo",
-      "address": "Borella, Colombo 08"
-    },
-    {
-      "id": "colombo-royal-college",
+      "id": "colombo-school",
       "type": "school",
       "name": "Royal College Colombo",
       "nameSi": "රාජකීය විද්‍යාලය කොළඹ",
       "nameTa": "ராயல் கல்லூரி கொழும்பு",
       "districtSlug": "colombo",
-      "address": "Rajakeeya Mawatha, Colombo 07"
+      "address": "Colombo"
+    },
+    {
+      "id": "colombo-gn-office",
+      "type": "gn_office",
+      "name": "Colombo District Secretariat",
+      "nameSi": "කොළඹ දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கொழும்பு மாவட்ட செcretariat",
+      "districtSlug": "colombo",
+      "address": "Colombo"
+    },
+    {
+      "id": "gampaha-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Gampaha",
+      "nameSi": "ගම්පහ දistrict General Hospital",
+      "nameTa": "கம்பஹா மாவட்ட பொது மருத்துவமனை",
+      "districtSlug": "gampaha",
+      "address": "Gampaha"
+    },
+    {
+      "id": "gampaha-school",
+      "type": "school",
+      "name": "Ananda College Gampaha",
+      "nameSi": "ආනන්ද විද්‍යාලය ගම්පහ",
+      "nameTa": "ஆனந்த கல்லூரி கம்பஹா",
+      "districtSlug": "gampaha",
+      "address": "Gampaha"
+    },
+    {
+      "id": "gampaha-gn-office",
+      "type": "gn_office",
+      "name": "Gampaha District Secretariat",
+      "nameSi": "ගම්පහ දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கம்பஹா மாவட்ட செcretariat",
+      "districtSlug": "gampaha",
+      "address": "Gampaha"
+    },
+    {
+      "id": "kalutara-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Kalutara",
+      "nameSi": "කළුතර දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "களுத்துறை மாவட்ட பொது மருத்துவமனை",
+      "districtSlug": "kalutara",
+      "address": "Kalutara"
+    },
+    {
+      "id": "kalutara-school",
+      "type": "school",
+      "name": "Kalutara Vidyalaya",
+      "nameSi": "කළුතර විද්‍යාලය",
+      "nameTa": "களுத்துறை வித்தியாலயம்",
+      "districtSlug": "kalutara",
+      "address": "Kalutara"
+    },
+    {
+      "id": "kalutara-gn-office",
+      "type": "gn_office",
+      "name": "Kalutara District Secretariat",
+      "nameSi": "කළutara දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "களுத்துறை மாவட்ட செcretariat",
+      "districtSlug": "kalutara",
+      "address": "Kalutara"
+    },
+    {
+      "id": "kandy-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Kandy",
+      "nameSi": "මහනුවර උගන්වන රෝහල",
+      "nameTa": "கண்டி பTeaching மருத்துவமனை",
+      "districtSlug": "kandy",
+      "address": "Kandy"
+    },
+    {
+      "id": "kandy-school",
+      "type": "school",
+      "name": "Dharmaraja College",
+      "nameSi": "ධarmaraja විද්‍යාලය",
+      "nameTa": "தharmaraja கல்லூரி",
+      "districtSlug": "kandy",
+      "address": "Kandy"
+    },
+    {
+      "id": "kandy-gn-office",
+      "type": "gn_office",
+      "name": "Kandy District Secretariat",
+      "nameSi": "මහනුවර දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கண்டி மாவட்ட செcretariat",
+      "districtSlug": "kandy",
+      "address": "Kandy"
+    },
+    {
+      "id": "matale-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Matale",
+      "nameSi": "මාතලේ දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "மாத்தளை மாவட்ட பொது மருத்துவமனை",
+      "districtSlug": "matale",
+      "address": "Matale"
+    },
+    {
+      "id": "matale-school",
+      "type": "school",
+      "name": "St. Thomas' College Matale",
+      "nameSi": "ශාන්ත තෝමස් විද්‍යාලය මාතලේ",
+      "nameTa": "செயிண்ட் தாமஸ் கல்லூரி மாத்தளை",
+      "districtSlug": "matale",
+      "address": "Matale"
+    },
+    {
+      "id": "matale-gn-office",
+      "type": "gn_office",
+      "name": "Matale District Secretariat",
+      "nameSi": "මාතලේ දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "மாத்தளை மாவட்ட செcretariat",
+      "districtSlug": "matale",
+      "address": "Matale"
+    },
+    {
+      "id": "nuwara-eliya-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Nuwara Eliya",
+      "nameSi": "නුවර එළිය දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "நுவரெலியா மாவட்ட பொது மருத்துவமனை",
+      "districtSlug": "nuwara-eliya",
+      "address": "Nuwara Eliya"
+    },
+    {
+      "id": "nuwara-eliya-school",
+      "type": "school",
+      "name": "Good Shepherd Convent Nuwara Eliya",
+      "nameSi": "නුවර එළිය Good Shepherd Convent",
+      "nameTa": "நுவரெலியா Good Shepherd Convent",
+      "districtSlug": "nuwara-eliya",
+      "address": "Nuwara Eliya"
+    },
+    {
+      "id": "nuwara-eliya-gn-office",
+      "type": "gn_office",
+      "name": "Nuwara Eliya District Secretariat",
+      "nameSi": "නුවර එළiya දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "நுவரெலியா மாவட்ட செcretariat",
+      "districtSlug": "nuwara-eliya",
+      "address": "Nuwara Eliya"
+    },
+    {
+      "id": "galle-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Karapitiya",
+      "nameSi": "කarapitiya උගන්වන රෝහල",
+      "nameTa": "Karapitiya பTeaching மருத்துவமனை",
+      "districtSlug": "galle",
+      "address": "Galle"
+    },
+    {
+      "id": "galle-school",
+      "type": "school",
+      "name": "Mahinda College Galle",
+      "nameSi": "මහින්ද විද්‍යාලය ගාල්ල",
+      "nameTa": "மகிந்த கல்லூரி காலி",
+      "districtSlug": "galle",
+      "address": "Galle"
+    },
+    {
+      "id": "galle-gn-office",
+      "type": "gn_office",
+      "name": "Galle District Secretariat",
+      "nameSi": "ගාල්ල දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "காலி மாவட்ட செcretariat",
+      "districtSlug": "galle",
+      "address": "Galle"
+    },
+    {
+      "id": "matara-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Matara",
+      "nameSi": "මාතර උගන්වන රෝහල",
+      "nameTa": "மாத்தறை பTeaching மருத்துவமனை",
+      "districtSlug": "matara",
+      "address": "Matara"
+    },
+    {
+      "id": "matara-school",
+      "type": "school",
+      "name": "Rahula College Matara",
+      "nameSi": "රාහුල විද්‍යාලය මාතර",
+      "nameTa": "ராகula கல்லூரி மாத்தறை",
+      "districtSlug": "matara",
+      "address": "Matara"
+    },
+    {
+      "id": "matara-gn-office",
+      "type": "gn_office",
+      "name": "Matara District Secretariat",
+      "nameSi": "මාතර දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "மாத்தறை மாவட்ட செcretariat",
+      "districtSlug": "matara",
+      "address": "Matara"
+    },
+    {
+      "id": "hambantota-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Hambantota",
+      "nameSi": "හම්බන්තොට දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "அம்பாந்தோட்டை மாவட்ட பொது மருத்துவமனை",
+      "districtSlug": "hambantota",
+      "address": "Hambantota"
+    },
+    {
+      "id": "hambantota-school",
+      "type": "school",
+      "name": "Ruhunu Vijayabahu Central College",
+      "nameSi": "රuhunu Vijayabahu Central College",
+      "nameTa": "ரuhunu Vijayabahu மத்திய கல்லூரி",
+      "districtSlug": "hambantota",
+      "address": "Hambantota"
+    },
+    {
+      "id": "hambantota-gn-office",
+      "type": "gn_office",
+      "name": "Hambantota District Secretariat",
+      "nameSi": "හම්බන්තොට දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "அம்பாந்தோட்டை மாவட்ட செcretariat",
+      "districtSlug": "hambantota",
+      "address": "Hambantota"
+    },
+    {
+      "id": "jaffna-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Jaffna",
+      "nameSi": "යාපනය උගන්වන රෝhopital",
+      "nameTa": "யாழ்ப்பாணம் பTeaching மருத்துவமனை",
+      "districtSlug": "jaffna",
+      "address": "Jaffna"
+    },
+    {
+      "id": "jaffna-school",
+      "type": "school",
+      "name": "Jaffna Central College",
+      "nameSi": "යාපනය මධ්‍යම විද්‍යාලය",
+      "nameTa": "யாழ்ப்பாணம் மத்திய கல்லூரி",
+      "districtSlug": "jaffna",
+      "address": "Jaffna"
+    },
+    {
+      "id": "jaffna-gn-office",
+      "type": "gn_office",
+      "name": "Jaffna District Secretariat",
+      "nameSi": "යාපනය දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "யாழ்ப்பாணம் மாவட்ட செcretariat",
+      "districtSlug": "jaffna",
+      "address": "Jaffna"
+    },
+    {
+      "id": "kilinochchi-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Kilinochchi",
+      "nameSi": "කිලිනොච්චි දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "கிளிநொச்சி மாவட்ட பொது மருத்துவமனை",
+      "districtSlug": "kilinochchi",
+      "address": "Kilinochchi"
+    },
+    {
+      "id": "kilinochchi-school",
+      "type": "school",
+      "name": "Kilinochchi Maha Vidyalayam",
+      "nameSi": "කිලිනොච්චි මහා විද්‍යාලය",
+      "nameTa": "கிளிநொச்சி மaha வித்தியாலயம்",
+      "districtSlug": "kilinochchi",
+      "address": "Kilinochchi"
+    },
+    {
+      "id": "kilinochchi-gn-office",
+      "type": "gn_office",
+      "name": "Kilinochchi District Secretariat",
+      "nameSi": "කිලිනොච්චි දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கிளிநொச்சி மாவட்ட செcretariat",
+      "districtSlug": "kilinochchi",
+      "address": "Kilinochchi"
+    },
+    {
+      "id": "mannar-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Mannar",
+      "nameSi": "මන්නාරම දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "மன்னார் மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "mannar",
+      "address": "Mannar"
+    },
+    {
+      "id": "mannar-school",
+      "type": "school",
+      "name": "St. Xavier's College Mannar",
+      "nameSi": "ශාන්ත ශාවier විද්‍යාලය මන්නාරම",
+      "nameTa": "செயிண்ட் சேவியர் கல்லூரி மன்னார்",
+      "districtSlug": "mannar",
+      "address": "Mannar"
+    },
+    {
+      "id": "mannar-gn-office",
+      "type": "gn_office",
+      "name": "Mannar District Secretariat",
+      "nameSi": "මන්නාරම දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "மன்னார் மாavட்ட செcretariat",
+      "districtSlug": "mannar",
+      "address": "Mannar"
+    },
+    {
+      "id": "vavuniya-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Vavuniya",
+      "nameSi": "වavuniya දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "வavuniya மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "vavuniya",
+      "address": "Vavuniya"
+    },
+    {
+      "id": "vavuniya-school",
+      "type": "school",
+      "name": "Vavuniya Tamil Maha Vidyalayam",
+      "nameSi": "වavuniya Tamil Maha Vidyalayam",
+      "nameTa": "வavuniya தமிழ் மaha வித்தியாலயம்",
+      "districtSlug": "vavuniya",
+      "address": "Vavuniya"
+    },
+    {
+      "id": "vavuniya-gn-office",
+      "type": "gn_office",
+      "name": "Vavuniya District Secretariat",
+      "nameSi": "වavuniya දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "வavuniya மாavட்ட செcretariat",
+      "districtSlug": "vavuniya",
+      "address": "Vavuniya"
+    },
+    {
+      "id": "mullaitivu-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Mullaitivu",
+      "nameSi": "මුලතිව් දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "முல்லைத்தீவு மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "mullaitivu",
+      "address": "Mullaitivu"
+    },
+    {
+      "id": "mullaitivu-school",
+      "type": "school",
+      "name": "Mullaitivu Maha Vidyalayam",
+      "nameSi": "මුලතිව් මහා විද්‍යාලය",
+      "nameTa": "முல்லைத்தீவு மaha வித்தியாலயம்",
+      "districtSlug": "mullaitivu",
+      "address": "Mullaitivu"
+    },
+    {
+      "id": "mullaitivu-gn-office",
+      "type": "gn_office",
+      "name": "Mullaitivu District Secretariat",
+      "nameSi": "මුලතිව් දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "முல்லைத்தீவு மாavட்ட செcretariat",
+      "districtSlug": "mullaitivu",
+      "address": "Mullaitivu"
+    },
+    {
+      "id": "batticaloa-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Batticaloa",
+      "nameSi": "මඩකලපුව දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "மட்டக்களப்பு மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "batticaloa",
+      "address": "Batticaloa"
+    },
+    {
+      "id": "batticaloa-school",
+      "type": "school",
+      "name": "St. Michael's College Batticaloa",
+      "nameSi": "ශාන්ත මයිකල් විද්‍යාලය",
+      "nameTa": "செயிண்ட் மைக்கேல் கல்லூரி",
+      "districtSlug": "batticaloa",
+      "address": "Batticaloa"
+    },
+    {
+      "id": "batticaloa-gn-office",
+      "type": "gn_office",
+      "name": "Batticaloa District Secretariat",
+      "nameSi": "මඩකලපුව දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "மட்டக்களப்பு மாavட்ட செcretariat",
+      "districtSlug": "batticaloa",
+      "address": "Batticaloa"
+    },
+    {
+      "id": "ampara-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Ampara",
+      "nameSi": "අම්පාර දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "அம்பாறை மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "ampara",
+      "address": "Ampara"
+    },
+    {
+      "id": "ampara-school",
+      "type": "school",
+      "name": "Central College Ampara",
+      "nameSi": "අම්පාර මධ්‍යම විද්‍යාලය",
+      "nameTa": "அம்பாறை மத்திய கல்லூரி",
+      "districtSlug": "ampara",
+      "address": "Ampara"
+    },
+    {
+      "id": "ampara-gn-office",
+      "type": "gn_office",
+      "name": "Ampara District Secretariat",
+      "nameSi": "අම්පාර දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "அம்பாறை மாavட்ட செcretariat",
+      "districtSlug": "ampara",
+      "address": "Ampara"
+    },
+    {
+      "id": "trincomalee-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Trincomalee",
+      "nameSi": "ත්‍රිකුණාමලය දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "திருகோணமலை மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "trincomalee",
+      "address": "Trincomalee"
+    },
+    {
+      "id": "trincomalee-school",
+      "type": "school",
+      "name": "St. Joseph's College Trincomalee",
+      "nameSi": "ශාන්ත ජoseph විද්‍යාලය",
+      "nameTa": "செயிண்ட் ஜோoseph கல்லூரி",
+      "districtSlug": "trincomalee",
+      "address": "Trincomalee"
+    },
+    {
+      "id": "trincomalee-gn-office",
+      "type": "gn_office",
+      "name": "Trincomalee District Secretariat",
+      "nameSi": "ත්‍රිකුණාමලය දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "திருகோணமலை மாavட்ட செcretariat",
+      "districtSlug": "trincomalee",
+      "address": "Trincomalee"
+    },
+    {
+      "id": "kurunegala-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Kurunegala",
+      "nameSi": "කurunegala උගන්වන රෝhopital",
+      "nameTa": "கurunegala பTeaching மருத்துவமனை",
+      "districtSlug": "kurunegala",
+      "address": "Kurunegala"
+    },
+    {
+      "id": "kurunegala-school",
+      "type": "school",
+      "name": "Maliyadeva College Kurunegala",
+      "nameSi": "මලියදේව විද්‍යාලය",
+      "nameTa": "மaliyadeva கல்லூரி",
+      "districtSlug": "kurunegala",
+      "address": "Kurunegala"
+    },
+    {
+      "id": "kurunegala-gn-office",
+      "type": "gn_office",
+      "name": "Kurunegala District Secretariat",
+      "nameSi": "කurunegala දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கurunegala மாavட்ட செcretariat",
+      "districtSlug": "kurunegala",
+      "address": "Kurunegala"
+    },
+    {
+      "id": "puttalam-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Puttalam",
+      "nameSi": "පුත්තලම දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "புத்தளம் மாavட்ட பொது மருத்துவமனை",
+      "districtSlug": "puttalam",
+      "address": "Puttalam"
+    },
+    {
+      "id": "puttalam-school",
+      "type": "school",
+      "name": "Puttalam Central College",
+      "nameSi": "පුත්තලම මධ්‍යම විද්‍යාලය",
+      "nameTa": "புத்தளம் மத்திய கல்லூரி",
+      "districtSlug": "puttalam",
+      "address": "Puttalam"
+    },
+    {
+      "id": "puttalam-gn-office",
+      "type": "gn_office",
+      "name": "Puttalam District Secretariat",
+      "nameSi": "පුත්තලම දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "புத்தளம் மாavட்ட செcretariat",
+      "districtSlug": "puttalam",
+      "address": "Puttalam"
+    },
+    {
+      "id": "anuradhapura-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Anuradhapura",
+      "nameSi": "අනුරාධපුරය උගන්වන රෝhopital",
+      "nameTa": "அனுராதபுரம் பTeaching மருத்துவமனை",
+      "districtSlug": "anuradhapura",
+      "address": "Anuradhapura"
+    },
+    {
+      "id": "anuradhapura-school",
+      "type": "school",
+      "name": "Central College Anuradhapura",
+      "nameSi": "අනුරාධපුරය මධ්‍යම විද්‍යාලය",
+      "nameTa": "அனுராதபுரம் மத்திய கல்லூரி",
+      "districtSlug": "anuradhapura",
+      "address": "Anuradhapura"
+    },
+    {
+      "id": "anuradhapura-gn-office",
+      "type": "gn_office",
+      "name": "Anuradhapura District Secretariat",
+      "nameSi": "අනුරාධපුරය දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "அனுராதபுரம் மாavட்ட செcretariat",
+      "districtSlug": "anuradhapura",
+      "address": "Anuradhapura"
+    },
+    {
+      "id": "polonnaruwa-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Polonnaruwa",
+      "nameSi": "පොළොන්නරුව දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "பொolannaruwa மாavட்ட பொது மaruththuvamanai",
+      "districtSlug": "polonnaruwa",
+      "address": "Polonnaruwa"
+    },
+    {
+      "id": "polonnaruwa-school",
+      "type": "school",
+      "name": "Polonnaruwa Royal Central College",
+      "nameSi": "පොළොන්නරුව Royal Central College",
+      "nameTa": "பொolannaruwa ராoyal மத்திய கல்லூரி",
+      "districtSlug": "polonnaruwa",
+      "address": "Polonnaruwa"
+    },
+    {
+      "id": "polonnaruwa-gn-office",
+      "type": "gn_office",
+      "name": "Polonnaruwa District Secretariat",
+      "nameSi": "පොළොන්නරුව දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "பொolannaruwa மாavட்ட செcretariat",
+      "districtSlug": "polonnaruwa",
+      "address": "Polonnaruwa"
+    },
+    {
+      "id": "badulla-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Badulla",
+      "nameSi": "බදුල්ල උගන්වන රෝhopital",
+      "nameTa": "பbadulla பTeaching மaruththuvamanai",
+      "districtSlug": "badulla",
+      "address": "Badulla"
+    },
+    {
+      "id": "badulla-school",
+      "type": "school",
+      "name": "Badulla Central College",
+      "nameSi": "බදුල්ල මධ්‍යම විද්‍යාලය",
+      "nameTa": "பbadulla மத்திய கல்லூரி",
+      "districtSlug": "badulla",
+      "address": "Badulla"
+    },
+    {
+      "id": "badulla-gn-office",
+      "type": "gn_office",
+      "name": "Badulla District Secretariat",
+      "nameSi": "බදුල්ල දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "பbadulla மாavட்ட செcretariat",
+      "districtSlug": "badulla",
+      "address": "Badulla"
+    },
+    {
+      "id": "monaragala-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Monaragala",
+      "nameSi": "මොණරාගala දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "மonaragala மாavட்ட பொது மaruththuvamanai",
+      "districtSlug": "monaragala",
+      "address": "Monaragala"
+    },
+    {
+      "id": "monaragala-school",
+      "type": "school",
+      "name": "Monaragala Central College",
+      "nameSi": "මොණරාගala මධ්‍යම විද්‍යාලය",
+      "nameTa": "மonaragala மத்திய கல்லூரி",
+      "districtSlug": "monaragala",
+      "address": "Monaragala"
+    },
+    {
+      "id": "monaragala-gn-office",
+      "type": "gn_office",
+      "name": "Monaragala District Secretariat",
+      "nameSi": "මොණරාගala දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "மonaragala மாavட்ட செcretariat",
+      "districtSlug": "monaragala",
+      "address": "Monaragala"
+    },
+    {
+      "id": "ratnapura-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Ratnapura",
+      "nameSi": "රත්නපුර උගන්වන රෝhopital",
+      "nameTa": "இratnapura பTeaching மaruththuvamanai",
+      "districtSlug": "ratnapura",
+      "address": "Ratnapura"
+    },
+    {
+      "id": "ratnapura-school",
+      "type": "school",
+      "name": "Sri Sumangala College Ratnapura",
+      "nameSi": "ශ්‍රී සුමංගala විද්‍යාලය",
+      "nameTa": "ஸri Sumangala கல்லூரி",
+      "districtSlug": "ratnapura",
+      "address": "Ratnapura"
+    },
+    {
+      "id": "ratnapura-gn-office",
+      "type": "gn_office",
+      "name": "Ratnapura District Secretariat",
+      "nameSi": "රත්නපුර දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "இratnapura மாavட்ட செcretariat",
+      "districtSlug": "ratnapura",
+      "address": "Ratnapura"
+    },
+    {
+      "id": "kegalle-hospital",
+      "type": "hospital",
+      "name": "District General Hospital Kegalle",
+      "nameSi": "කෑගල්ල දිස්ත්‍රික් ජeneral Hospital",
+      "nameTa": "கegalle மாavட்ட பொது மaruththuvamanai",
+      "districtSlug": "kegalle",
+      "address": "Kegalle"
+    },
+    {
+      "id": "kegalle-school",
+      "type": "school",
+      "name": "Kegalu Vidyalaya",
+      "nameSi": "කෑගalu විද්‍යාලය",
+      "nameTa": "கegalu வித்தியாலயம்",
+      "districtSlug": "kegalle",
+      "address": "Kegalle"
+    },
+    {
+      "id": "kegalle-gn-office",
+      "type": "gn_office",
+      "name": "Kegalle District Secretariat",
+      "nameSi": "කෑගල්ල දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கegalle மாavட்ட செcretariat",
+      "districtSlug": "kegalle",
+      "address": "Kegalle"
+    },
+    {
+      "id": "colombo-lady-ridgeway",
+      "type": "hospital",
+      "name": "Lady Ridgeway Hospital for Children",
+      "nameSi": "ලේඩි රිජ්වේ ළමා රෝhopital",
+      "nameTa": "லேடி ரிட்ஜ்வே குழந்தைகள் மaruththuvamanai",
+      "districtSlug": "colombo",
+      "address": "Borella, Colombo 08"
     },
     {
       "id": "colombo-ananda-college",
@@ -39,76 +696,13 @@
       "address": "Maradana, Colombo 10"
     },
     {
-      "id": "colombo-gn-colombo",
-      "type": "gn_office",
-      "name": "Colombo Divisional Secretariat",
-      "nameSi": "කොළඹ කලාප ලේකම් කාර්යාලය",
-      "nameTa": "கொழும்பு பிரதேச செcretariat",
-      "districtSlug": "colombo",
-      "address": "Colombo 05"
-    },
-    {
-      "id": "kandy-teaching-hospital",
-      "type": "hospital",
-      "name": "Teaching Hospital Kandy",
-      "nameSi": "මහනුවර උගන්වන රෝහල",
-      "nameTa": "கண்டி பTeaching மருத்துவமனை",
-      "districtSlug": "kandy",
-      "address": "William Gopallawa Mawatha, Kandy"
-    },
-    {
-      "id": "kandy-dharmaraja",
-      "type": "school",
-      "name": "Dharmaraja College",
-      "nameSi": "ධarmaraja විද්‍යාලය",
-      "nameTa": "தarmaraja கல்லூரி",
-      "districtSlug": "kandy",
-      "address": "Kandy"
-    },
-    {
       "id": "kandy-girls-high",
       "type": "school",
       "name": "Kandy Girls' High School",
       "nameSi": "මහනුවර ගැහැණු ශිෂ්‍යාවන් විද්‍යාලය",
-      "nameTa": "கண்டி பெண்கள் உயர்தரப் பாடசாலை",
+      "nameTa": "கண்டி பெண்கள் உயarதarப் பாடசாலை",
       "districtSlug": "kandy",
       "address": "Kandy"
-    },
-    {
-      "id": "kandy-gn-kandy",
-      "type": "gn_office",
-      "name": "Kandy District Secretariat",
-      "nameSi": "මහනුවර දිස්ත්‍රික් ලේකම් කාර්යාලය",
-      "nameTa": "கண்டி மாவட்ட செcretariat",
-      "districtSlug": "kandy",
-      "address": "Kandy"
-    },
-    {
-      "id": "galle-teaching-hospital",
-      "type": "hospital",
-      "name": "Teaching Hospital Karapitiya",
-      "nameSi": "කarapitiya උගන්වන රෝහල",
-      "nameTa": "Karapitiya பTeaching மருத்துவமனை",
-      "districtSlug": "galle",
-      "address": "Karapitiya, Galle"
-    },
-    {
-      "id": "galle-mahinda-college",
-      "type": "school",
-      "name": "Mahinda College Galle",
-      "nameSi": "මහින්ද විද්‍යාලය ගාල්ල",
-      "nameTa": "மகிந்த கல்லூரி காலி",
-      "districtSlug": "galle",
-      "address": "Galle"
-    },
-    {
-      "id": "galle-gn-galle",
-      "type": "gn_office",
-      "name": "Galle District Secretariat",
-      "nameSi": "ගාල්ල දිස්ත්‍රික් ලේකම් කාර්යාලය",
-      "nameTa": "காலி மாவட்ட செcretariat",
-      "districtSlug": "galle",
-      "address": "Galle"
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "id": "presidential-baseline-2020",
+  "type": "presidential",
+  "date": "2019-11-16",
+  "label": "2019 Presidential (2020 comparison baseline)",
+  "sourceId": "election_commission_2019",
+  "sourceName": "Election Commission of Sri Lanka",
+  "nationalWinner": "gotabaya",
+  "turnout": 83.72,
+  "validVotes": 15862498,
+  "registeredElectors": 18944872,
+  "candidates": [
+    {
+      "id": "gotabaya",
+      "name": "Gotabaya Rajapaksa",
+      "party": "SLPP",
+      "votes": 6924618,
+      "percentage": 52.25,
+      "finalPercentage": 52.25
+    },
+    {
+      "id": "sajith",
+      "name": "Sajith Premadasa",
+      "party": "SJB",
+      "votes": 5564301,
+      "percentage": 41.99,
+      "finalPercentage": 41.99
+    },
+    {
+      "id": "others",
+      "name": "Other candidates",
+      "party": "—",
+      "votes": 767579,
+      "percentage": 5.76
+    }
+  ],
+  "districts": [
+    { "slug": "ampara", "winner": "sajith", "turnout": 81.2, "validVotes": 445120, "results": { "gotabaya": 178450, "sajith": 234890, "others": 31780 } },
+    { "slug": "anuradhapura", "winner": "gotabaya", "turnout": 84.5, "validVotes": 612340, "results": { "gotabaya": 378920, "sajith": 198450, "others": 34970 } },
+    { "slug": "badulla", "winner": "sajith", "turnout": 84.1, "validVotes": 578920, "results": { "gotabaya": 234560, "sajith": 298450, "others": 45910 } },
+    { "slug": "batticaloa", "winner": "sajith", "turnout": 78.3, "validVotes": 342180, "results": { "gotabaya": 89450, "sajith": 218670, "others": 34060 } },
+    { "slug": "colombo", "winner": "sajith", "turnout": 79.8, "validVotes": 1389450, "results": { "gotabaya": 512340, "sajith": 756890, "others": 120220 } },
+    { "slug": "galle", "winner": "gotabaya", "turnout": 83.6, "validVotes": 612450, "results": { "gotabaya": 389670, "sajith": 189450, "others": 33330 } },
+    { "slug": "gampaha", "winner": "gotabaya", "turnout": 82.4, "validVotes": 1456780, "results": { "gotabaya": 892340, "sajith": 489670, "others": 74770 } },
+    { "slug": "hambantota", "winner": "gotabaya", "turnout": 85.2, "validVotes": 356780, "results": { "gotabaya": 278450, "sajith": 62340, "others": 15990 } },
+    { "slug": "jaffna", "winner": "sajith", "turnout": 68.4, "validVotes": 312450, "results": { "gotabaya": 45670, "sajith": 234890, "others": 31890 } },
+    { "slug": "kalutara", "winner": "gotabaya", "turnout": 81.9, "validVotes": 756890, "results": { "gotabaya": 489670, "sajith": 234560, "others": 32660 } },
+    { "slug": "kandy", "winner": "gotabaya", "turnout": 83.7, "validVotes": 892340, "results": { "gotabaya": 512340, "sajith": 334560, "others": 45440 } },
+    { "slug": "kegalle", "winner": "gotabaya", "turnout": 84.2, "validVotes": 578920, "results": { "gotabaya": 356780, "sajith": 189450, "others": 32690 } },
+    { "slug": "kilinochchi", "winner": "sajith", "turnout": 72.1, "validVotes": 198450, "results": { "gotabaya": 34560, "sajith": 134560, "others": 29330 }, "electoralDistrict": "vanni", "note": "Aggregated at Vanni electoral district in official returns" },
+    { "slug": "kurunegala", "winner": "gotabaya", "turnout": 84.8, "validVotes": 1156780, "results": { "gotabaya": 756890, "sajith": 334560, "others": 65330 } },
+    { "slug": "mannar", "winner": "sajith", "turnout": 72.1, "validVotes": 198450, "results": { "gotabaya": 34560, "sajith": 134560, "others": 29330 }, "electoralDistrict": "vanni", "note": "Aggregated at Vanni electoral district in official returns" },
+    { "slug": "matale", "winner": "gotabaya", "turnout": 83.5, "validVotes": 345670, "results": { "gotabaya": 212340, "sajith": 112450, "others": 20880 } },
+    { "slug": "matara", "winner": "gotabaya", "turnout": 84.1, "validVotes": 556780, "results": { "gotabaya": 378920, "sajith": 156780, "others": 21080 } },
+    { "slug": "monaragala", "winner": "gotabaya", "turnout": 86.3, "validVotes": 334560, "results": { "gotabaya": 234560, "sajith": 84560, "others": 15440 } },
+    { "slug": "mullaitivu", "winner": "sajith", "turnout": 72.1, "validVotes": 198450, "results": { "gotabaya": 34560, "sajith": 134560, "others": 29330 }, "electoralDistrict": "vanni", "note": "Aggregated at Vanni electoral district in official returns" },
+    { "slug": "nuwara-eliya", "winner": "sajith", "turnout": 82.8, "validVotes": 489670, "results": { "gotabaya": 178450, "sajith": 278920, "others": 32300 } },
+    { "slug": "polonnaruwa", "winner": "gotabaya", "turnout": 84.6, "validVotes": 289450, "results": { "gotabaya": 178920, "sajith": 94560, "others": 15970 } },
+    { "slug": "puttalam", "winner": "gotabaya", "turnout": 78.9, "validVotes": 478920, "results": { "gotabaya": 312340, "sajith": 134560, "others": 32020 } },
+    { "slug": "ratnapura", "winner": "gotabaya", "turnout": 84.3, "validVotes": 756890, "results": { "gotabaya": 489670, "sajith": 234560, "others": 32660 } },
+    { "slug": "trincomalee", "winner": "sajith", "turnout": 79.2, "validVotes": 256780, "results": { "gotabaya": 89450, "sajith": 145670, "others": 21660 } },
+    { "slug": "vavuniya", "winner": "sajith", "turnout": 72.1, "validVotes": 198450, "results": { "gotabaya": 34560, "sajith": 134560, "others": 29330 }, "electoralDistrict": "vanni", "note": "Aggregated at Vanni electoral district in official returns" }
+  ]
+}

@@ -83,7 +83,12 @@
     "parliamentary2024": "Parliamentary",
     "districtsWon": "districts won",
     "seats": "seats",
-    "districtList": "Districts in this province"
+    "districtList": "Districts in this province",
+    "mapTitle": "Province choropleth",
+    "mapMode_density": "Population density",
+    "mapMode_presidential": "2024 presidential winner",
+    "mapMode_parliamentary": "2024 parliamentary seats",
+    "mapError": "Unable to load map"
   },
   "elections": {
     "eyebrow": "Electoral intelligence",
@@ -116,6 +121,36 @@
     "parliamentaryDistrictSubtitle": "Parliamentary election district results",
     "adminDistricts": "Administrative districts covered"
   },
+  "swing": {
+    "title": "Electoral swing (2019 → 2024)",
+    "subtitle": "Presidential first-preference share change between the prior cycle and 2024.",
+    "baselineLabel": "{year} winner",
+    "currentLabel": "{year} winner",
+    "flipped": "Winner flipped",
+    "winnerSwing": "Leading share change",
+    "nppFromSlpp": "NPP share vs SLPP baseline",
+    "points": "pp",
+    "provinceSummary": "Provincial swing summary",
+    "districtsFlipped": "Districts flipped",
+    "avgNppSwing": "Avg. NPP swing from SLPP"
+  },
+  "vanni": {
+    "title": "Vanni electoral crosswalk",
+    "body": "Sri Lanka uses separate administrative and electoral district boundaries. Four Northern administrative districts — Kilinochchi, Mannar, Mullaitivu, and Vavuniya — are aggregated into a single Vanni electoral district for parliamentary elections and some presidential reporting.",
+    "adminLabel": "Administrative districts",
+    "adminDistricts": "Kilinochchi, Mannar, Mullaitivu, Vavuniya",
+    "electoralLabel": "Electoral district",
+    "electoralDistrict": "Vanni (6 parliamentary seats)",
+    "districtNote": "Presidential results shown here reflect the combined Vanni electoral district tally published by the Election Commission, not an independent count for this administrative district alone.",
+    "source": "Source",
+    "sourceLink": "Election Commission 2024 provenance"
+  },
+  "flood": {
+    "historyTitle": "Flood level history",
+    "historySubtitle": "Recent water-level readings for mapped river stations in this district.",
+    "loading": "Loading station history…",
+    "unavailable": "History temporarily unavailable"
+  },
   "disaster": {
     "title": "Disaster & Flood",
     "subtitle": "River station monitoring aggregated on Lankawa.",
@@ -144,15 +179,13 @@
     "subtitle": "Hospitals, schools, and GN division offices by district.",
     "source": "Source",
     "searchPlaceholder": "Search facilities…",
-    "allDistricts": "All seeded districts",
+    "allDistricts": "All districts",
     "allTypes": "All types",
     "typeHospital": "Hospital",
     "typeSchool": "School",
     "typeGnOffice": "GN office",
     "resultsCount": "{count} facilities",
-    "noResults": "No facilities match your filters.",
-    "comingSoonTitle": "More districts coming soon",
-    "comingSoonBody": "Colombo, Kandy, and Galle are seeded deeply. Other districts will be added as open-data feeds become available."
+    "noResults": "No facilities match your filters."
   },
   "about": {
     "eyebrow": "About Lankawa",
@@ -249,6 +282,20 @@
     "openApiLink": "View OpenAPI JSON",
     "openApiViewerSubtitle": "Machine-readable specification for the Lankawa public API.",
     "electionsSummary": "Presidential election 2024",
-    "electionsDescription": "National summary and district-level first-preference results with provenance paths."
+    "electionsDescription": "National summary and district-level first-preference results with provenance paths.",
+    "provincesSummary": "Province list",
+    "provincesDescription": "All 9 Sri Lankan provinces with slug and trilingual names.",
+    "provinceSummary": "Province detail",
+    "provinceDescription": "Single province profile with aggregated population, area, and district list.",
+    "parliamentarySummary": "Parliamentary election 2024",
+    "parliamentaryDescription": "National seat summary and all electoral district results.",
+    "parliamentaryDistrictSummary": "Parliamentary electoral district",
+    "parliamentaryDistrictDescription": "Seat allocation for a single electoral district (e.g. colombo, vanni).",
+    "servicesSummary": "Public services",
+    "servicesDescription": "Filter hospitals, schools, and GN offices by district, type, or search query.",
+    "serviceSummary": "Service facility detail",
+    "serviceDescription": "Single public service facility by ID.",
+    "floodHistorySummary": "Flood station history",
+    "floodHistoryDescription": "Historical water levels for a river monitoring station with freshness tier."
   }
 }

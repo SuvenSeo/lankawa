@@ -4,6 +4,7 @@ import { ElectionDistrictRow } from "@/components/ElectionCards";
 import { ElectionTypeTabs } from "@/components/ElectionTypeTabs";
 import { ParliamentaryDistrictRow } from "@/components/ParliamentaryCards";
 import { DistrictMapLazy } from "@/components/DistrictMapLazy";
+import { VanniCrosswalkNotice } from "@/components/VanniCrosswalkNotice";
 import {
   countDistrictsWonBy,
   countElectoralDistrictsWonBy,
@@ -119,6 +120,8 @@ export default async function ElectionsPage({
             ))}
           </div>
         </section>
+
+        <VanniCrosswalkNotice />
       </div>
     );
   }
@@ -234,6 +237,8 @@ export default async function ElectionsPage({
           ))}
         </div>
       </section>
+
+      <VanniCrosswalkNotice />
     </div>
   );
 }
