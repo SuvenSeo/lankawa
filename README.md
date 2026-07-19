@@ -59,7 +59,6 @@ Public API routes are rate-limited to 60 req/min per IP.
 
 ## Related Projects
 
-- [lanka-monitor](https://github.com/Cookie-Cat21/lanka-monitor) — Daily pulse module (Ovindu)
 - [Octane](https://github.com/ArdenoStudio/octane) — Fuel prices API
 - [lk-flood-api](https://lk-flood-api.vercel.app) — Flood monitoring
 

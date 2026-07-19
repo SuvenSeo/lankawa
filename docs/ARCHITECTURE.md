@@ -5,7 +5,7 @@
 1. **Experience** — Next.js web app, PWA, public REST API
 2. **Modules** — Pulse, District Atlas, Disaster, Economy (Phase 1)
 3. **Data** — Source registry, observations, freshness SLAs
-4. **Ingest** — Python workers with adapter pattern (from lanka-monitor)
+4. **Ingest** — Python workers with pluggable source adapters
 
 ## Freshness Contract
 
