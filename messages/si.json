@@ -1,12 +1,22 @@
 {
   "meta": {
     "title": "ලංකාව — ශ්‍රී ලංකා සිවිල් බුද්ධිය",
-    "description": "සියලු ශ්‍රී ලාංකිකයන් සඳහා ප්‍රසිද්ධ දත්ත. ආර්ථික, දිස්ත්‍රික්, විපත් සහ පොදු සේවා දත්ත එක් තැනක."
+    "description": "සියලු ශ්‍රී ලාංකිකයන් සඳහා ප්‍රසිද්ධ දත්ත. ආර්ථික, දිස්ත්‍රික්, විපත් සහ පොදු සේවා දත්ත එක් තැනක.",
+    "districtTitle": "දිස්ත්‍රික් පැතිකඩ",
+    "districtDescription": "{province} පළාතේ {name} දිස්ත්‍රික්කය. ජනගහනය {population}. ලංකාව මත civic දත්ත.",
+    "provinceTitle": "පළාත් පැතිකඩ",
+    "provinceDescription": "{name} පළාත — දිස්ත්‍රික් {count}ක් සමඟ එකතු කළ ජනගහනය, ප්‍රදේශය සහ මැතිවරණ සාරාංශ.",
+    "electionPresidentialTitle": "ජනාධිපති 2024 ප්‍රතිඵල",
+    "electionPresidentialDescription": "{name} දිස්ත්‍රික්කයේ 2024 ජනාධිපති මැතිවරණ පළමු preferance ප්‍රතිඵල.",
+    "electionParliamentaryTitle": "පාර්ලිමේන්තු 2024 ප්‍රතිඵල",
+    "electionParliamentaryDescription": "{name} මැතිවරණ දිස්ත්‍රික්කයේ 2024 පාර්ලිමේන්තු මැතිවරණ ආසන allocations."
   },
   "nav": {
     "home": "මුල් පිටුව",
     "districts": "දිස්ත්‍රික්",
+    "provinces": "පළාත්",
     "elections": "මැතිවරණ",
+    "services": "සේවා",
     "disaster": "විපත්",
     "economy": "ආර්ථිකය",
     "sources": "මූලාශ්‍ර",
@@ -45,7 +55,35 @@
     "relatedDisasterStations": "මෙම දිස්ත්‍රික්කයේ ගංවතුර මධ්‍යස්ථාන {count}",
     "relatedEconomy": "ආර්ථික නාඩි",
     "relatedEconomyDesc": "විනිමය අනුපාත, ඉන්ධන මිල සහ macro indicators",
-    "floodStations": "ගංවතුර මධ්‍යස්ථාන"
+    "floodStations": "ගංවතුර මධ්‍යස්ථාන",
+    "parliamentary2024": "පාර්ලිමේන්තු 2024",
+    "seats": "ආසන",
+    "liveFloodTitle": "සජීවී ගංවතුර මධ්‍යස්ථාන",
+    "liveFloodNone": "මෙම දිස්ත්‍රික්කයට map කළ ගංගා මධ්‍යස්ථාන නැත.",
+    "liveFloodUnavailable": "මධ්‍යස්ථාන map කළ නමුත් live readings තාවකාලිකව unavailable.",
+    "relatedProvince": "පළාත් පැතිකඩ",
+    "relatedProvinceDesc": "මෙම පළාතේ එකතු stats සහ දිස්ත්‍රික්",
+    "relatedParliamentary": "පාර්ලිමේන්තු ප්‍රතිඵල",
+    "relatedParliamentaryDesc": "2024 සාමාන්‍ය මැතිවරණ ආසන breakdown",
+    "relatedServices": "පොදු සේවා",
+    "relatedServicesDesc": "රෝහල්, පාසල් සහ GN offices",
+    "relatedServicesCount": "මෙම දිස්ත්‍රික්කයේ facilities {count}"
+  },
+  "provinces": {
+    "title": "පළාත්",
+    "subtitle": "ශ්‍රී ලංකාවේ පළාත් 9 — එකතු දිස්ත්‍රික්, ජනගහනය සහ මැතිවරණ සාරාංශ.",
+    "back": "පළාත් වෙත ආපසු",
+    "population": "ජනගහනය",
+    "area": "ප්‍රදේශය",
+    "density": "සා. ඝනත්වය",
+    "districts": "දිස්ත්‍රික්",
+    "districtCount": "දිස්ත්‍රික් {count}",
+    "electionSummary": "මැතිවරණ 2024 සාරාංශය",
+    "presidential2024": "ජනාධිපති",
+    "parliamentary2024": "පාර්ලිමේන්තු",
+    "districtsWon": "දිස්ත්‍රික් ජය",
+    "seats": "ආසන",
+    "districtList": "මෙම පළාතේ දිස්ත්‍රික්"
   },
   "elections": {
     "eyebrow": "මැතිවරණ බුද්ධිය",
@@ -66,7 +104,17 @@
     "validVotes": "වලංගු ඡන්ද",
     "voteBreakdown": "ඡන්ද විස්තර",
     "viewDistrict": "දිස්ත්‍රික් profile බලන්න",
-    "asOf": "{date} දක්වා"
+    "asOf": "{date} දක්වා",
+    "tabPresidential": "ජනාධිපති",
+    "tabParliamentary": "පාර්ලිමේන්තු",
+    "parliamentaryTitle": "පාර්ලිමේන්තු මැතිවරණ 2024",
+    "parliamentarySubtitle": "ශ්‍රී ලංකා මැතිවරණ කොමිසමේ දිස්ත්‍රික් ආසන allocations.",
+    "totalSeats": "මුළු ආසන",
+    "seats": "ආසන",
+    "seatBreakdown": "ආසන breakdown",
+    "backParliamentary": "පාර්ලිමේන්තු ප්‍රතිඵල වෙත ආපසු",
+    "parliamentaryDistrictSubtitle": "පාර්ලිමේන්තු මැතිවරණ දිස්ත්‍රික් ප්‍රතිඵල",
+    "adminDistricts": "ආවරණය වන administrative දිස්ත්‍රික්"
   },
   "disaster": {
     "title": "විපත් සහ ගංවතුර",
@@ -76,12 +124,35 @@
   },
   "economy": {
     "title": "ආර්ථික නාඩි",
-    "subtitle": "විනිමය අනුපාත, ඉන්ධන මිල සහ සාර්ව ඉන්දිකATORS."
+    "subtitle": "විනිමය අනුපාත, ඉන්ධන මිල සහ macro indicators.",
+    "liveTitle": "Live indicators",
+    "macroTitle": "Macro snapshot",
+    "macroSubtitle": "CBSL public figures වලින් static seed",
+    "fxSparklineTitle": "USD/LKR (30-day trend)"
   },
   "search": {
-    "label": "දිස්ත්‍රික් සොයන්න",
-    "placeholder": "දිස්ත්‍රික් සොයන්න…",
-    "noResults": "දිස්ත්‍රික් හමු නොවීය"
+    "label": "ලංකාව search",
+    "placeholder": "දිස්ත්‍රික්, පළාත්, මැතිවරණ search…",
+    "noResults": "ප්‍රතිඵල හමු නොවීය",
+    "groupDistricts": "දිස්ත්‍රික්",
+    "groupProvinces": "පළාත්",
+    "groupElections": "මැතිවරණ",
+    "groupServices": "සේවා"
+  },
+  "services": {
+    "title": "පොදු සේවා",
+    "subtitle": "දිස්ත්‍රික් අනුව රෝහල්, පාසල් සහ GN division offices.",
+    "source": "මූලාශ්‍රය",
+    "searchPlaceholder": "facilities search…",
+    "allDistricts": "සියලු seeded districts",
+    "allTypes": "සියලු types",
+    "typeHospital": "රෝහල",
+    "typeSchool": "පාසල",
+    "typeGnOffice": "GN office",
+    "resultsCount": "facilities {count}",
+    "noResults": "filters වලට ගැලපෙන facilities නැත.",
+    "comingSoonTitle": "තව දිස්ත්‍රික් ඉක්මනින්",
+    "comingSoonBody": "කොළඹ, මහනුවර සහ ගාල්ල deeply seeded. open-data feeds available වූ විට අනෙක් දිස්ත්‍රික් add කරනු ඇත."
   },
   "about": {
     "eyebrow": "Lankawa ගැන",

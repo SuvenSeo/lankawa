@@ -1,0 +1,52 @@
+{
+  "sourceId": "cbsl_macro",
+  "sourceName": "Central Bank of Sri Lanka",
+  "asOf": "2025-06-30",
+  "indicators": [
+    {
+      "id": "inflation_ccpi",
+      "label": "CCPI Inflation (YoY)",
+      "value": 0.5,
+      "unit": "%",
+      "period": "June 2025"
+    },
+    {
+      "id": "gdp_growth",
+      "label": "Real GDP Growth",
+      "value": 5.0,
+      "unit": "%",
+      "period": "2024"
+    },
+    {
+      "id": "forex_reserves",
+      "label": "Gross Official Reserves",
+      "value": 6.1,
+      "unit": "USD bn",
+      "period": "May 2025"
+    }
+  ],
+  "fxSeries": [
+    { "date": "2025-06-19", "sellRate": 301.25 },
+    { "date": "2025-06-20", "sellRate": 301.4 },
+    { "date": "2025-06-23", "sellRate": 301.55 },
+    { "date": "2025-06-24", "sellRate": 301.8 },
+    { "date": "2025-06-25", "sellRate": 302.0 },
+    { "date": "2025-06-26", "sellRate": 302.15 },
+    { "date": "2025-06-27", "sellRate": 302.3 },
+    { "date": "2025-06-30", "sellRate": 302.5 },
+    { "date": "2025-07-01", "sellRate": 302.45 },
+    { "date": "2025-07-02", "sellRate": 302.6 },
+    { "date": "2025-07-03", "sellRate": 302.75 },
+    { "date": "2025-07-04", "sellRate": 302.8 },
+    { "date": "2025-07-07", "sellRate": 302.9 },
+    { "date": "2025-07-08", "sellRate": 303.0 },
+    { "date": "2025-07-09", "sellRate": 303.1 },
+    { "date": "2025-07-10", "sellRate": 303.25 },
+    { "date": "2025-07-11", "sellRate": 303.3 },
+    { "date": "2025-07-14", "sellRate": 303.45 },
+    { "date": "2025-07-15", "sellRate": 303.5 },
+    { "date": "2025-07-16", "sellRate": 303.6 },
+    { "date": "2025-07-17", "sellRate": 303.75 },
+    { "date": "2025-07-18", "sellRate": 303.8 }
+  ]
+}

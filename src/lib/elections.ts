@@ -1,12 +1,18 @@
 import electionData from "@/data/elections-presidential-2024.json";
+import parliamentaryData from "@/data/elections-parliamentary-2024.json";
 import type {
   ElectionCandidate,
   ElectionCandidateId,
   ElectionDistrictResult,
+  ParliamentaryDistrictResult,
+  ParliamentaryElection,
+  ParliamentaryParty,
+  ParliamentaryPartyId,
   PresidentialElection,
 } from "./types";
 
 const election = electionData as PresidentialElection;
+const parliamentary = parliamentaryData as ParliamentaryElection;
 
 export function getPresidentialElection2024(): PresidentialElection {
   return election;
@@ -57,4 +63,67 @@ export function getCandidateColor(
       return _exhaustive;
     }
   }
+}
+
+export function getParliamentaryElection2024(): ParliamentaryElection {
+  return parliamentary;
+}
+
+export function getParliamentaryParty(
+  id: string,
+): ParliamentaryParty | undefined {
+  return parliamentary.parties.find((party) => party.id === id);
+}
+
+export function getParliamentaryDistrictResult(
+  slug: string,
+): ParliamentaryDistrictResult | undefined {
+  return parliamentary.districts.find((district) => district.slug === slug);
+}
+
+export function getParliamentaryDistrictForAdminDistrict(
+  adminDistrictSlug: string,
+): ParliamentaryDistrictResult | undefined {
+  return parliamentary.districts.find((district) =>
+    district.districtSlugs.includes(adminDistrictSlug),
+  );
+}
+
+export function countElectoralDistrictsWonBy(
+  partyId: ParliamentaryPartyId,
+): number {
+  return parliamentary.districts.filter(
+    (district) => district.winner === partyId,
+  ).length;
+}
+
+export function getPartyColor(partyId: ParliamentaryPartyId): string {
+  switch (partyId) {
+    case "npp":
+      return "#14b8a6";
+    case "sjb":
+      return "#60a5fa";
+    case "itak":
+      return "#f59e0b";
+    case "ndf":
+      return "#a78bfa";
+    case "slpp":
+      return "#6366f1";
+    case "others":
+      return "#94a3b8";
+    default: {
+      const _exhaustive: never = partyId;
+      return _exhaustive;
+    }
+  }
+}
+
+export function getPartySeatShare(
+  result: ParliamentaryDistrictResult,
+  partyId: ParliamentaryPartyId,
+): number {
+  if (!result.totalSeats) {
+    return 0;
+  }
+  return (result.seats[partyId] / result.totalSeats) * 100;
 }

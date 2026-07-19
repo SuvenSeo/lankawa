@@ -1,12 +1,22 @@
 {
   "meta": {
     "title": "Lankawa — Sri Lanka Civic Intelligence",
-    "description": "Everything public, for every Sri Lankan. Unified civic data across economy, districts, disasters, and public services."
+    "description": "Everything public, for every Sri Lankan. Unified civic data across economy, districts, disasters, and public services.",
+    "districtTitle": "District Profile",
+    "districtDescription": "{name} district in {province} province. Population {population}. Civic data on Lankawa.",
+    "provinceTitle": "Province Profile",
+    "provinceDescription": "{name} province — {count} districts with aggregated population, area, and election summaries.",
+    "electionPresidentialTitle": "Presidential 2024 Results",
+    "electionPresidentialDescription": "2024 presidential election first-preference results for {name} district.",
+    "electionParliamentaryTitle": "Parliamentary 2024 Results",
+    "electionParliamentaryDescription": "2024 parliamentary election seat allocation for {name} electoral district."
   },
   "nav": {
     "home": "Home",
     "districts": "Districts",
+    "provinces": "Provinces",
     "elections": "Elections",
+    "services": "Services",
     "disaster": "Disaster",
     "economy": "Economy",
     "sources": "Sources",
@@ -45,7 +55,35 @@
     "relatedDisasterStations": "{count} flood monitoring stations in this district",
     "relatedEconomy": "Economic pulse",
     "relatedEconomyDesc": "Exchange rates, fuel prices, and macro indicators",
-    "floodStations": "Flood stations"
+    "floodStations": "Flood stations",
+    "parliamentary2024": "Parliamentary 2024",
+    "seats": "seats",
+    "liveFloodTitle": "Live flood stations",
+    "liveFloodNone": "No river monitoring stations mapped to this district.",
+    "liveFloodUnavailable": "Stations mapped but live readings are temporarily unavailable.",
+    "relatedProvince": "Province profile",
+    "relatedProvinceDesc": "Aggregated stats and districts in this province",
+    "relatedParliamentary": "Parliamentary results",
+    "relatedParliamentaryDesc": "2024 general election seat breakdown",
+    "relatedServices": "Public services",
+    "relatedServicesDesc": "Hospitals, schools, and GN offices",
+    "relatedServicesCount": "{count} facilities listed in this district"
+  },
+  "provinces": {
+    "title": "Provinces",
+    "subtitle": "Sri Lanka's 9 provinces — aggregated districts, population, and election summaries.",
+    "back": "Back to provinces",
+    "population": "Population",
+    "area": "Area",
+    "density": "Avg. density",
+    "districts": "Districts",
+    "districtCount": "{count} districts",
+    "electionSummary": "Election 2024 summary",
+    "presidential2024": "Presidential",
+    "parliamentary2024": "Parliamentary",
+    "districtsWon": "districts won",
+    "seats": "seats",
+    "districtList": "Districts in this province"
   },
   "elections": {
     "eyebrow": "Electoral intelligence",
@@ -66,7 +104,17 @@
     "validVotes": "Valid votes",
     "voteBreakdown": "Vote breakdown",
     "viewDistrict": "View district profile",
-    "asOf": "As of {date}"
+    "asOf": "As of {date}",
+    "tabPresidential": "Presidential",
+    "tabParliamentary": "Parliamentary",
+    "parliamentaryTitle": "Parliamentary Election 2024",
+    "parliamentarySubtitle": "District-level seat allocations from the Election Commission of Sri Lanka.",
+    "totalSeats": "Total seats",
+    "seats": "seats",
+    "seatBreakdown": "Seat breakdown",
+    "backParliamentary": "Back to parliamentary results",
+    "parliamentaryDistrictSubtitle": "Parliamentary election district results",
+    "adminDistricts": "Administrative districts covered"
   },
   "disaster": {
     "title": "Disaster & Flood",
@@ -76,12 +124,35 @@
   },
   "economy": {
     "title": "Economic Pulse",
-    "subtitle": "Exchange rates, fuel prices, and macro indicators."
+    "subtitle": "Exchange rates, fuel prices, and macro indicators.",
+    "liveTitle": "Live indicators",
+    "macroTitle": "Macro snapshot",
+    "macroSubtitle": "Static seed from CBSL public figures",
+    "fxSparklineTitle": "USD/LKR (30-day trend)"
   },
   "search": {
-    "label": "Search districts",
-    "placeholder": "Search districts…",
-    "noResults": "No districts found"
+    "label": "Search Lankawa",
+    "placeholder": "Search districts, provinces, elections…",
+    "noResults": "No results found",
+    "groupDistricts": "Districts",
+    "groupProvinces": "Provinces",
+    "groupElections": "Elections",
+    "groupServices": "Services"
+  },
+  "services": {
+    "title": "Public Services",
+    "subtitle": "Hospitals, schools, and GN division offices by district.",
+    "source": "Source",
+    "searchPlaceholder": "Search facilities…",
+    "allDistricts": "All seeded districts",
+    "allTypes": "All types",
+    "typeHospital": "Hospital",
+    "typeSchool": "School",
+    "typeGnOffice": "GN office",
+    "resultsCount": "{count} facilities",
+    "noResults": "No facilities match your filters.",
+    "comingSoonTitle": "More districts coming soon",
+    "comingSoonBody": "Colombo, Kandy, and Galle are seeded deeply. Other districts will be added as open-data feeds become available."
   },
   "about": {
     "eyebrow": "About Lankawa",

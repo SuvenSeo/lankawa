@@ -3,13 +3,15 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
-import { DistrictSearch } from "@/components/DistrictSearch";
+import { GlobalSearch } from "@/components/GlobalSearch";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 
 const links = [
   { href: "/", key: "home" },
   { href: "/districts", key: "districts" },
+  { href: "/provinces", key: "provinces" },
   { href: "/elections", key: "elections" },
+  { href: "/services", key: "services" },
   { href: "/disaster", key: "disaster" },
   { href: "/economy", key: "economy" },
   { href: "/sources", key: "sources" },
@@ -66,7 +68,7 @@ export function SiteHeader() {
         </Link>
 
         <div className="order-3 w-full md:order-none md:mx-4 md:w-auto md:max-w-xs md:flex-1">
-          <DistrictSearch />
+          <GlobalSearch />
         </div>
 
         <nav className="hidden items-center gap-1 lg:flex">

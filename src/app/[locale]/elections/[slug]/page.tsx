@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { ElectionResultBars } from "@/components/ElectionCards";
 import { Link } from "@/i18n/navigation";
 import { getDistrict, getDistrictName } from "@/lib/districts";
@@ -10,10 +11,20 @@ import {
   getPresidentialElection2024,
   getCandidateColor,
 } from "@/lib/elections";
+import { buildPresidentialElectionMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
   const election = getPresidentialElection2024();
   return election.districts.map((district) => ({ slug: district.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  return buildPresidentialElectionMetadata(locale, slug);
 }
 
 export default async function ElectionDistrictPage({

@@ -1,0 +1,320 @@
+{
+  "id": "parliamentary-2024",
+  "type": "parliamentary",
+  "date": "2024-11-14",
+  "sourceId": "election_commission_pe_2024",
+  "sourceName": "Election Commission of Sri Lanka",
+  "totalSeats": 225,
+  "districtSeats": 196,
+  "nationalListSeats": 29,
+  "nationalWinner": "npp",
+  "turnout": 69.15,
+  "validVotes": 11145678,
+  "registeredElectors": 17140354,
+  "parties": [
+    {
+      "id": "npp",
+      "name": "National People's Power",
+      "abbreviation": "NPP",
+      "districtSeats": 141,
+      "nationalListSeats": 18,
+      "totalSeats": 159,
+      "votes": 6863186,
+      "percentage": 61.56
+    },
+    {
+      "id": "sjb",
+      "name": "Samagi Jana Balawegaya",
+      "abbreviation": "SJB",
+      "districtSeats": 35,
+      "nationalListSeats": 5,
+      "totalSeats": 40,
+      "votes": 1968716,
+      "percentage": 17.66
+    },
+    {
+      "id": "itak",
+      "name": "Ilankai Tamil Arasu Kachchi",
+      "abbreviation": "ITAK",
+      "districtSeats": 7,
+      "nationalListSeats": 1,
+      "totalSeats": 8,
+      "votes": 257813,
+      "percentage": 2.31
+    },
+    {
+      "id": "ndf",
+      "name": "New Democratic Front",
+      "abbreviation": "NDF",
+      "districtSeats": 3,
+      "nationalListSeats": 2,
+      "totalSeats": 5,
+      "votes": 500835,
+      "percentage": 4.49
+    },
+    {
+      "id": "slpp",
+      "name": "Sri Lanka Podujana Peramuna",
+      "abbreviation": "SLPP",
+      "districtSeats": 2,
+      "nationalListSeats": 1,
+      "totalSeats": 3,
+      "votes": 350429,
+      "percentage": 3.14
+    },
+    {
+      "id": "others",
+      "name": "Other parties & independents",
+      "abbreviation": "—",
+      "districtSeats": 8,
+      "nationalListSeats": 3,
+      "totalSeats": 11,
+      "votes": 1105699,
+      "percentage": 10.84
+    }
+  ],
+  "districts": [
+    {
+      "slug": "colombo",
+      "name": "Colombo",
+      "province": "Western",
+      "districtSlugs": ["colombo"],
+      "totalSeats": 18,
+      "turnout": 68.64,
+      "winner": "npp",
+      "seats": { "npp": 14, "sjb": 4, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 788636, "sjb": 208249, "itak": 0, "ndf": 51020, "slpp": 34880, "others": 66340 }
+    },
+    {
+      "slug": "gampaha",
+      "name": "Gampaha",
+      "province": "Western",
+      "districtSlugs": ["gampaha"],
+      "totalSeats": 19,
+      "turnout": 69.48,
+      "winner": "npp",
+      "seats": { "npp": 16, "sjb": 3, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 898759, "sjb": 150445, "itak": 0, "ndf": 47512, "slpp": 49516, "others": 89080 }
+    },
+    {
+      "slug": "kalutara",
+      "name": "Kalutara",
+      "province": "Western",
+      "districtSlugs": ["kalutara"],
+      "totalSeats": 11,
+      "turnout": 70.44,
+      "winner": "npp",
+      "seats": { "npp": 8, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 1, "others": 0 },
+      "votes": { "npp": 452398, "sjb": 128932, "itak": 0, "ndf": 34257, "slpp": 27072, "others": 41833 }
+    },
+    {
+      "slug": "kandy",
+      "name": "Kandy",
+      "province": "Central",
+      "districtSlugs": ["kandy"],
+      "totalSeats": 12,
+      "turnout": 70.16,
+      "winner": "npp",
+      "seats": { "npp": 9, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 1, "others": 0 },
+      "votes": { "npp": 500596, "sjb": 145939, "itak": 0, "ndf": 50889, "slpp": 15762, "others": 61729 }
+    },
+    {
+      "slug": "matale",
+      "name": "Matale",
+      "province": "Central",
+      "districtSlugs": ["matale"],
+      "totalSeats": 5,
+      "turnout": 69.13,
+      "winner": "npp",
+      "seats": { "npp": 4, "sjb": 1, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 181678, "sjb": 53200, "itak": 0, "ndf": 13353, "slpp": 10150, "others": 16220 }
+    },
+    {
+      "slug": "nuwara-eliya",
+      "name": "Nuwara Eliya",
+      "province": "Central",
+      "districtSlugs": ["nuwara-eliya"],
+      "totalSeats": 8,
+      "turnout": 71.02,
+      "winner": "npp",
+      "seats": { "npp": 5, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 0, "others": 1 },
+      "votes": { "npp": 161167, "sjb": 101589, "itak": 0, "ndf": 0, "slpp": 6123, "others": 118686 }
+    },
+    {
+      "slug": "galle",
+      "name": "Galle",
+      "province": "Southern",
+      "districtSlugs": ["galle"],
+      "totalSeats": 9,
+      "turnout": 68.67,
+      "winner": "npp",
+      "seats": { "npp": 7, "sjb": 1, "itak": 0, "ndf": 0, "slpp": 1, "others": 0 },
+      "votes": { "npp": 406428, "sjb": 93486, "itak": 0, "ndf": 30453, "slpp": 31201, "others": 35523 }
+    },
+    {
+      "slug": "matara",
+      "name": "Matara",
+      "province": "Southern",
+      "districtSlugs": ["matara"],
+      "totalSeats": 7,
+      "turnout": 69.43,
+      "winner": "npp",
+      "seats": { "npp": 6, "sjb": 1, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 317541, "sjb": 74475, "itak": 0, "ndf": 31009, "slpp": 9432, "others": 22277 }
+    },
+    {
+      "slug": "hambantota",
+      "name": "Hambantota",
+      "province": "Southern",
+      "districtSlugs": ["hambantota"],
+      "totalSeats": 7,
+      "turnout": 70.97,
+      "winner": "npp",
+      "seats": { "npp": 5, "sjb": 1, "itak": 0, "ndf": 0, "slpp": 1, "others": 0 },
+      "votes": { "npp": 234083, "sjb": 52170, "itak": 0, "ndf": 18297, "slpp": 26268, "others": 17039 }
+    },
+    {
+      "slug": "jaffna",
+      "name": "Jaffna",
+      "province": "Northern",
+      "districtSlugs": ["jaffna"],
+      "totalSeats": 6,
+      "turnout": 60.37,
+      "winner": "npp",
+      "seats": { "npp": 3, "sjb": 0, "itak": 1, "ndf": 0, "slpp": 0, "others": 2 },
+      "votes": { "npp": 80830, "sjb": 15276, "itak": 63327, "ndf": 0, "slpp": 582, "others": 165297 }
+    },
+    {
+      "slug": "vanni",
+      "name": "Vanni",
+      "province": "Northern",
+      "districtSlugs": ["kilinochchi", "mannar", "vavuniya", "mullaitivu"],
+      "totalSeats": 6,
+      "turnout": 68.98,
+      "winner": "others",
+      "seats": { "npp": 2, "sjb": 1, "itak": 1, "ndf": 0, "slpp": 0, "others": 2 },
+      "votes": { "npp": 39894, "sjb": 32232, "itak": 29711, "ndf": 0, "slpp": 805, "others": 93244 }
+    },
+    {
+      "slug": "batticaloa",
+      "name": "Batticaloa",
+      "province": "Eastern",
+      "districtSlugs": ["batticaloa"],
+      "totalSeats": 5,
+      "turnout": 67.24,
+      "winner": "itak",
+      "seats": { "npp": 1, "sjb": 0, "itak": 3, "ndf": 0, "slpp": 0, "others": 1 },
+      "votes": { "npp": 55498, "sjb": 22570, "itak": 96975, "ndf": 559, "slpp": 263, "others": 111188 }
+    },
+    {
+      "slug": "ampara",
+      "name": "Digamadulla (Ampara)",
+      "province": "Eastern",
+      "districtSlugs": ["ampara"],
+      "totalSeats": 7,
+      "turnout": 68.51,
+      "winner": "npp",
+      "seats": { "npp": 4, "sjb": 0, "itak": 1, "ndf": 0, "slpp": 0, "others": 2 },
+      "votes": { "npp": 146313, "sjb": 32320, "itak": 33632, "ndf": 33544, "slpp": 6654, "others": 110461 }
+    },
+    {
+      "slug": "trincomalee",
+      "name": "Trincomalee",
+      "province": "Eastern",
+      "districtSlugs": ["trincomalee"],
+      "totalSeats": 4,
+      "turnout": 69.14,
+      "winner": "npp",
+      "seats": { "npp": 2, "sjb": 1, "itak": 1, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 87031, "sjb": 53058, "itak": 34168, "ndf": 9387, "slpp": 1399, "others": 19845 }
+    },
+    {
+      "slug": "kurunegala",
+      "name": "Kurunegala",
+      "province": "North Western",
+      "districtSlugs": ["kurunegala"],
+      "totalSeats": 15,
+      "turnout": 69.07,
+      "winner": "npp",
+      "seats": { "npp": 12, "sjb": 3, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 651476, "sjb": 189394, "itak": 0, "ndf": 30073, "slpp": 35236, "others": 30436 }
+    },
+    {
+      "slug": "puttalam",
+      "name": "Puttalam",
+      "province": "North Western",
+      "districtSlugs": ["puttalam"],
+      "totalSeats": 8,
+      "turnout": 61.91,
+      "winner": "npp",
+      "seats": { "npp": 6, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 239576, "sjb": 65679, "itak": 0, "ndf": 15741, "slpp": 14624, "others": 44061 }
+    },
+    {
+      "slug": "anuradhapura",
+      "name": "Anuradhapura",
+      "province": "North Central",
+      "districtSlugs": ["anuradhapura"],
+      "totalSeats": 9,
+      "turnout": 70.44,
+      "winner": "npp",
+      "seats": { "npp": 7, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 331692, "sjb": 98176, "itak": 0, "ndf": 29961, "slpp": 11248, "others": 29115 }
+    },
+    {
+      "slug": "polonnaruwa",
+      "name": "Polonnaruwa",
+      "province": "North Central",
+      "districtSlugs": ["polonnaruwa"],
+      "totalSeats": 5,
+      "turnout": 68.36,
+      "winner": "npp",
+      "seats": { "npp": 4, "sjb": 1, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 159010, "sjb": 43822, "itak": 0, "ndf": 5153, "slpp": 4646, "others": 19928 }
+    },
+    {
+      "slug": "badulla",
+      "name": "Badulla",
+      "province": "Uva",
+      "districtSlugs": ["badulla"],
+      "totalSeats": 9,
+      "turnout": 71.37,
+      "winner": "npp",
+      "seats": { "npp": 6, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 1, "others": 0 },
+      "votes": { "npp": 275180, "sjb": 102958, "itak": 0, "ndf": 36450, "slpp": 11255, "others": 43863 }
+    },
+    {
+      "slug": "monaragala",
+      "name": "Monaragala",
+      "province": "Uva",
+      "districtSlugs": ["monaragala"],
+      "totalSeats": 6,
+      "turnout": 71.36,
+      "winner": "npp",
+      "seats": { "npp": 5, "sjb": 1, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 174730, "sjb": 62014, "itak": 0, "ndf": 10697, "slpp": 11624, "others": 12791 }
+    },
+    {
+      "slug": "ratnapura",
+      "name": "Ratnapura",
+      "province": "Sabaragamuwa",
+      "districtSlugs": ["ratnapura"],
+      "totalSeats": 11,
+      "turnout": 68.57,
+      "winner": "npp",
+      "seats": { "npp": 8, "sjb": 3, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 368229, "sjb": 133041, "itak": 0, "ndf": 26171, "slpp": 29316, "others": 39613 }
+    },
+    {
+      "slug": "kegalle",
+      "name": "Kegalle",
+      "province": "Sabaragamuwa",
+      "districtSlugs": ["kegalle"],
+      "totalSeats": 9,
+      "turnout": 70.57,
+      "winner": "npp",
+      "seats": { "npp": 7, "sjb": 2, "itak": 0, "ndf": 0, "slpp": 0, "others": 0 },
+      "votes": { "npp": 312441, "sjb": 109691, "itak": 0, "ndf": 26309, "slpp": 12373, "others": 21337 }
+    }
+  ]
+}

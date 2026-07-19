@@ -1,0 +1,114 @@
+{
+  "sourceId": "public_services_stub",
+  "sourceName": "Lankawa public services directory (seed)",
+  "facilities": [
+    {
+      "id": "colombo-national-hospital",
+      "type": "hospital",
+      "name": "National Hospital of Sri Lanka",
+      "nameSi": "ශ්‍රී ලංකා ජාතික රෝහල",
+      "nameTa": "இலங்கை தேசிய மருத்துவமனை",
+      "districtSlug": "colombo",
+      "address": "Regent Street, Colombo 10"
+    },
+    {
+      "id": "colombo-lady-ridgeway",
+      "type": "hospital",
+      "name": "Lady Ridgeway Hospital for Children",
+      "nameSi": "ලේඩි රිජ්වේ ළමා රෝහල",
+      "nameTa": "லேடி ரிட்ஜ்வே குழந்தைகள் மருத்துவமனை",
+      "districtSlug": "colombo",
+      "address": "Borella, Colombo 08"
+    },
+    {
+      "id": "colombo-royal-college",
+      "type": "school",
+      "name": "Royal College Colombo",
+      "nameSi": "රාජකීය විද්‍යාලය කොළඹ",
+      "nameTa": "ராயல் கல்லூரி கொழும்பு",
+      "districtSlug": "colombo",
+      "address": "Rajakeeya Mawatha, Colombo 07"
+    },
+    {
+      "id": "colombo-ananda-college",
+      "type": "school",
+      "name": "Ananda College",
+      "nameSi": "ආනන්ද විද්‍යාලය",
+      "nameTa": "ஆனந்த கல்லூரி",
+      "districtSlug": "colombo",
+      "address": "Maradana, Colombo 10"
+    },
+    {
+      "id": "colombo-gn-colombo",
+      "type": "gn_office",
+      "name": "Colombo Divisional Secretariat",
+      "nameSi": "කොළඹ කලාප ලේකම් කාර්යාලය",
+      "nameTa": "கொழும்பு பிரதேச செcretariat",
+      "districtSlug": "colombo",
+      "address": "Colombo 05"
+    },
+    {
+      "id": "kandy-teaching-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Kandy",
+      "nameSi": "මහනුවර උගන්වන රෝහල",
+      "nameTa": "கண்டி பTeaching மருத்துவமனை",
+      "districtSlug": "kandy",
+      "address": "William Gopallawa Mawatha, Kandy"
+    },
+    {
+      "id": "kandy-dharmaraja",
+      "type": "school",
+      "name": "Dharmaraja College",
+      "nameSi": "ධarmaraja විද්‍යාලය",
+      "nameTa": "தarmaraja கல்லூரி",
+      "districtSlug": "kandy",
+      "address": "Kandy"
+    },
+    {
+      "id": "kandy-girls-high",
+      "type": "school",
+      "name": "Kandy Girls' High School",
+      "nameSi": "මහනුවර ගැහැණු ශිෂ්‍යාවන් විද්‍යාලය",
+      "nameTa": "கண்டி பெண்கள் உயர்தரப் பாடசாலை",
+      "districtSlug": "kandy",
+      "address": "Kandy"
+    },
+    {
+      "id": "kandy-gn-kandy",
+      "type": "gn_office",
+      "name": "Kandy District Secretariat",
+      "nameSi": "මහනුවර දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "கண்டி மாவட்ட செcretariat",
+      "districtSlug": "kandy",
+      "address": "Kandy"
+    },
+    {
+      "id": "galle-teaching-hospital",
+      "type": "hospital",
+      "name": "Teaching Hospital Karapitiya",
+      "nameSi": "කarapitiya උගන්වන රෝහල",
+      "nameTa": "Karapitiya பTeaching மருத்துவமனை",
+      "districtSlug": "galle",
+      "address": "Karapitiya, Galle"
+    },
+    {
+      "id": "galle-mahinda-college",
+      "type": "school",
+      "name": "Mahinda College Galle",
+      "nameSi": "මහින්ද විද්‍යාලය ගාල්ල",
+      "nameTa": "மகிந்த கல்லூரி காலி",
+      "districtSlug": "galle",
+      "address": "Galle"
+    },
+    {
+      "id": "galle-gn-galle",
+      "type": "gn_office",
+      "name": "Galle District Secretariat",
+      "nameSi": "ගාල්ල දිස්ත්‍රික් ලේකම් කාර්යාලය",
+      "nameTa": "காலி மாவட்ட செcretariat",
+      "districtSlug": "galle",
+      "address": "Galle"
+    }
+  ]
+}

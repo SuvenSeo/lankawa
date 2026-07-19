@@ -1,12 +1,22 @@
 {
   "meta": {
     "title": "லங்காவா — இலங்கை சிவில் நுண்ணறிவு",
-    "description": "அனைத்து இலங்கையர்களுக்கும் பொது தரவு. பொருளாதாரம், மாவட்டங்கள், பேரிடர் மற்றும் பொது சேவைகள்."
+    "description": "அனைத்து இலங்கையர்களுக்கும் பொது தரவு. பொருளாதாரம், மாவட்டங்கள், பேரிடர் மற்றும் பொது சேவைகள்.",
+    "districtTitle": "மாவட்ட சுயவிவரம்",
+    "districtDescription": "{province} மாகாணத்தில் {name} மாவட்டம். மக்கள்தொகை {population}. லங்காவாவில் சிவில் தரவு.",
+    "provinceTitle": "மாகாண சுயவிவரம்",
+    "provinceDescription": "{name} மாகாணம் — {count} மாவட்டங்களுடன் தொகுக்கப்பட்ட மக்கள்தொகை, பரப்பளவு மற்றும் தேர்தல் சுருக்கம்.",
+    "electionPresidentialTitle": "ஜனாதிபதி 2024 முடிவுகள்",
+    "electionPresidentialDescription": "{name} மாவட்டத்திற்கான 2024 ஜனாதிபதி தேர்தல் முதல் preference முடிவுகள்.",
+    "electionParliamentaryTitle": "நாடாளுமன்ற 2024 முடிவுகள்",
+    "electionParliamentaryDescription": "{name} தேர்தல் மாவட்டத்திற்கான 2024 நாடாளுமன்ற தேர்தல் இட ஒதுக்கீடு."
   },
   "nav": {
     "home": "முகப்பு",
     "districts": "மாவட்டங்கள்",
+    "provinces": "மாகாணங்கள்",
     "elections": "தேர்தல்",
+    "services": "சேவைகள்",
     "disaster": "பேரிடர்",
     "economy": "பொருளாதாரம்",
     "sources": "மூலங்கள்",
@@ -45,7 +55,35 @@
     "relatedDisasterStations": "இந்த மாவட்டத்தில் {count} வெள்ள நிலையங்கள்",
     "relatedEconomy": "பொருளாதார நிலை",
     "relatedEconomyDesc": "நாணய விகிதங்கள், எரிபொருள் விலைகள் மற்றும் macro indicators",
-    "floodStations": "வெள்ள நிலையங்கள்"
+    "floodStations": "வெள்ள நிலையங்கள்",
+    "parliamentary2024": "நாடாளுமன்ற 2024",
+    "seats": "இடங்கள்",
+    "liveFloodTitle": "நேரடி வெள்ள நிலையங்கள்",
+    "liveFloodNone": "இந்த மாவட்டத்திற்கு வரைபடமாக்கப்பட்ட நதி நிலையங்கள் இல்லை.",
+    "liveFloodUnavailable": "நிலையங்கள் வரைபடமாக்கப்பட்டுள்ளன ஆனால் நேரடி அளவீடுகள் தற்காலிகமாக கிடைக்கவில்லை.",
+    "relatedProvince": "மாகாண சுயவிவரம்",
+    "relatedProvinceDesc": "இந்த மாகாணத்தில் தொகுக்கப்பட்ட stats மற்றும் மாவட்டங்கள்",
+    "relatedParliamentary": "நாடாளுமன்ற முடிவுகள்",
+    "relatedParliamentaryDesc": "2024 பொது தேர்தல் இட breakdown",
+    "relatedServices": "பொது சேவைகள்",
+    "relatedServicesDesc": "மருத்துவமனைகள், பள்ளிகள் மற்றும் GN offices",
+    "relatedServicesCount": "இந்த மாவட்டத்தில் {count} facilities"
+  },
+  "provinces": {
+    "title": "மாகாணங்கள்",
+    "subtitle": "இலங்கையின் 9 மாகாணங்கள் — தொகுக்கப்பட்ட மாவட்டங்கள், மக்கள்தொகை மற்றும் தேர்தல் சுருக்கம்.",
+    "back": "மாகாணங்களுக்குத் திரும்பு",
+    "population": "மக்கள்தொகை",
+    "area": "பரப்பளவு",
+    "density": "சரா. அடர்த்தி",
+    "districts": "மாவட்டங்கள்",
+    "districtCount": "{count} மாவட்டங்கள்",
+    "electionSummary": "தேர்தல் 2024 சுருக்கம்",
+    "presidential2024": "ஜனாதிபதி",
+    "parliamentary2024": "நாடாளுமன்ற",
+    "districtsWon": "மாவட்ட victories",
+    "seats": "இடங்கள்",
+    "districtList": "இந்த மாகாணத்தின் மாவட்டங்கள்"
   },
   "elections": {
     "eyebrow": "தேர்தல் நுண்ணறிவு",
@@ -66,7 +104,17 @@
     "validVotes": "செல்லுபடியான வாக்குகள்",
     "voteBreakdown": "வாக்கு விவரம்",
     "viewDistrict": "மாவட்ட profile பார்க்க",
-    "asOf": "{date} வரை"
+    "asOf": "{date} வரை",
+    "tabPresidential": "ஜனாதிபதி",
+    "tabParliamentary": "நாடாளுமன்ற",
+    "parliamentaryTitle": "நாடாளுமன்ற தேர்தல் 2024",
+    "parliamentarySubtitle": "இலங்கை தேர்தல் ஆணையத்தின் மாவட்ட இட ஒதுக்கீடுகள்.",
+    "totalSeats": "மொத்த இடங்கள்",
+    "seats": "இடங்கள்",
+    "seatBreakdown": "இட breakdown",
+    "backParliamentary": "நாடாளுமன்ற முடிவுகளுக்குத் திரும்பு",
+    "parliamentaryDistrictSubtitle": "நாடாளுமன்ற தேர்தல் மாவட்ட முடிவுகள்",
+    "adminDistricts": "உள்ளடக்கிய administrative மாவட்டங்கள்"
   },
   "disaster": {
     "title": "பேரிடர் & வெள்ளம்",
@@ -76,12 +124,35 @@
   },
   "economy": {
     "title": "பொருளாதார நிலை",
-    "subtitle": "நாணய விகிதங்கள், எரிபொருள் விலைகள் மற்றும் பெரும் குறிகாட்டிகள்."
+    "subtitle": "நாணய விகிதங்கள், எரிபொருள் விலைகள் மற்றும் பெரும் குறிகாட்டிகள்.",
+    "liveTitle": "நேரடி indicators",
+    "macroTitle": "Macro snapshot",
+    "macroSubtitle": "CBSL public figures-லிருந்து static seed",
+    "fxSparklineTitle": "USD/LKR (30-day trend)"
   },
   "search": {
-    "label": "மாவட்டங்களைத் தேடு",
-    "placeholder": "மாவட்டங்களைத் தேடு…",
-    "noResults": "மாவட்டங்கள் கிடைக்கவில்லை"
+    "label": "லங்காவா தேடு",
+    "placeholder": "மாவட்டங்கள், மாகாணங்கள், தேர்தல் தேடு…",
+    "noResults": "முடிவுகள் கிடைக்கவில்லை",
+    "groupDistricts": "மாவட்டங்கள்",
+    "groupProvinces": "மாகாணங்கள்",
+    "groupElections": "தேர்தல்",
+    "groupServices": "சேவைகள்"
+  },
+  "services": {
+    "title": "பொது சேவைகள்",
+    "subtitle": "மாவட்ட வாரியாக மருத்துவமனைகள், பள்ளிகள் மற்றும் GN division offices.",
+    "source": "மூலம்",
+    "searchPlaceholder": "facilities தேடு…",
+    "allDistricts": "அனைத்து seeded districts",
+    "allTypes": "அனைத்து types",
+    "typeHospital": "மருத்துவமனை",
+    "typeSchool": "பள்ளி",
+    "typeGnOffice": "GN office",
+    "resultsCount": "{count} facilities",
+    "noResults": "filters-க்கு facilities பொருந்தவில்லை.",
+    "comingSoonTitle": "மேலும் மாவட்டங்கள் விரைவில்",
+    "comingSoonBody": "கொழும்பு, கண்டி மற்றும் காலி deeply seeded. open-data feeds available ஆனதும் மற்ற மாவட்டங்கள் சேர்க்கப்படும்."
   },
   "about": {
     "eyebrow": "Lankawa பற்றி",

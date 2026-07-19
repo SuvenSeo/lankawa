@@ -108,3 +108,93 @@ export interface PresidentialElection {
   candidates: ElectionCandidate[];
   districts: ElectionDistrictResult[];
 }
+
+export type ParliamentaryPartyId =
+  | "npp"
+  | "sjb"
+  | "itak"
+  | "ndf"
+  | "slpp"
+  | "others";
+
+export interface ParliamentaryParty {
+  id: ParliamentaryPartyId;
+  name: string;
+  abbreviation: string;
+  districtSeats: number;
+  nationalListSeats: number;
+  totalSeats: number;
+  votes: number;
+  percentage: number;
+}
+
+export interface ParliamentaryDistrictResult {
+  slug: string;
+  name: string;
+  province: string;
+  districtSlugs: string[];
+  totalSeats: number;
+  turnout: number;
+  winner: ParliamentaryPartyId;
+  seats: Record<ParliamentaryPartyId, number>;
+  votes: Record<ParliamentaryPartyId, number>;
+}
+
+export interface ParliamentaryElection {
+  id: string;
+  type: "parliamentary";
+  date: string;
+  sourceId: string;
+  sourceName: string;
+  totalSeats: number;
+  districtSeats: number;
+  nationalListSeats: number;
+  nationalWinner: ParliamentaryPartyId;
+  turnout: number;
+  validVotes: number;
+  registeredElectors: number;
+  parties: ParliamentaryParty[];
+  districts: ParliamentaryDistrictResult[];
+}
+
+export interface FloodStationLevel {
+  stationName: string;
+  riverName: string;
+  waterLevel: number;
+  alertStatus: string;
+  remarks: string;
+  timestamp: string;
+}
+
+export type PublicServiceType = "hospital" | "school" | "gn_office";
+
+export interface PublicServiceFacility {
+  id: string;
+  type: PublicServiceType;
+  name: string;
+  nameSi?: string;
+  nameTa?: string;
+  districtSlug: string;
+  address: string;
+}
+
+export interface EconomyMacroIndicator {
+  id: string;
+  label: string;
+  value: number;
+  unit: string;
+  period: string;
+}
+
+export interface FxSeriesPoint {
+  date: string;
+  sellRate: number;
+}
+
+export interface EconomyMacroSnapshot {
+  sourceId: string;
+  sourceName: string;
+  asOf: string;
+  indicators: EconomyMacroIndicator[];
+  fxSeries: FxSeriesPoint[];
+}

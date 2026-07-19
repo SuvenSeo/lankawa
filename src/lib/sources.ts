@@ -53,6 +53,45 @@ export const SOURCES: SourceDefinition[] = [
       "Lankawa ingested official 2024 presidential district results as a static seed dataset. Full results tables and maps are available on the elections pages without linking to external result portals.",
     metrics: ["presidential_2024"],
   },
+  {
+    id: "election_commission_pe_2024",
+    name: "Election Commission of Sri Lanka",
+    category: "civic",
+    url: "https://results.elections.gov.lk/allisland.php",
+    cadenceMinutes: 525600,
+    adapter: "scrape",
+    description:
+      "Parliamentary general election 2024 district seat allocations.",
+    methodology:
+      "Lankawa ingested official 2024 parliamentary district seat results as a static seed dataset. Seat breakdowns are available on the elections pages without linking to external result portals.",
+    metrics: ["parliamentary_2024"],
+  },
+  {
+    id: "cbsl_macro",
+    name: "Central Bank of Sri Lanka",
+    category: "economy",
+    url: "https://www.cbsl.gov.lk",
+    cadenceMinutes: 43200,
+    adapter: "scrape",
+    description:
+      "Macroeconomic indicators including inflation, GDP growth, and foreign reserves.",
+    methodology:
+      "Key macro indicators are maintained as a curated static seed from CBSL public releases. USD/LKR historical series uses live CBSL scrape when available, with a 30-day static fallback.",
+    metrics: ["inflation_ccpi", "gdp_growth", "forex_reserves", "usd_lkr_series"],
+  },
+  {
+    id: "public_services_stub",
+    name: "Lankawa Public Services Directory",
+    category: "civic",
+    url: "internal://services",
+    cadenceMinutes: 525600,
+    adapter: "partner",
+    description:
+      "Hospitals, schools, and GN offices indexed by district (seed data).",
+    methodology:
+      "A curated seed directory covers Colombo, Kandy, and Galle districts deeply. Other districts show a coming-soon placeholder until official open-data feeds are integrated.",
+    metrics: ["public_services"],
+  },
 ];
 
 export function getSource(id: string): SourceDefinition | undefined {
