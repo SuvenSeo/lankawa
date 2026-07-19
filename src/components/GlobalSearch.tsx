@@ -12,7 +12,6 @@ import { PROVINCES, getProvinceName } from "@/lib/provinces";
 import {
   getAllPublicServices,
   getPublicServiceName,
-  searchPublicServices,
 } from "@/lib/services";
 
 type SearchResult =
@@ -164,10 +163,6 @@ export function GlobalSearch() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  useEffect(() => {
-    setActiveIndex(0);
-  }, [query]);
-
   function navigateTo(href: string) {
     setQuery("");
     setOpen(false);
@@ -235,6 +230,7 @@ export function GlobalSearch() {
         value={query}
         onChange={(event) => {
           setQuery(event.target.value);
+          setActiveIndex(0);
           setOpen(true);
         }}
         onFocus={() => setOpen(true)}

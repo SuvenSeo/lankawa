@@ -53,10 +53,6 @@ export function DistrictSearch() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  useEffect(() => {
-    setActiveIndex(0);
-  }, [query]);
-
   function navigateTo(slug: string) {
     setQuery("");
     setOpen(false);
@@ -115,6 +111,7 @@ export function DistrictSearch() {
         value={query}
         onChange={(event) => {
           setQuery(event.target.value);
+          setActiveIndex(0);
           setOpen(true);
         }}
         onFocus={() => setOpen(true)}

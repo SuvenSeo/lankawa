@@ -38,10 +38,7 @@ export function getSeededDistrictSlugs(): string[] {
   return [...new Set(catalog.facilities.map((facility) => facility.districtSlug))];
 }
 
-export function searchPublicServices(
-  query: string,
-  locale: string,
-): PublicServiceFacility[] {
+export function searchPublicServices(query: string): PublicServiceFacility[] {
   const normalized = query.trim().toLowerCase();
   if (!normalized) {
     return [];
